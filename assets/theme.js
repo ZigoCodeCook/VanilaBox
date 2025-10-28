@@ -3567,4 +3567,5 @@
   theme.AssetsLoader.onPageLoaded(function() {
       theme.Cart = new CartController;
   });
-})(jQueryTheme);
+
+  
