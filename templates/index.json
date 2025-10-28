@@ -1,1 +1,959 @@
-{"sections":{"custom_liquid_ReXcAC":{"type":"custom-liquid","disabled":true,"name":"HERO HOLIDAY DELI","settings":{"use_container":true,"custom_liquid":"<!-- Swiper CSS --> <link rel=\"stylesheet\" href=\"https:\/\/cdn.jsdelivr.net\/npm\/swiper@10\/swiper-bundle.min.css\" \/> <!-- Holiday Slider --> <div class=\"swiper holiday-swiper\"> <div class=\"swiper-wrapper\"> <!-- Slide 1 --> <div class=\"swiper-slide\"> <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0692\/0257\/5613\/files\/9_2.jpg?v=1758189962\" alt=\"Holiday Banner 1\"> <\/div> <!-- Slide 2 --> <div class=\"swiper-slide\"> <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0692\/0257\/5613\/files\/8_8c8b14dd-93d5-4409-9f73-b30dd81d87b6.jpg?v=1758189962\" alt=\"Holiday Banner 2\"> <\/div> <!-- Slide 3 --> <div class=\"swiper-slide\"> <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0692\/0257\/5613\/files\/7_2.jpg?v=1758189962\" alt=\"Holiday Banner 3\"> <\/div> <\/div> <!-- Pagination --> <div class=\"swiper-pagination\"><\/div> <!-- Navigation --> <div class=\"swiper-button-next\"><\/div> <div class=\"swiper-button-prev\"><\/div> <!-- Button --> <div class=\"holiday-caption\"> <a href=\"https:\/\/vanillabox.co\/collections\/holiday\"> SHOP NOW <\/a> <\/div> <\/div> <!-- Swiper JS --> <script src=\"https:\/\/cdn.jsdelivr.net\/npm\/swiper@10\/swiper-bundle.min.js\"><\/script> <!-- Init Swiper --> <script> document.addEventListener(\"DOMContentLoaded\", function() { var swiper = new Swiper('.holiday-swiper', { loop: true, slidesPerView: 1, pagination: { el: '.holiday-swiper .swiper-pagination', clickable: true, }, navigation: { nextEl: '.holiday-swiper .swiper-button-next', prevEl: '.holiday-swiper .swiper-button-prev', }, autoplay: { delay: 4000, disableOnInteraction: false, }, }); }); <\/script> <!-- Styling --> <style> .holiday-swiper { width: 100%; height: 55vh; max-height: 500px; position: relative; overflow: hidden; } .holiday-swiper img { width: 100%; height: 100%; object-fit: contain; \/* מוודא שהתמונה תישאר בגבולות מבלי להיחתך *\/ object-position: center center; \/* ממקם את התמונה במרכז *\/ } \/* Caption (button container) *\/ .holiday-caption { position: absolute; bottom: 10%; \/* desktop *\/ left: 50%; transform: translateX(-50%); z-index: 999; \/* כפתור עם z-index גבוה יותר כדי להופיע מעל כל האלמנטים *\/ text-align: center; width: auto; } .holiday-caption a { display: inline-block; padding: 12px 24px; background: #ffffff; color: #5A3E2B; text-decoration: none; font-weight: bold; border-radius: 6px; font-size: 16px; } \/* Mobile adjustments *\/ @media (max-width: 768px) { .holiday-swiper { height: 40vh; max-height: 350px; } .holiday-caption { bottom: 25%; \/* מעדכן את המיקום של הכפתור במובייל כך שיהיה מעט גבוה יותר *\/ width: 80%; \/* מונע חיתוך בקצוות *\/ left: 50%; transform: translateX(-50%); \/* ממקם את הכפתור במרכז *\/ } .holiday-caption a { font-size: 14px; padding: 10px 18px; white-space: nowrap; \/* שלא יישבר לשתי שורות *\/ } } <\/style>"}},"custom_liquid_b3jaHQ":{"type":"custom-liquid","disabled":true,"name":"New Hero","settings":{"use_container":true,"custom_liquid":"<!-- Swiper CSS -->\n<link rel=\"stylesheet\" href=\"https:\/\/cdn.jsdelivr.net\/npm\/swiper@10\/swiper-bundle.min.css\" \/>\n\n<!-- Hero Slider -->\n<div class=\"swiper hero-swiper\" style=\"width: 100%; height: 80vh; max-height: 700px; position: relative; overflow: hidden;\">\n  <div class=\"swiper-wrapper\">\n\n    <!-- Slide 1 - SUN BUM -->\n    <div class=\"swiper-slide\">\n      <video autoplay muted loop playsinline style=\"width: 100%; height: 100%; object-fit: cover;\">\n        <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/cc70e62b726b45cc9a4b995f6e1608c6.mp4\" type=\"video\/mp4\">\n      <\/video>\n      <div class=\"hero-caption\" style=\"position: absolute; bottom: 10%; left: 50%; transform: translateX(-50%); text-align: center;\">\n        <div style=\"color: #FFF8A3; font-size: 36px; font-weight: bold; margin-bottom: 10px;\">SUN BUM<\/div>\n        <a href=\"https:\/\/vanillabox.co\/collections\/sunbum-all\" style=\"display: inline-block; padding: 10px 20px; background: #FFF8A3; color: #493628; text-decoration: none; font-size: 14px; font-weight: bold; border-radius: 6px;\">\n          SHOP NOW\n        <\/a>\n      <\/div>\n    <\/div>\n\n    <!-- Slide 2 - ALOHA -->\n    <div class=\"swiper-slide\">\n      <video autoplay muted loop playsinline style=\"width: 100%; height: 100%; object-fit: cover;\">\n        <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f78d3bbbd8b04ead8e3b99ab73435e48.mp4\" type=\"video\/mp4\">\n      <\/video>\n      <div class=\"hero-caption\" style=\"position: absolute; bottom: 10%; left: 50%; transform: translateX(-50%); text-align: center;\">\n        <div style=\"color: #E8D7FF; font-size: 36px; font-weight: bold; margin-bottom: 10px;\">ALOHA<\/div>\n        <a href=\"https:\/\/vanillabox.co\/collections\/shop-all-aloha\" style=\"display: inline-block; padding: 10px 20px; background: #E8D7FF; color: #493628; text-decoration: none; font-size: 14px; font-weight: bold; border-radius: 6px;\">\n          SHOP NOW\n        <\/a>\n      <\/div>\n    <\/div>\n\n    <!-- Slide 3 - MOKEN -->\n    <div class=\"swiper-slide\">\n      <video autoplay muted loop playsinline style=\"width: 100%; height: 100%; object-fit: cover;\">\n        <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/a739e16eaeee443f899920f0573fb464.mp4\" type=\"video\/mp4\">\n      <\/video>\n      <div class=\"hero-caption\" style=\"position: absolute; bottom: 10%; left: 50%; transform: translateX(-50%); text-align: center;\">\n        <div style=\"color: #B9E3D4; font-size: 36px; font-weight: bold; margin-bottom: 10px;\">MOKEN<\/div>\n        <a href=\"https:\/\/vanillabox.co\/collections\/moken-all\" style=\"display: inline-block; padding: 10px 20px; background: #B9E3D4; color: #493628; text-decoration: none; font-size: 14px; font-weight: bold; border-radius: 6px;\">\n          SHOP NOW\n        <\/a>\n      <\/div>\n    <\/div>\n\n  <\/div>\n\n  <!-- Pagination (dots) -->\n  <div class=\"swiper-pagination\"><\/div>\n\n  <!-- Navigation buttons -->\n  <div class=\"swiper-button-next\"><\/div>\n  <div class=\"swiper-button-prev\"><\/div>\n<\/div>\n\n<!-- Swiper JS -->\n<script src=\"https:\/\/cdn.jsdelivr.net\/npm\/swiper@10\/swiper-bundle.min.js\"><\/script>\n\n<!-- Swiper Init -->\n<script>\n  var swiper = new Swiper('.hero-swiper', {\n    loop: true,\n    slidesPerView: 1,\n    pagination: {\n      el: '.swiper-pagination',\n      clickable: true,\n    },\n    navigation: {\n      nextEl: '.swiper-button-next',\n      prevEl: '.swiper-button-prev',\n    },\n    autoplay: {\n      delay: 5000,\n      disableOnInteraction: false,\n    },\n  });\n<\/script>\n\n<!-- Responsive & Custom Styling -->\n<style>\n  @media (max-width: 768px) {\n    .hero-swiper {\n      height: 60vh;\n      max-height: 500px;\n    }\n    .hero-caption div {\n      font-size: 28px;\n    }\n    .hero-caption a {\n      font-size: 12px;\n      padding: 8px 16px;\n    }\n  }\n\n  .swiper-button-next,\n  .swiper-button-prev {\n    color: #ffffff !important;\n    fill: #ffffff !important;\n  }\n<\/style>"}},"custom_liquid_HE89Fk":{"type":"custom-liquid","name":"Hero- Holiday","settings":{"use_container":true,"custom_liquid":"<!-- Swiper CSS -->\n<link rel=\"stylesheet\" href=\"https:\/\/cdn.jsdelivr.net\/npm\/swiper@10\/swiper-bundle.min.css\" \/>\n\n<!-- Holiday Slider -->\n<div class=\"swiper holiday-swiper\">\n  <div class=\"swiper-wrapper\">\n\n    <!-- Slide 1 -->\n    <div class=\"swiper-slide\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0692\/0257\/5613\/files\/SUN_BUM_61cc3775-b9d5-4662-ba39-86ac05a4850f.jpg?v=1760521661\" alt=\"Holiday Banner 1\">\n      <div class=\"holiday-caption\">\n        <a href=\"https:\/\/vanillabox.co\/collections\/sunbum-all\">SHOP NOW<\/a>\n      <\/div>\n    <\/div>\n\n    <!-- Slide 2 -->\n    <div class=\"swiper-slide\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0692\/0257\/5613\/files\/MOKEN_cf95ae0d-7115-48ee-b916-7584fdc5b26d.jpg?v=1760521661\" alt=\"Holiday Banner 2\">\n      <div class=\"holiday-caption\">\n        <a href=\"https:\/\/vanillabox.co\/collections\/moken-all\">SHOP NOW<\/a>\n      <\/div>\n    <\/div>\n\n    <!-- Slide 3 -->\n    <div class=\"swiper-slide\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0692\/0257\/5613\/files\/ALOHA_2a01ddee-f938-4b9f-8733-375cc629764b.jpg?v=1761028988\" alt=\"Holiday Banner 3\">\n      <div class=\"holiday-caption\">\n        <a href=\"https:\/\/vanillabox.co\/collections\/shop-all-aloha\">SHOP NOW<\/a>\n      <\/div>\n    <\/div>\n\n  <\/div>\n\n  <!-- Pagination -->\n  <div class=\"swiper-pagination\"><\/div>\n\n  <!-- Navigation -->\n  <div class=\"swiper-button-next\"><\/div>\n  <div class=\"swiper-button-prev\"><\/div>\n<\/div>\n\n<!-- Swiper JS -->\n<script src=\"https:\/\/cdn.jsdelivr.net\/npm\/swiper@10\/swiper-bundle.min.js\"><\/script>\n\n<!-- Init Swiper -->\n<script>\n  document.addEventListener(\"DOMContentLoaded\", function() {\n    var swiper = new Swiper('.holiday-swiper', {\n      loop: true,\n      slidesPerView: 1,\n      pagination: {\n        el: '.holiday-swiper .swiper-pagination',\n        clickable: true,\n      },\n      navigation: {\n        nextEl: '.holiday-swiper .swiper-button-next',\n        prevEl: '.holiday-swiper .swiper-button-prev',\n      },\n      autoplay: {\n        delay: 4000,\n        disableOnInteraction: false,\n      },\n    });\n  });\n<\/script>\n\n<!-- Styling -->\n<style>\n  .holiday-swiper {\n    width: 100%;\n    height: 55vh;\n    max-height: 500px;\n    position: relative;\n    overflow: hidden;\n  }\n\n  .holiday-swiper img {\n    width: 100%;\n    height: 100%;\n    object-fit: contain;\n    object-position: center center;\n  }\n\n  .holiday-swiper .swiper-slide {\n    position: relative;\n  }\n\n  \/* Caption (button container) *\/\n  .holiday-caption {\n    position: absolute;\n    bottom: 9.5%;\n    left: 50%;\n    transform: translateX(-50%);\n    z-index: 10;\n    text-align: center;\n    width: auto;\n  }\n\n  \/* Updated button design *\/\n  .holiday-caption a {\n    display: inline-block;\n    padding: 12px 24px;\n    background: #ffffff; \/* רקע לבן *\/\n    color: #000000; \/* טקסט שחור *\/\n    border: 1px solid #000000; \/* קו מתאר שחור ודק *\/\n    text-decoration: none;\n    font-weight: bold;\n    border-radius: 6px;\n    font-size: 16px;\n    transition: all 0.3s ease;\n  }\n\n  \/* Hover effect *\/\n  .holiday-caption a:hover {\n    background: #000000;\n    color: #ffffff;\n  }\n\n  \/* Smaller navigation arrows *\/\n  .holiday-swiper .swiper-button-next,\n  .holiday-swiper .swiper-button-prev {\n    transform: scale(0.5);\n    color: #5A3E2B;\n  }\n\n  \/* Mobile adjustments *\/\n  @media (max-width: 768px) {\n    .holiday-swiper {\n      height: 40vh;\n      max-height: 350px;\n    }\n\n    .holiday-caption {\n      bottom: 22%; \/* הונמך מעט במובייל *\/\n      width: 80%;\n      left: 50%;\n      transform: translateX(-50%);\n    }\n\n    .holiday-caption a {\n      font-size: 14px;\n      padding: 10px 18px;\n      white-space: nowrap;\n    }\n  }\n<\/style>"}},"spacer_X6Ed9c":{"type":"spacer","settings":{"margin_top":40,"margin_bottom":5,"margin_top_mobile":5,"margin_bottom_mobile":35,"container":"boxed","show_separator":false,"title":""}},"carousel_products_mdEB4A":{"type":"carousel-products","blocks":{"collection_bx6trR":{"type":"collection","settings":{"title":"Holiday Collection","collection":"holiday"}}},"block_order":["collection_bx6trR"],"disabled":true,"name":"Holiday Collection","settings":{"show_title":true,"container":"boxed","size_of_columns":"4","max_count":6,"autoplay":true,"speed":5,"infinite":true,"arrows":true,"bullets":true}},"carousel_products_7wBPf3":{"type":"carousel-products","blocks":{"collection_Bm3Ux9":{"type":"collection","settings":{"title":"Best Sellers","collection":"best-sellers"}}},"block_order":["collection_Bm3Ux9"],"name":"Best sellers carousel","settings":{"show_title":true,"container":"boxed","size_of_columns":"4","max_count":50,"autoplay":true,"speed":5,"infinite":true,"arrows":true,"bullets":true}},"spacer_zV6WaU":{"type":"spacer","name":"Spacer","settings":{"margin_top":60,"margin_bottom":0,"margin_top_mobile":0,"margin_bottom_mobile":0,"container":"boxed","show_separator":false,"title":""}},"1586279708879":{"type":"home-builder","blocks":{"1586279874234":{"type":"promobox","name":"Promo box (Banner)- Sun bum","settings":{"url":"","image":"shopify:\/\/shop_images\/UNADJUSTEDNONRAW_thumb_909.jpg","image_size":2000,"image_mobile":"shopify:\/\/shop_images\/UNADJUSTEDNONRAW_thumb_90e.jpg","image_mobile_size":900,"image_position_x":43,"color_image_mask":"","image_mask_opacity":0.5,"text_line_1":"","text_line_2":"SUN BUM","text_line_3":"","style":"8","button_1":"SHOP NOW","button_1_url":"shopify:\/\/collections\/sunbum-all","color_button_type_1":"invert","button_2":"JHJHJH","button_2_url":"shopify:\/\/pages\/contact","color_button_type_2":"secondary","list_1":"","custom_html":"","video":"shopify:\/\/files\/videos\/sun bun video.mp4","video_mobile":"shopify:\/\/files\/videos\/sun bun video.mp4","video_autoplay":true,"video_controls":false,"youtube_video":"","youtube_video_mobile":"","type":"type-1","content_position":"bottom_center","content_align":"center","add_container":false,"content_width":100,"text_width":0,"height":"preset_2","min_height":0,"size_of_column":"6","visible":"desktop_mobile","parallax":"disable","animation_to":"none","animation_from":"none","animation_opacity":"none","animation_text":"none","color_text_1":"","color_text_2":"#fff8a3","color_text_3":"#493628","color_text_bg":"","color_curtain_bg":"","customization_class":"main-hero-banner"}},"promobox_bgghEi":{"type":"promobox","name":"Promo box (Banner) - Aloha","settings":{"url":"","image":"shopify:\/\/shop_images\/TERMINAL-X-BLACK_1.png","image_size":650,"image_mobile":"shopify:\/\/shop_images\/UNADJUSTEDNONRAW_thumb_90e.jpg","image_mobile_size":900,"image_position_x":43,"color_image_mask":"rgba(0,0,0,0)","image_mask_opacity":0.6,"text_line_1":"","text_line_2":"Aloha","text_line_3":"","style":"8","button_1":"SHOP NOW","button_1_url":"shopify:\/\/collections\/shop-all-aloha","color_button_type_1":"clean","button_2":"DDDDD","button_2_url":"shopify:\/\/pages\/contact","color_button_type_2":"invert","list_1":"","custom_html":"","video":"shopify:\/\/files\/videos\/SU25_Hinatea_Collection_35sec_9x16.mp4","video_mobile":"shopify:\/\/files\/videos\/SU25_Hinatea_Collection_35sec_9x16.mp4","video_autoplay":true,"video_controls":false,"youtube_video":"","youtube_video_mobile":"","type":"type-1","content_position":"bottom_center","content_align":"center","add_container":false,"content_width":100,"text_width":0,"height":"preset_2","min_height":0,"size_of_column":"6","visible":"desktop_mobile","parallax":"disable","animation_to":"none","animation_from":"none","animation_opacity":"none","animation_text":"none","color_text_1":"","color_text_2":"#d7f6ff","color_text_3":"","color_text_bg":"rgba(0,0,0,0)","color_curtain_bg":"rgba(0,0,0,0)","customization_class":"main-hero-banner"}}},"block_order":["1586279874234","promobox_bgghEi"],"disabled":true,"name":"Hero","settings":{"title":"","container":"fullwidth","size_of_columns":"1","size_of_columns_mobile":"1","margins_for_columns":"none","align_of_columns":"top_center","disable_column_paddings":false,"precedence":"","customization_class":""}},"custom_liquid_FVYjRM":{"type":"custom-liquid","name":"Collections - Custom","settings":{"use_container":true,"custom_liquid":"{% if collection.handle == 'sunbum-all' or collection.handle == 'original-sun-care' or collection.handle == 'hair-care' or collection.handle == 'original-lip-balm' or collection.handle == 'merch' or collection.handle == 'moken-all' or collection.handle == 'fashion-sunglasses-by-moken' or collection.handle == 'moken-sports' or collection.handle == 'moken-kids' or collection.handle == 'shop-all-aloha' or collection.handle == 'aloha-tote-bags' or collection.handle == 'aloha-pouches' or collection.handle == 'aloha-crossbody-bags' or collection.handle == 'aloha-backpacks' or collection.handle == 'aloha-weekender-bags' or collection.handle == 'aloha-cabin-crew' or collection.handle == 'aloha-dopp-kits' or collection.handle == 'aloha-hip-packs' or collection.handle == 'aloha-duffle-bags' %}\n  <style>\n    .circle-subcategories {\n      display: flex;\n      gap: 12px;\n      flex-wrap: wrap;\n      justify-content: center;\n      margin: 20px 0;\n    }\n\n    .circle-subcategory {\n      display: flex;\n      flex-direction: column;\n      align-items: center;\n      text-align: center;\n      text-decoration: none;\n      color: #333;\n      font-weight: bold;\n      width: 70px;\n      font-size: 14px;\n    }\n\n    .circle-subcategory img {\n      width: 55px;\n      height: 55px;\n      object-fit: cover;\n      border-radius: 50%;\n      margin-bottom: 6px;\n      border: 1px solid #ccc;\n    }\n\n    @media screen and (min-width: 768px) {\n      .circle-subcategories {\n        gap: 20px;\n      }\n      .circle-subcategory {\n        width: 110px;\n        font-size: 15px;\n      }\n      .circle-subcategory img {\n        width: 100px;\n        height: 100px;\n      }\n    }\n  <\/style>\n{% endif %}\n\n{%- comment -%} SUN BUM {%- endcomment -%}\n{% if collection.handle == 'sunbum-all' or collection.handle == 'original-sun-care' or collection.handle == 'hair-care' or collection.handle == 'original-lip-balm' or collection.handle == 'merch' %}\n  <div class=\"circle-subcategories\">\n    <a href=\"\/collections\/original-sun-care\" class=\"circle-subcategory\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0692\/0257\/5613\/files\/35.png?v=1736771916\" alt=\"Sun care\">\n      Sun care\n    <\/a>\n    <a href=\"\/collections\/hair-care\" class=\"circle-subcategory\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0692\/0257\/5613\/files\/46.png?v=1712225713\" alt=\"Hair care\">\n      Hair care\n    <\/a>\n    <a href=\"\/collections\/original-lip-balm\" class=\"circle-subcategory\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0692\/0257\/5613\/files\/11.png?v=1736765224\" alt=\"Lip care\">\n      Lip care\n    <\/a>\n    <a href=\"\/collections\/merch\" class=\"circle-subcategory\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0692\/0257\/5613\/files\/14.png?v=1712225418\" alt=\"Merch\">\n      Merch\n    <\/a>\n  <\/div>\n{% endif %}\n\n{%- comment -%} MOKEN {%- endcomment -%}\n{% if collection.handle == 'moken-all' or collection.handle == 'fashion-sunglasses-by-moken' or collection.handle == 'moken-sports' or collection.handle == 'moken-kids' %}\n  <style>\n    .circle-subcategory { width: 90px; font-size: 14px; }\n    .circle-subcategory img { width: 75px; height: 75px; }\n    @media screen and (min-width: 768px) {\n      .circle-subcategory { width: 120px; font-size: 16px; }\n      .circle-subcategory img { width: 110px; height: 110px; }\n    }\n  <\/style>\n\n  <div class=\"circle-subcategories\">\n    <a href=\"\/collections\/fashion-sunglasses-by-moken\" class=\"circle-subcategory\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0692\/0257\/5613\/files\/35.jpg?v=1753624253\" alt=\"Fashion\">\n      Fashion\n    <\/a>\n    <a href=\"\/collections\/moken-sports\" class=\"circle-subcategory\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0692\/0257\/5613\/files\/17_1.jpg?v=1753637981\" alt=\"Active\">\n      Active\n    <\/a>\n    <a href=\"\/collections\/moken-kids\" class=\"circle-subcategory\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0692\/0257\/5613\/files\/4_3.jpg?v=1753686760\" alt=\"Kids\">\n      Kids\n    <\/a>\n  <\/div>\n{% endif %}\n\n{%- comment -%} ALOHA {%- endcomment -%}\n{% if collection.handle == 'shop-all-aloha' or collection.handle == 'aloha-tote-bags' or collection.handle == 'aloha-pouches' or collection.handle == 'aloha-crossbody-bags' or collection.handle == 'aloha-backpacks' or collection.handle == 'aloha-weekender-bags' or collection.handle == 'aloha-cabin-crew' or collection.handle == 'aloha-dopp-kits' or collection.handle == 'aloha-hip-packs' or collection.handle == 'aloha-duffle-bags' %}\n  <div class=\"circle-subcategories\">\n    <a href=\"\/collections\/aloha-tote-bags\" class=\"circle-subcategory\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0692\/0257\/5613\/files\/DT_heipua_sorbet_on_lavande_3.png?v=1746520362\" alt=\"Tote Bags\">\n      Tote Bags\n    <\/a>\n    <a href=\"\/collections\/aloha-pouches\" class=\"circle-subcategory\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0692\/0257\/5613\/files\/sm_petite_check_latte_1_6b8b00a8-12e3-4ae7-8720-9864e9ca5e0b.png?v=1746521825\" alt=\"Pouches\">\n      Pouches\n    <\/a>\n    <a href=\"\/collections\/aloha-crossbody-bags\" class=\"circle-subcategory\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0692\/0257\/5613\/files\/DT_petite_check_latte_1.png?v=1746522075\" alt=\"Crossbody\">\n      Crossbody\n    <\/a>\n    <a href=\"\/collections\/aloha-backpacks\" class=\"circle-subcategory\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0692\/0257\/5613\/files\/nylon_backpack_monochrome_lavande_1.png?v=1746522795\" alt=\"Backpacks\">\n      Backpacks\n    <\/a>\n    <a href=\"\/collections\/aloha-weekender-bags\" class=\"circle-subcategory\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0692\/0257\/5613\/files\/nylon_weekender_monochrome_lavande_1.png?v=1746522924\" alt=\"Weekenders\">\n      Weekenders\n    <\/a>\n    <a href=\"\/collections\/aloha-cabin-crew\" class=\"circle-subcategory\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0692\/0257\/5613\/files\/cc_Hinatea_Boosie_purau_lilac_navy_2.png?v=1746521262\" alt=\"Cabin crew\">\n      Cabin crew\n    <\/a>\n    <a href=\"\/collections\/aloha-dopp-kits\" class=\"circle-subcategory\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0692\/0257\/5613\/files\/dopp_heipua_sorbet_lavande_1.png?v=1746520300\" alt=\"Dopp kits\">\n      Dopp kits\n    <\/a>\n    <a href=\"\/collections\/aloha-hip-packs\" class=\"circle-subcategory\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0692\/0257\/5613\/files\/nylon_hip_monochrome_lavande_1.png?v=1746523032\" alt=\"Hip packs\">\n      Hipp packs\n    <\/a>\n    <a href=\"\/collections\/aloha-duffle-bags\" class=\"circle-subcategory\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0692\/0257\/5613\/files\/duffle_samudra_kalapana.png?v=1746514141\" alt=\"Duffles\">\n      Duffles\n    <\/a>\n  <\/div>\n{% endif %}"}},"custom_liquid_bDi6aT":{"type":"custom-liquid","name":"Custom Liquid","settings":{"use_container":true,"custom_liquid":"<!-- Section Title -->\n<h2 style=\"text-align: center; font-size: 28px; font-weight: bold; color: #5B3920; margin-bottom: 30px;\">\n  Our Brands\n<\/h2>\n\n<div id=\"collections-section\">\n  <div class=\"tabs\" style=\"display: flex; justify-content: center; margin-bottom: 20px; gap: 10px;\">\n    <button onclick=\"filterCollections('sunbum')\" style=\"padding: 10px 20px; border-radius: 10px; background-color: #FFF8A3; border: none; cursor: pointer; font-weight: bold; color: #5B3920;\">SUN BUM<\/button>\n    <button onclick=\"filterCollections('aloha')\" style=\"padding: 10px 20px; border-radius: 10px; background-color: #E8D7FF; border: none; cursor: pointer; font-weight: bold; color: #5B3920;\">ALOHA<\/button>\n    <button onclick=\"filterCollections('moken')\" style=\"padding: 10px 20px; border-radius: 10px; background-color: #B9E3D4; border: none; cursor: pointer; font-weight: bold; color: #5B3920;\">MOKEN<\/button>\n  <\/div>\n\n  <div id=\"collection-grid\" style=\"display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 20px;\">\n\n    <!-- SUNBUM COLLECTIONS -->\n    <div class=\"collection-item sunbum\" style=\"text-align: center;\">\n      <a href=\"https:\/\/vanillabox.co\/collections\/original-sun-care\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0692\/0257\/5613\/files\/c15fe866487dfc4b5c0f5ce4a9dca915.png?v=1714649926\" alt=\"Sun Care\" style=\"width: 100%; height: 250px; object-fit: cover; border-radius: 10px;\">\n        <div style=\"background-color: #FFF8A3; padding: 10px; font-weight: bold;\">SUN CARE<\/div>\n      <\/a>\n    <\/div>\n    <div class=\"collection-item sunbum\" style=\"text-align: center;\">\n      <a href=\"https:\/\/vanillabox.co\/collections\/hair-care\/\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0692\/0257\/5613\/files\/png-05.png?v=1712224283\" alt=\"Hair Care\" style=\"width: 100%; height: 250px; object-fit: cover; border-radius: 10px;\">\n        <div style=\"background-color: #FFF8A3; padding: 10px; font-weight: bold;\">HAIR CARE<\/div>\n      <\/a>\n    <\/div>\n    <div class=\"collection-item sunbum\" style=\"text-align: center;\">\n      <a href=\"https:\/\/vanillabox.co\/collections\/original-lip-balm\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0692\/0257\/5613\/files\/Cocobalms_93ccaaa6-b764-4d93-99df-e83ce4d8127d.jpg?v=1712224753\" alt=\"Lip Care\" style=\"width: 100%; height: 250px; object-fit: cover; border-radius: 10px;\">\n        <div style=\"background-color: #FFF8A3; padding: 10px; font-weight: bold;\">LIP CARE<\/div>\n      <\/a>\n    <\/div>\n    <div class=\"collection-item sunbum\" style=\"text-align: center;\">\n      <a href=\"https:\/\/vanillabox.co\/collections\/merch\/\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0692\/0257\/5613\/files\/UNADJUSTEDNONRAW_thumb_908_02558d35-8a05-46b1-884c-57539646e996.jpg?v=1712223467\" alt=\"Merch\" style=\"width: 100%; height: 250px; object-fit: cover; border-radius: 10px;\">\n        <div style=\"background-color: #FFF8A3; padding: 10px; font-weight: bold;\">MERCH<\/div>\n      <\/a>\n    <\/div>\n  <!-- ALOHA COLLECTIONS -->\n    <div class=\"collection-item aloha\" style=\"text-align: center; display: none;\">\n      <a href=\"https:\/\/vanillabox.co\/collections\/aloha-tote-bags\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0692\/0257\/5613\/files\/line_9-03.jpg?v=1745830520\" alt=\"Totes\" style=\"width: 100%; height: 250px; object-fit: cover; border-radius: 10px;\">\n        <div style=\"background-color: #E8D7FF; padding: 10px; font-weight: bold;\">TOTES<\/div>\n      <\/a>\n    <\/div>\n    <div class=\"collection-item aloha\" style=\"text-align: center; display: none;\">\n      <a href=\"https:\/\/vanillabox.co\/collections\/aloha-backpacks\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0692\/0257\/5613\/files\/line_9-14.jpg?v=1745830561\" alt=\"Backpacks\" style=\"width: 100%; height: 250px; object-fit: cover; border-radius: 10px;\">\n        <div style=\"background-color: #E8D7FF; padding: 10px; font-weight: bold;\">BACKPACKS<\/div>\n      <\/a>\n    <\/div>\n    <div class=\"collection-item aloha\" style=\"text-align: center; display: none;\">\n      <a href=\"https:\/\/vanillabox.co\/collections\/aloha-crossbody-bags\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0692\/0257\/5613\/files\/line_9-06.jpg?v=1745830581\" alt=\"Crossbodies\" style=\"width: 100%; height: 250px; object-fit: cover; border-radius: 10px;\">\n        <div style=\"background-color: #E8D7FF; padding: 10px; font-weight: bold;\">CROSSBODIES<\/div>\n      <\/a>\n    <\/div>\n    <div class=\"collection-item aloha\" style=\"text-align: center; display: none;\">\n      <a href=\"https:\/\/vanillabox.co\/collections\/aloha-weekender-bags\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0692\/0257\/5613\/files\/line_9-02.jpg?v=1745830589\" alt=\"Weekenders\" style=\"width: 100%; height: 250px; object-fit: cover; border-radius: 10px;\">\n        <div style=\"background-color: #E8D7FF; padding: 10px; font-weight: bold;\">WEEKENDERS<\/div>\n      <\/a>\n    <\/div>\n    <div class=\"collection-item aloha\" style=\"text-align: center; display: none;\">\n      <a href=\"https:\/\/vanillabox.co\/collections\/aloha-hip-packs\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0692\/0257\/5613\/files\/line_9-10.jpg?v=1745830599\" alt=\"Hip Packs\" style=\"width: 100%; height: 250px; object-fit: cover; border-radius: 10px;\">\n        <div style=\"background-color: #E8D7FF; padding: 10px; font-weight: bold;\">HIP PACKS<\/div>\n      <\/a>\n    <\/div>\n    <div class=\"collection-item aloha\" style=\"text-align: center; display: none;\">\n      <a href=\"https:\/\/vanillabox.co\/collections\/aloha-dopp-kits\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0692\/0257\/5613\/files\/line_9-13.jpg?v=1745830612\" alt=\"Dopp Kits\" style=\"width: 100%; height: 250px; object-fit: cover; border-radius: 10px;\">\n        <div style=\"background-color: #E8D7FF; padding: 10px; font-weight: bold;\">DOPP KITS<\/div>\n      <\/a>\n    <\/div>\n    <div class=\"collection-item aloha\" style=\"text-align: center; display: none;\">\n      <a href=\"https:\/\/vanillabox.co\/collections\/aloha-duffle-bags\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0692\/0257\/5613\/files\/line_9-12.jpg?v=1745830640\" alt=\"Duffle Bags\" style=\"width: 100%; height: 250px; object-fit: cover; border-radius: 10px;\">\n        <div style=\"background-color: #E8D7FF; padding: 10px; font-weight: bold;\">DUFFLE BAGS<\/div>\n      <\/a>\n    <\/div>\n    <div class=\"collection-item aloha\" style=\"text-align: center; display: none;\">\n      <a href=\"https:\/\/vanillabox.co\/collections\/aloha-pouches\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0692\/0257\/5613\/files\/line_9-09.jpg?v=1745830650\" alt=\"Pouches\" style=\"width: 100%; height: 250px; object-fit: cover; border-radius: 10px;\">\n        <div style=\"background-color: #E8D7FF; padding: 10px; font-weight: bold;\">POUCHES<\/div>\n      <\/a>\n    <\/div>\n\n    <!-- MOKEN COLLECTIONS -->\n    <div class=\"collection-item moken\" style=\"text-align: center; display: none;\">\n      <a href=\"https:\/\/vanillabox.co\/collections\/fashion-sunglasses-by-moken\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0692\/0257\/5613\/files\/MOKEN_SOLAIRES-198_1_c845f911-6489-42dc-bcef-7bd0673e9b2b.jpg?v=1752984288\" alt=\"Fashion\" style=\"width: 100%; height: 250px; object-fit: cover; border-radius: 10px;\">\n        <div style=\"background-color: #B9E3D4; padding: 10px; font-weight: bold;\">FASHION<\/div>\n      <\/a>\n    <\/div>\n    <div class=\"collection-item moken\" style=\"text-align: center; display: none;\">\n      <a href=\"https:\/\/vanillabox.co\/collections\/moken-sports\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0692\/0257\/5613\/files\/SNY07229_1_1_1.jpg?v=1752675756\" alt=\"Active\" style=\"width: 100%; height: 250px; object-fit: cover; border-radius: 10px;\">\n        <div style=\"background-color: #B9E3D4; padding: 10px; font-weight: bold;\">ACTIVE<\/div>\n      <\/a>\n    <\/div>\n    <div class=\"collection-item moken\" style=\"text-align: center; display: none;\">\n      <a href=\"https:\/\/vanillabox.co\/collections\/moken-kids\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0692\/0257\/5613\/files\/SNY03632_1.jpg?v=1752771023\" alt=\"Kids\" style=\"width: 100%; height: 250px; object-fit: cover; border-radius: 10px;\">\n        <div style=\"background-color: #B9E3D4; padding: 10px; font-weight: bold;\">KIDS<\/div>\n      <\/a>\n    <\/div>\n    <div class=\"collection-item moken\" style=\"text-align: center; display: none;\">\n      <a href=\"https:\/\/vanillabox.co\/collections\/moken-all\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0692\/0257\/5613\/files\/MOKEN_SOLAIRES-130_1.jpg?v=1752742836\" alt=\"Shop All\" style=\"width: 100%; height: 250px; object-fit: cover; border-radius: 10px;\">\n        <div style=\"background-color: #B9E3D4; padding: 10px; font-weight: bold;\">SHOP ALL<\/div>\n      <\/a>\n    <\/div>\n\n  <\/div>\n<\/div>\n\n<style>\n@media screen and (max-width: 768px) {\n  #collection-grid {\n    grid-template-columns: repeat(2, 1fr) !important;\n  }\n}\n<\/style>\n\n<script>\nfunction filterCollections(brand) {\n  const items = document.querySelectorAll('.collection-item');\n  items.forEach(item => {\n    item.style.display = item.classList.contains(brand) ? 'block' : 'none';\n  });\n}\n<\/script>"}},"spacer_7QR6FY":{"type":"spacer","settings":{"margin_top":60,"margin_bottom":35,"margin_top_mobile":25,"margin_bottom_mobile":45,"container":"boxed","show_separator":false,"title":""}},"carousel_products_PaNeMj":{"type":"carousel-products","blocks":{"collection_GtU8QE":{"type":"collection","settings":{"title":"","collection":"back-to-school"}}},"block_order":["collection_GtU8QE"],"disabled":true,"name":"BTS","settings":{"show_title":true,"container":"boxed","size_of_columns":"4","max_count":6,"autoplay":true,"speed":5,"infinite":true,"arrows":true,"bullets":true}},"spacer_w6e8k9":{"type":"spacer","disabled":true,"settings":{"margin_top":60,"margin_bottom":35,"margin_top_mobile":25,"margin_bottom_mobile":45,"container":"boxed","show_separator":false,"title":""}},"spacer_Qcj7t7":{"type":"spacer","disabled":true,"name":"Spacer","settings":{"margin_top":60,"margin_bottom":0,"margin_top_mobile":0,"margin_bottom_mobile":0,"container":"boxed","show_separator":false,"title":""}},"home_builder_i79yeA":{"type":"home-builder","blocks":{"promobox_bJNF3p":{"type":"promobox","settings":{"url":"","image_size":650,"image_mobile_size":550,"image_position_x":50,"color_image_mask":"rgba(0,0,0,0)","image_mask_opacity":0.7,"text_line_1":"","text_line_2":"It's Simple","text_line_3":"אנחנו דואגים לכדור הארץ, לבעלי החיים ולמשפחות שלנו. לכן, אנחנו לא מפסיקים לחדש ולמצוא דרכים חכמות לייצר מוצרים נקיים, בטוחים וידידותיים - לכם, לסביבה ולעולם כולו","style":"1","button_1":"","button_1_url":"","color_button_type_1":"default","button_2":"","button_2_url":"","color_button_type_2":"default","list_1":"","custom_html":"","video_autoplay":true,"video_controls":false,"youtube_video":"","youtube_video_mobile":"","type":"type-1-background-4","content_position":"center","content_align":"center","add_container":false,"content_width":100,"text_width":0,"height":"50","min_height":0,"size_of_column":"auto","visible":"mobile","parallax":"disable","animation_to":"none","animation_from":"none","animation_opacity":"none","animation_text":"none","color_text_1":"","color_text_2":"","color_text_3":"","color_text_bg":"#fffbc7","color_curtain_bg":"","customization_class":""}},"promobox_WGTxXb":{"type":"promobox","settings":{"url":"","image":"shopify:\/\/shop_images\/SB_2025_Sun-Campaign_About-Sonny_R3V1A_Mockup.webp","image_size":1450,"image_mobile":"shopify:\/\/shop_images\/Frame_7_2.png","image_mobile_size":1900,"image_position_x":54,"color_image_mask":"rgba(0,0,0,0)","image_mask_opacity":0.8,"text_line_1":"","text_line_2":"TRUST THE BUM","text_line_3":"מה הכוונה? זה אומר לסמוך עלינו\nאלה שחיים על החוף ומשתמשים במוצרים האלו בימים האינטנסיביים ביותר בשמש. \nתאכלס, כשמייצרים מוצרים כדי להגן על אלו שאוהבים, המוצרים פשוט טובים יותר","style":"1","button_1":"SHOP SUN BUM","button_1_url":"shopify:\/\/collections\/sunbum-all","color_button_type_1":"invert","button_2":"","button_2_url":"","color_button_type_2":"default","list_1":"","custom_html":"","video_autoplay":true,"video_controls":false,"youtube_video":"","youtube_video_mobile":"","type":"type-1-background-4","content_position":"center_right","content_align":"center","add_container":false,"content_width":100,"text_width":480,"height":"auto","min_height":450,"size_of_column":"auto","visible":"desktop_mobile","parallax":"disable","animation_to":"none","animation_from":"none","animation_opacity":"none","animation_text":"none","color_text_1":"","color_text_2":"","color_text_3":"","color_text_bg":"#ffffff","color_curtain_bg":"rgba(0,0,0,0)","customization_class":""}}},"block_order":["promobox_bJNF3p","promobox_WGTxXb"],"name":"SUNBUM","settings":{"title":"","container":"fullwidth","size_of_columns":"1","size_of_columns_mobile":"1","margins_for_columns":"none","align_of_columns":"top_center","disable_column_paddings":false,"precedence":"","customization_class":""}},"home_builder_whxb4U":{"type":"home-builder","blocks":{"promobox_mKqX9f":{"type":"promobox","settings":{"url":"","image_size":1050,"image_mobile_size":1250,"image_position_x":57,"color_image_mask":"rgba(0,0,0,0)","image_mask_opacity":0.8,"text_line_1":"","text_line_2":"ALOHA BAGS","text_line_3":"Travel light, pack it right and focus on creating lasting memories","style":"1","button_1":"","button_1_url":"","color_button_type_1":"default","button_2":"","button_2_url":"","color_button_type_2":"default","list_1":"","custom_html":"","video_autoplay":true,"video_controls":false,"youtube_video":"","youtube_video_mobile":"","type":"type-1-background-4","content_position":"center","content_align":"center","add_container":false,"content_width":91,"text_width":360,"height":"30","min_height":0,"size_of_column":"auto","visible":"mobile","parallax":"disable","animation_to":"none","animation_from":"none","animation_opacity":"none","animation_text":"none","color_text_1":"","color_text_2":"#493628","color_text_3":"","color_text_bg":"#e8d7ff","color_curtain_bg":"#ffffff","customization_class":""}},"promobox_YFd4Qq":{"type":"promobox","settings":{"url":"shopify:\/\/collections\/shop-all-aloha","image":"shopify:\/\/shop_images\/Frame_5.png","image_size":1450,"image_mobile":"shopify:\/\/shop_images\/2_carousel_3.webp","image_mobile_size":1050,"image_position_x":49,"color_image_mask":"rgba(0,0,0,0)","image_mask_opacity":0.7,"text_line_1":"","text_line_2":"OUR BAGS","text_line_3":"תיקים העשויים מנייר ממוחזר, מוגנים מפני מים ומשלבים עיצוב אקזוטי לצד פרקטיות המאפשרים תיק מושלם לכל אירוע- טיול, אימון או יציאה","style":"1","button_1":"SHOP ALOHA","button_1_url":"shopify:\/\/collections\/shop-all-aloha","color_button_type_1":"clean","button_2":"","button_2_url":"","color_button_type_2":"default","list_1":"","custom_html":"","video_autoplay":true,"video_controls":false,"youtube_video":"","youtube_video_mobile":"","type":"type-1-background-4","content_position":"center_left","content_align":"center","add_container":false,"content_width":100,"text_width":430,"height":"auto","min_height":0,"size_of_column":"auto","visible":"desktop_mobile","parallax":"disable","animation_to":"none","animation_from":"none","animation_opacity":"none","animation_text":"none","color_text_1":"rgba(0,0,0,0)","color_text_2":"#493628","color_text_3":"#493628","color_text_bg":"rgba(0,0,0,0)","color_curtain_bg":"#ffffff","customization_class":""}}},"block_order":["promobox_mKqX9f","promobox_YFd4Qq"],"name":"ALOHA","settings":{"title":"","container":"fullwidth","size_of_columns":"1","size_of_columns_mobile":"1","margins_for_columns":"none","align_of_columns":"top_center","disable_column_paddings":false,"precedence":"","customization_class":""}},"home_builder_eLDFY6":{"type":"home-builder","blocks":{"promobox_FNHEGF":{"type":"promobox","settings":{"url":"","image_size":650,"image_mobile_size":1750,"image_position_x":100,"color_image_mask":"rgba(0,0,0,0)","image_mask_opacity":0.7,"text_line_1":"","text_line_2":"MEET MOKEN","text_line_3":"מותג משקפי שמש אורגני צרפתי, המשלב יופי וטבע בהרמוניה מושלמת. \nהמסגרות מיוצרות בטכנולוגיית הזרקה ייחודית, המשתמשת בחומרים טבעיים כמו קליפות אורז, שעם, יוטה ועוד.","style":"1","button_1":"","button_1_url":"","color_button_type_1":"default","button_2":"","button_2_url":"","color_button_type_2":"default","list_1":"","custom_html":"","video_autoplay":true,"video_controls":false,"youtube_video":"","youtube_video_mobile":"","type":"type-1-background-4","content_position":"center","content_align":"center","add_container":false,"content_width":100,"text_width":0,"height":"50","min_height":0,"size_of_column":"12","visible":"mobile","parallax":"disable","animation_to":"none","animation_from":"none","animation_opacity":"none","animation_text":"none","color_text_1":"","color_text_2":"","color_text_3":"","color_text_bg":"#b9e3d4","color_curtain_bg":"","customization_class":""}},"promobox_hFz6m6":{"type":"promobox","settings":{"url":"","image":"shopify:\/\/shop_images\/MOKEN_SOLAIRES-439_1.jpg","image_size":2450,"image_mobile":"shopify:\/\/shop_images\/MOKEN_SOLAIRES-130_2.jpg","image_mobile_size":1900,"image_position_x":54,"color_image_mask":"rgba(0,0,0,0)","image_mask_opacity":0.8,"text_line_1":"","text_line_2":"","text_line_3":"כל דגם מצויד בעדשות UV400, פולארויד ורספונסיביות, המציעות נוחות והגנה אופטימלית במצבי אור משתנים. הקולקציה כוללת דגמים לאופנה, ספורט וילדים, עיצוב מדויק עם השפעה סביבתית חיובית – בדיוק מה שהעולם צריך.","style":"1","button_1":"SHOP MOKEN","button_1_url":"shopify:\/\/collections\/moken-all","color_button_type_1":"secondary","button_2":"","button_2_url":"","color_button_type_2":"default","list_1":"","custom_html":"","video_autoplay":true,"video_controls":false,"youtube_video":"","youtube_video_mobile":"","type":"type-1-background-4","content_position":"center_right","content_align":"center","add_container":false,"content_width":100,"text_width":480,"height":"auto","min_height":450,"size_of_column":"auto","visible":"desktop_mobile","parallax":"disable","animation_to":"none","animation_from":"none","animation_opacity":"none","animation_text":"none","color_text_1":"","color_text_2":"","color_text_3":"","color_text_bg":"#ffffff","color_curtain_bg":"rgba(0,0,0,0)","customization_class":""}}},"block_order":["promobox_FNHEGF","promobox_hFz6m6"],"name":"MOKEN","settings":{"title":"","container":"fullwidth","size_of_columns":"1","size_of_columns_mobile":"1","margins_for_columns":"none","align_of_columns":"top_center","disable_column_paddings":false,"precedence":"","customization_class":""}},"1586283399218":{"type":"spacer","settings":{"margin_top":60,"margin_bottom":50,"margin_top_mobile":0,"margin_bottom_mobile":35,"container":"boxed","show_separator":true,"title":""}},"1586283433745":{"type":"carousel-brands","blocks":{"1586283438841":{"type":"brand","settings":{"image":"shopify:\/\/shop_images\/Group_8.png","link":"https:\/\/shella-demo.myshopify.com\/collections\/vendors?q=Calvin%20Klein"}},"1586283440593":{"type":"brand","settings":{"image":"shopify:\/\/shop_images\/Group_7_1.png","link":"https:\/\/shella-demo.myshopify.com\/collections\/vendors?q=Chanel"}},"1586283444209":{"type":"brand","settings":{"image":"shopify:\/\/shop_images\/Group_9_1.png","link":"https:\/\/shella-demo.myshopify.com\/collections\/vendors?q=Giorgio%20Armani"}},"1586283447563":{"type":"brand","settings":{"image":"shopify:\/\/shop_images\/Group_6_1.png","link":"https:\/\/shella-demo.myshopify.com\/collections\/vendors?q=Calvin%20Klein"}},"brand_cmt7it":{"type":"brand","settings":{"image":"shopify:\/\/shop_images\/Group_11.png","link":""}},"brand_em7K7j":{"type":"brand","settings":{"image":"shopify:\/\/shop_images\/Group_13.png","link":""}},"1586283451048":{"type":"brand","settings":{"image":"shopify:\/\/shop_images\/Group_10.png","link":"https:\/\/shella-demo.myshopify.com\/collections\/vendors?q=Calvin%20Klein"}},"1586283449137":{"type":"brand","settings":{"image":"shopify:\/\/shop_images\/Group_14.png","link":"https:\/\/shella-demo.myshopify.com\/collections\/vendors?q=Calvin%20Klein"}},"1586283452306":{"type":"brand","settings":{"image":"shopify:\/\/shop_images\/Group_12.png","link":"https:\/\/shella-demo.myshopify.com\/collections\/vendors?q=Calvin%20Klein"}},"brand_PwaBUc":{"type":"brand","settings":{"image":"shopify:\/\/shop_images\/Group_19.png","link":""}}},"block_order":["1586283438841","1586283440593","1586283444209","1586283447563","brand_cmt7it","brand_em7K7j","1586283451048","1586283449137","1586283452306","brand_PwaBUc"],"settings":{"title":"Join the Brands That Chose Us","layout":"grid","size_of_columns":"4","image_max_width":110,"bordered_links":true,"border_radius":"","autoplay":true,"speed":5,"infinite":true,"arrows":true,"bullets":false}},"subscription_form_XTNFyX":{"type":"subscription-form","name":"Subscription form","settings":{"title":"","paragraph":"הירשמו לניוזלטר ותהיו מעודכנים במבצעים והנחות שוות!","placeholder":"Enter Your Email Address","button_text":"SUBSCRIBE!","style":"1"}},"1586284034569":{"type":"spacer","settings":{"margin_top":60,"margin_bottom":0,"margin_top_mobile":0,"margin_bottom_mobile":0,"container":"boxed","show_separator":false,"title":""}},"home_builder_y6XD8M":{"type":"home-builder","blocks":{"promobox_krFaYN":{"type":"promobox","name":"Follow Us","settings":{"url":"","image_size":1450,"image_mobile_size":550,"image_position_x":50,"color_image_mask":"#ffffff","image_mask_opacity":0.5,"text_line_1":"","text_line_2":"","text_line_3":"","style":"1","button_1":"Follow Us","button_1_url":"https:\/\/www.instagram.com\/vanilla_box_il\/","color_button_type_1":"default","button_2":"Button #2 text","button_2_url":"","color_button_type_2":"default","list_1":"","custom_html":"","video_autoplay":true,"video_controls":false,"youtube_video":"","youtube_video_mobile":"","type":"text","content_position":"center","content_align":"center","add_container":false,"content_width":100,"text_width":0,"height":"auto","min_height":0,"size_of_column":"auto","visible":"desktop_mobile","parallax":"disable","animation_to":"none","animation_from":"none","animation_opacity":"none","animation_text":"none","color_text_1":"","color_text_2":"","color_text_3":"","color_text_bg":"","color_curtain_bg":"","customization_class":""}}},"block_order":["promobox_krFaYN"],"name":"Builder","settings":{"title":"","container":"boxed","size_of_columns":"1","size_of_columns_mobile":"1","margins_for_columns":"none","align_of_columns":"top_center","disable_column_paddings":false,"precedence":"","customization_class":""}},"spacer_P4jexz":{"type":"spacer","name":"Spacer","settings":{"margin_top":60,"margin_bottom":0,"margin_top_mobile":0,"margin_bottom_mobile":0,"container":"boxed","show_separator":false,"title":""}},"1749536828a19d5ba7":{"type":"apps","blocks":{"instafeed_app_block_fhEj8W":{"type":"shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5","settings":{"title":"","title_color":"","title_size_v2":0,"alignment":"center","instafeed_margin_top":0,"instafeed_margin_bottom":0,"instafeed_margin_sides":0,"show_instagram_link":true,"link_alignment":"center","link_color":"#000000","background_color":"","feed_id":"","html_area":""}}},"block_order":["instafeed_app_block_fhEj8W"],"settings":{"use_container":true}}},"order":["custom_liquid_ReXcAC","custom_liquid_b3jaHQ","custom_liquid_HE89Fk","spacer_X6Ed9c","carousel_products_mdEB4A","carousel_products_7wBPf3","spacer_zV6WaU","1586279708879","custom_liquid_FVYjRM","custom_liquid_bDi6aT","spacer_7QR6FY","carousel_products_PaNeMj","spacer_w6e8k9","spacer_Qcj7t7","home_builder_i79yeA","home_builder_whxb4U","home_builder_eLDFY6","1586283399218","1586283433745","subscription_form_XTNFyX","1586284034569","home_builder_y6XD8M","spacer_P4jexz","1749536828a19d5ba7"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "custom_liquid_ReXcAC": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "name": "HERO HOLIDAY DELI",
+      "settings": {
+        "use_container": true,
+        "custom_liquid": "<!-- Swiper CSS --> <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css\" /> <!-- Holiday Slider --> <div class=\"swiper holiday-swiper\"> <div class=\"swiper-wrapper\"> <!-- Slide 1 --> <div class=\"swiper-slide\"> <img src=\"https://cdn.shopify.com/s/files/1/0692/0257/5613/files/9_2.jpg?v=1758189962\" alt=\"Holiday Banner 1\"> </div> <!-- Slide 2 --> <div class=\"swiper-slide\"> <img src=\"https://cdn.shopify.com/s/files/1/0692/0257/5613/files/8_8c8b14dd-93d5-4409-9f73-b30dd81d87b6.jpg?v=1758189962\" alt=\"Holiday Banner 2\"> </div> <!-- Slide 3 --> <div class=\"swiper-slide\"> <img src=\"https://cdn.shopify.com/s/files/1/0692/0257/5613/files/7_2.jpg?v=1758189962\" alt=\"Holiday Banner 3\"> </div> </div> <!-- Pagination --> <div class=\"swiper-pagination\"></div> <!-- Navigation --> <div class=\"swiper-button-next\"></div> <div class=\"swiper-button-prev\"></div> <!-- Button --> <div class=\"holiday-caption\"> <a href=\"https://vanillabox.co/collections/holiday\"> SHOP NOW </a> </div> </div> <!-- Swiper JS --> <script src=\"https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js\"></script> <!-- Init Swiper --> <script> document.addEventListener(\"DOMContentLoaded\", function() { var swiper = new Swiper('.holiday-swiper', { loop: true, slidesPerView: 1, pagination: { el: '.holiday-swiper .swiper-pagination', clickable: true, }, navigation: { nextEl: '.holiday-swiper .swiper-button-next', prevEl: '.holiday-swiper .swiper-button-prev', }, autoplay: { delay: 4000, disableOnInteraction: false, }, }); }); </script> <!-- Styling --> <style> .holiday-swiper { width: 100%; height: 55vh; max-height: 500px; position: relative; overflow: hidden; } .holiday-swiper img { width: 100%; height: 100%; object-fit: contain; /* מוודא שהתמונה תישאר בגבולות מבלי להיחתך */ object-position: center center; /* ממקם את התמונה במרכז */ } /* Caption (button container) */ .holiday-caption { position: absolute; bottom: 10%; /* desktop */ left: 50%; transform: translateX(-50%); z-index: 999; /* כפתור עם z-index גבוה יותר כדי להופיע מעל כל האלמנטים */ text-align: center; width: auto; } .holiday-caption a { display: inline-block; padding: 12px 24px; background: #ffffff; color: #5A3E2B; text-decoration: none; font-weight: bold; border-radius: 6px; font-size: 16px; } /* Mobile adjustments */ @media (max-width: 768px) { .holiday-swiper { height: 40vh; max-height: 350px; } .holiday-caption { bottom: 25%; /* מעדכן את המיקום של הכפתור במובייל כך שיהיה מעט גבוה יותר */ width: 80%; /* מונע חיתוך בקצוות */ left: 50%; transform: translateX(-50%); /* ממקם את הכפתור במרכז */ } .holiday-caption a { font-size: 14px; padding: 10px 18px; white-space: nowrap; /* שלא יישבר לשתי שורות */ } } </style>"
+      }
+    },
+    "custom_liquid_b3jaHQ": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "name": "New Hero",
+      "settings": {
+        "use_container": true,
+        "custom_liquid": "<!-- Swiper CSS -->\n<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css\" />\n\n<!-- Hero Slider -->\n<div class=\"swiper hero-swiper\" style=\"width: 100%; height: 80vh; max-height: 700px; position: relative; overflow: hidden;\">\n  <div class=\"swiper-wrapper\">\n\n    <!-- Slide 1 - SUN BUM -->\n    <div class=\"swiper-slide\">\n      <video autoplay muted loop playsinline style=\"width: 100%; height: 100%; object-fit: cover;\">\n        <source src=\"https://cdn.shopify.com/videos/c/o/v/cc70e62b726b45cc9a4b995f6e1608c6.mp4\" type=\"video/mp4\">\n      </video>\n      <div class=\"hero-caption\" style=\"position: absolute; bottom: 10%; left: 50%; transform: translateX(-50%); text-align: center;\">\n        <div style=\"color: #FFF8A3; font-size: 36px; font-weight: bold; margin-bottom: 10px;\">SUN BUM</div>\n        <a href=\"https://vanillabox.co/collections/sunbum-all\" style=\"display: inline-block; padding: 10px 20px; background: #FFF8A3; color: #493628; text-decoration: none; font-size: 14px; font-weight: bold; border-radius: 6px;\">\n          SHOP NOW\n        </a>\n      </div>\n    </div>\n\n    <!-- Slide 2 - ALOHA -->\n    <div class=\"swiper-slide\">\n      <video autoplay muted loop playsinline style=\"width: 100%; height: 100%; object-fit: cover;\">\n        <source src=\"https://cdn.shopify.com/videos/c/o/v/f78d3bbbd8b04ead8e3b99ab73435e48.mp4\" type=\"video/mp4\">\n      </video>\n      <div class=\"hero-caption\" style=\"position: absolute; bottom: 10%; left: 50%; transform: translateX(-50%); text-align: center;\">\n        <div style=\"color: #E8D7FF; font-size: 36px; font-weight: bold; margin-bottom: 10px;\">ALOHA</div>\n        <a href=\"https://vanillabox.co/collections/shop-all-aloha\" style=\"display: inline-block; padding: 10px 20px; background: #E8D7FF; color: #493628; text-decoration: none; font-size: 14px; font-weight: bold; border-radius: 6px;\">\n          SHOP NOW\n        </a>\n      </div>\n    </div>\n\n    <!-- Slide 3 - MOKEN -->\n    <div class=\"swiper-slide\">\n      <video autoplay muted loop playsinline style=\"width: 100%; height: 100%; object-fit: cover;\">\n        <source src=\"https://cdn.shopify.com/videos/c/o/v/a739e16eaeee443f899920f0573fb464.mp4\" type=\"video/mp4\">\n      </video>\n      <div class=\"hero-caption\" style=\"position: absolute; bottom: 10%; left: 50%; transform: translateX(-50%); text-align: center;\">\n        <div style=\"color: #B9E3D4; font-size: 36px; font-weight: bold; margin-bottom: 10px;\">MOKEN</div>\n        <a href=\"https://vanillabox.co/collections/moken-all\" style=\"display: inline-block; padding: 10px 20px; background: #B9E3D4; color: #493628; text-decoration: none; font-size: 14px; font-weight: bold; border-radius: 6px;\">\n          SHOP NOW\n        </a>\n      </div>\n    </div>\n\n  </div>\n\n  <!-- Pagination (dots) -->\n  <div class=\"swiper-pagination\"></div>\n\n  <!-- Navigation buttons -->\n  <div class=\"swiper-button-next\"></div>\n  <div class=\"swiper-button-prev\"></div>\n</div>\n\n<!-- Swiper JS -->\n<script src=\"https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js\"></script>\n\n<!-- Swiper Init -->\n<script>\n  var swiper = new Swiper('.hero-swiper', {\n    loop: true,\n    slidesPerView: 1,\n    pagination: {\n      el: '.swiper-pagination',\n      clickable: true,\n    },\n    navigation: {\n      nextEl: '.swiper-button-next',\n      prevEl: '.swiper-button-prev',\n    },\n    autoplay: {\n      delay: 5000,\n      disableOnInteraction: false,\n    },\n  });\n</script>\n\n<!-- Responsive & Custom Styling -->\n<style>\n  @media (max-width: 768px) {\n    .hero-swiper {\n      height: 60vh;\n      max-height: 500px;\n    }\n    .hero-caption div {\n      font-size: 28px;\n    }\n    .hero-caption a {\n      font-size: 12px;\n      padding: 8px 16px;\n    }\n  }\n\n  .swiper-button-next,\n  .swiper-button-prev {\n    color: #ffffff !important;\n    fill: #ffffff !important;\n  }\n</style>"
+      }
+    },
+    "custom_liquid_HE89Fk": {
+      "type": "custom-liquid",
+      "name": "Hero- Holiday",
+      "settings": {
+        "use_container": true,
+        "custom_liquid": "<!-- Swiper CSS -->\n<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css\" />\n\n<!-- Holiday Slider -->\n<div class=\"swiper holiday-swiper\">\n  <div class=\"swiper-wrapper\">\n\n    <!-- Slide 1 -->\n    <div class=\"swiper-slide\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0692/0257/5613/files/SUN_BUM_61cc3775-b9d5-4662-ba39-86ac05a4850f.jpg?v=1760521661\" alt=\"Holiday Banner 1\">\n      <div class=\"holiday-caption\">\n        <a href=\"https://vanillabox.co/collections/sunbum-all\">SHOP NOW</a>\n      </div>\n    </div>\n\n    <!-- Slide 2 -->\n    <div class=\"swiper-slide\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0692/0257/5613/files/MOKEN_cf95ae0d-7115-48ee-b916-7584fdc5b26d.jpg?v=1760521661\" alt=\"Holiday Banner 2\">\n      <div class=\"holiday-caption\">\n        <a href=\"https://vanillabox.co/collections/moken-all\">SHOP NOW</a>\n      </div>\n    </div>\n\n    <!-- Slide 3 -->\n    <div class=\"swiper-slide\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0692/0257/5613/files/ALOHA_2a01ddee-f938-4b9f-8733-375cc629764b.jpg?v=1761028988\" alt=\"Holiday Banner 3\">\n      <div class=\"holiday-caption\">\n        <a href=\"https://vanillabox.co/collections/shop-all-aloha\">SHOP NOW</a>\n      </div>\n    </div>\n\n  </div>\n\n  <!-- Pagination -->\n  <div class=\"swiper-pagination\"></div>\n\n  <!-- Navigation -->\n  <div class=\"swiper-button-next\"></div>\n  <div class=\"swiper-button-prev\"></div>\n</div>\n\n<!-- Swiper JS -->\n<script src=\"https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js\"></script>\n\n<!-- Init Swiper -->\n<script>\n  document.addEventListener(\"DOMContentLoaded\", function() {\n    var swiper = new Swiper('.holiday-swiper', {\n      loop: true,\n      slidesPerView: 1,\n      pagination: {\n        el: '.holiday-swiper .swiper-pagination',\n        clickable: true,\n      },\n      navigation: {\n        nextEl: '.holiday-swiper .swiper-button-next',\n        prevEl: '.holiday-swiper .swiper-button-prev',\n      },\n      autoplay: {\n        delay: 4000,\n        disableOnInteraction: false,\n      },\n    });\n  });\n</script>\n\n<!-- Styling -->\n<style>\n  .holiday-swiper {\n    width: 100%;\n    height: 55vh;\n    max-height: 500px;\n    position: relative;\n    overflow: hidden;\n  }\n\n  .holiday-swiper img {\n    width: 100%;\n    height: 100%;\n    object-fit: contain;\n    object-position: center center;\n  }\n\n  .holiday-swiper .swiper-slide {\n    position: relative;\n  }\n\n  /* Caption (button container) */\n  .holiday-caption {\n    position: absolute;\n    bottom: 9.5%;\n    left: 50%;\n    transform: translateX(-50%);\n    z-index: 10;\n    text-align: center;\n    width: auto;\n  }\n\n  /* Updated button design */\n  .holiday-caption a {\n    display: inline-block;\n    padding: 12px 24px;\n    background: #ffffff; /* רקע לבן */\n    color: #000000; /* טקסט שחור */\n    border: 1px solid #000000; /* קו מתאר שחור ודק */\n    text-decoration: none;\n    font-weight: bold;\n    border-radius: 6px;\n    font-size: 16px;\n    transition: all 0.3s ease;\n  }\n\n  /* Hover effect */\n  .holiday-caption a:hover {\n    background: #000000;\n    color: #ffffff;\n  }\n\n  /* Smaller navigation arrows */\n  .holiday-swiper .swiper-button-next,\n  .holiday-swiper .swiper-button-prev {\n    transform: scale(0.5);\n    color: #5A3E2B;\n  }\n\n  /* Mobile adjustments */\n  @media (max-width: 768px) {\n    .holiday-swiper {\n      height: 40vh;\n      max-height: 350px;\n    }\n\n    .holiday-caption {\n      bottom: 22%; /* הונמך מעט במובייל */\n      width: 80%;\n      left: 50%;\n      transform: translateX(-50%);\n    }\n\n    .holiday-caption a {\n      font-size: 14px;\n      padding: 10px 18px;\n      white-space: nowrap;\n    }\n  }\n</style>"
+      }
+    },
+    "spacer_X6Ed9c": {
+      "type": "spacer",
+      "settings": {
+        "margin_top": 40,
+        "margin_bottom": 5,
+        "margin_top_mobile": 5,
+        "margin_bottom_mobile": 35,
+        "container": "boxed",
+        "show_separator": false,
+        "title": ""
+      }
+    },
+    "carousel_products_mdEB4A": {
+      "type": "carousel-products",
+      "blocks": {
+        "collection_bx6trR": {
+          "type": "collection",
+          "settings": {
+            "title": "Holiday Collection",
+            "collection": "holiday"
+          }
+        }
+      },
+      "block_order": [
+        "collection_bx6trR"
+      ],
+      "disabled": true,
+      "name": "Holiday Collection",
+      "settings": {
+        "show_title": true,
+        "container": "boxed",
+        "size_of_columns": "4",
+        "max_count": 6,
+        "autoplay": true,
+        "speed": 5,
+        "infinite": true,
+        "arrows": true,
+        "bullets": true
+      }
+    },
+    "carousel_products_7wBPf3": {
+      "type": "carousel-products",
+      "blocks": {
+        "collection_Bm3Ux9": {
+          "type": "collection",
+          "settings": {
+            "title": "Best Sellers",
+            "collection": "best-sellers"
+          }
+        }
+      },
+      "block_order": [
+        "collection_Bm3Ux9"
+      ],
+      "name": "Best sellers carousel",
+      "settings": {
+        "show_title": true,
+        "container": "boxed",
+        "size_of_columns": "4",
+        "max_count": 50,
+        "autoplay": true,
+        "speed": 5,
+        "infinite": true,
+        "arrows": true,
+        "bullets": true
+      }
+    },
+    "spacer_zV6WaU": {
+      "type": "spacer",
+      "name": "Spacer",
+      "settings": {
+        "margin_top": 60,
+        "margin_bottom": 0,
+        "margin_top_mobile": 0,
+        "margin_bottom_mobile": 0,
+        "container": "boxed",
+        "show_separator": false,
+        "title": ""
+      }
+    },
+    "1586279708879": {
+      "type": "home-builder",
+      "blocks": {
+        "1586279874234": {
+          "type": "promobox",
+          "name": "Promo box (Banner)- Sun bum",
+          "settings": {
+            "url": "",
+            "image": "shopify://shop_images/UNADJUSTEDNONRAW_thumb_909.jpg",
+            "image_size": 2000,
+            "image_mobile": "shopify://shop_images/UNADJUSTEDNONRAW_thumb_90e.jpg",
+            "image_mobile_size": 900,
+            "image_position_x": 43,
+            "color_image_mask": "",
+            "image_mask_opacity": 0.5,
+            "text_line_1": "",
+            "text_line_2": "SUN BUM",
+            "text_line_3": "",
+            "style": "8",
+            "button_1": "SHOP NOW",
+            "button_1_url": "shopify://collections/sunbum-all",
+            "color_button_type_1": "invert",
+            "button_2": "JHJHJH",
+            "button_2_url": "shopify://pages/contact",
+            "color_button_type_2": "secondary",
+            "list_1": "",
+            "custom_html": "",
+            "video": "shopify://files/videos/sun bun video.mp4",
+            "video_mobile": "shopify://files/videos/sun bun video.mp4",
+            "video_autoplay": true,
+            "video_controls": false,
+            "youtube_video": "",
+            "youtube_video_mobile": "",
+            "type": "type-1",
+            "content_position": "bottom_center",
+            "content_align": "center",
+            "add_container": false,
+            "content_width": 100,
+            "text_width": 0,
+            "height": "preset_2",
+            "min_height": 0,
+            "size_of_column": "6",
+            "visible": "desktop_mobile",
+            "parallax": "disable",
+            "animation_to": "none",
+            "animation_from": "none",
+            "animation_opacity": "none",
+            "animation_text": "none",
+            "color_text_1": "",
+            "color_text_2": "#fff8a3",
+            "color_text_3": "#493628",
+            "color_text_bg": "",
+            "color_curtain_bg": "",
+            "customization_class": "main-hero-banner"
+          }
+        },
+        "promobox_bgghEi": {
+          "type": "promobox",
+          "name": "Promo box (Banner) - Aloha",
+          "settings": {
+            "url": "",
+            "image": "shopify://shop_images/TERMINAL-X-BLACK_1.png",
+            "image_size": 650,
+            "image_mobile": "shopify://shop_images/UNADJUSTEDNONRAW_thumb_90e.jpg",
+            "image_mobile_size": 900,
+            "image_position_x": 43,
+            "color_image_mask": "rgba(0,0,0,0)",
+            "image_mask_opacity": 0.6,
+            "text_line_1": "",
+            "text_line_2": "Aloha",
+            "text_line_3": "",
+            "style": "8",
+            "button_1": "SHOP NOW",
+            "button_1_url": "shopify://collections/shop-all-aloha",
+            "color_button_type_1": "clean",
+            "button_2": "DDDDD",
+            "button_2_url": "shopify://pages/contact",
+            "color_button_type_2": "invert",
+            "list_1": "",
+            "custom_html": "",
+            "video": "shopify://files/videos/SU25_Hinatea_Collection_35sec_9x16.mp4",
+            "video_mobile": "shopify://files/videos/SU25_Hinatea_Collection_35sec_9x16.mp4",
+            "video_autoplay": true,
+            "video_controls": false,
+            "youtube_video": "",
+            "youtube_video_mobile": "",
+            "type": "type-1",
+            "content_position": "bottom_center",
+            "content_align": "center",
+            "add_container": false,
+            "content_width": 100,
+            "text_width": 0,
+            "height": "preset_2",
+            "min_height": 0,
+            "size_of_column": "6",
+            "visible": "desktop_mobile",
+            "parallax": "disable",
+            "animation_to": "none",
+            "animation_from": "none",
+            "animation_opacity": "none",
+            "animation_text": "none",
+            "color_text_1": "",
+            "color_text_2": "#d7f6ff",
+            "color_text_3": "",
+            "color_text_bg": "rgba(0,0,0,0)",
+            "color_curtain_bg": "rgba(0,0,0,0)",
+            "customization_class": "main-hero-banner"
+          }
+        }
+      },
+      "block_order": [
+        "1586279874234",
+        "promobox_bgghEi"
+      ],
+      "disabled": true,
+      "name": "Hero",
+      "settings": {
+        "title": "",
+        "container": "fullwidth",
+        "size_of_columns": "1",
+        "size_of_columns_mobile": "1",
+        "margins_for_columns": "none",
+        "align_of_columns": "top_center",
+        "disable_column_paddings": false,
+        "precedence": "",
+        "customization_class": ""
+      }
+    },
+    "custom_liquid_FVYjRM": {
+      "type": "custom-liquid",
+      "name": "Collections - Custom",
+      "settings": {
+        "use_container": true,
+        "custom_liquid": "{% if collection.handle == 'sunbum-all' or collection.handle == 'original-sun-care' or collection.handle == 'hair-care' or collection.handle == 'original-lip-balm' or collection.handle == 'merch' or collection.handle == 'moken-all' or collection.handle == 'fashion-sunglasses-by-moken' or collection.handle == 'moken-sports' or collection.handle == 'moken-kids' or collection.handle == 'shop-all-aloha' or collection.handle == 'aloha-tote-bags' or collection.handle == 'aloha-pouches' or collection.handle == 'aloha-crossbody-bags' or collection.handle == 'aloha-backpacks' or collection.handle == 'aloha-weekender-bags' or collection.handle == 'aloha-cabin-crew' or collection.handle == 'aloha-dopp-kits' or collection.handle == 'aloha-hip-packs' or collection.handle == 'aloha-duffle-bags' %}\n  <style>\n    .circle-subcategories {\n      display: flex;\n      gap: 12px;\n      flex-wrap: wrap;\n      justify-content: center;\n      margin: 20px 0;\n    }\n\n    .circle-subcategory {\n      display: flex;\n      flex-direction: column;\n      align-items: center;\n      text-align: center;\n      text-decoration: none;\n      color: #333;\n      font-weight: bold;\n      width: 70px;\n      font-size: 14px;\n    }\n\n    .circle-subcategory img {\n      width: 55px;\n      height: 55px;\n      object-fit: cover;\n      border-radius: 50%;\n      margin-bottom: 6px;\n      border: 1px solid #ccc;\n    }\n\n    @media screen and (min-width: 768px) {\n      .circle-subcategories {\n        gap: 20px;\n      }\n      .circle-subcategory {\n        width: 110px;\n        font-size: 15px;\n      }\n      .circle-subcategory img {\n        width: 100px;\n        height: 100px;\n      }\n    }\n  </style>\n{% endif %}\n\n{%- comment -%} SUN BUM {%- endcomment -%}\n{% if collection.handle == 'sunbum-all' or collection.handle == 'original-sun-care' or collection.handle == 'hair-care' or collection.handle == 'original-lip-balm' or collection.handle == 'merch' %}\n  <div class=\"circle-subcategories\">\n    <a href=\"/collections/original-sun-care\" class=\"circle-subcategory\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0692/0257/5613/files/35.png?v=1736771916\" alt=\"Sun care\">\n      Sun care\n    </a>\n    <a href=\"/collections/hair-care\" class=\"circle-subcategory\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0692/0257/5613/files/46.png?v=1712225713\" alt=\"Hair care\">\n      Hair care\n    </a>\n    <a href=\"/collections/original-lip-balm\" class=\"circle-subcategory\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0692/0257/5613/files/11.png?v=1736765224\" alt=\"Lip care\">\n      Lip care\n    </a>\n    <a href=\"/collections/merch\" class=\"circle-subcategory\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0692/0257/5613/files/14.png?v=1712225418\" alt=\"Merch\">\n      Merch\n    </a>\n  </div>\n{% endif %}\n\n{%- comment -%} MOKEN {%- endcomment -%}\n{% if collection.handle == 'moken-all' or collection.handle == 'fashion-sunglasses-by-moken' or collection.handle == 'moken-sports' or collection.handle == 'moken-kids' %}\n  <style>\n    .circle-subcategory { width: 90px; font-size: 14px; }\n    .circle-subcategory img { width: 75px; height: 75px; }\n    @media screen and (min-width: 768px) {\n      .circle-subcategory { width: 120px; font-size: 16px; }\n      .circle-subcategory img { width: 110px; height: 110px; }\n    }\n  </style>\n\n  <div class=\"circle-subcategories\">\n    <a href=\"/collections/fashion-sunglasses-by-moken\" class=\"circle-subcategory\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0692/0257/5613/files/35.jpg?v=1753624253\" alt=\"Fashion\">\n      Fashion\n    </a>\n    <a href=\"/collections/moken-sports\" class=\"circle-subcategory\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0692/0257/5613/files/17_1.jpg?v=1753637981\" alt=\"Active\">\n      Active\n    </a>\n    <a href=\"/collections/moken-kids\" class=\"circle-subcategory\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0692/0257/5613/files/4_3.jpg?v=1753686760\" alt=\"Kids\">\n      Kids\n    </a>\n  </div>\n{% endif %}\n\n{%- comment -%} ALOHA {%- endcomment -%}\n{% if collection.handle == 'shop-all-aloha' or collection.handle == 'aloha-tote-bags' or collection.handle == 'aloha-pouches' or collection.handle == 'aloha-crossbody-bags' or collection.handle == 'aloha-backpacks' or collection.handle == 'aloha-weekender-bags' or collection.handle == 'aloha-cabin-crew' or collection.handle == 'aloha-dopp-kits' or collection.handle == 'aloha-hip-packs' or collection.handle == 'aloha-duffle-bags' %}\n  <div class=\"circle-subcategories\">\n    <a href=\"/collections/aloha-tote-bags\" class=\"circle-subcategory\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0692/0257/5613/files/DT_heipua_sorbet_on_lavande_3.png?v=1746520362\" alt=\"Tote Bags\">\n      Tote Bags\n    </a>\n    <a href=\"/collections/aloha-pouches\" class=\"circle-subcategory\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0692/0257/5613/files/sm_petite_check_latte_1_6b8b00a8-12e3-4ae7-8720-9864e9ca5e0b.png?v=1746521825\" alt=\"Pouches\">\n      Pouches\n    </a>\n    <a href=\"/collections/aloha-crossbody-bags\" class=\"circle-subcategory\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0692/0257/5613/files/DT_petite_check_latte_1.png?v=1746522075\" alt=\"Crossbody\">\n      Crossbody\n    </a>\n    <a href=\"/collections/aloha-backpacks\" class=\"circle-subcategory\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0692/0257/5613/files/nylon_backpack_monochrome_lavande_1.png?v=1746522795\" alt=\"Backpacks\">\n      Backpacks\n    </a>\n    <a href=\"/collections/aloha-weekender-bags\" class=\"circle-subcategory\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0692/0257/5613/files/nylon_weekender_monochrome_lavande_1.png?v=1746522924\" alt=\"Weekenders\">\n      Weekenders\n    </a>\n    <a href=\"/collections/aloha-cabin-crew\" class=\"circle-subcategory\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0692/0257/5613/files/cc_Hinatea_Boosie_purau_lilac_navy_2.png?v=1746521262\" alt=\"Cabin crew\">\n      Cabin crew\n    </a>\n    <a href=\"/collections/aloha-dopp-kits\" class=\"circle-subcategory\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0692/0257/5613/files/dopp_heipua_sorbet_lavande_1.png?v=1746520300\" alt=\"Dopp kits\">\n      Dopp kits\n    </a>\n    <a href=\"/collections/aloha-hip-packs\" class=\"circle-subcategory\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0692/0257/5613/files/nylon_hip_monochrome_lavande_1.png?v=1746523032\" alt=\"Hip packs\">\n      Hipp packs\n    </a>\n    <a href=\"/collections/aloha-duffle-bags\" class=\"circle-subcategory\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0692/0257/5613/files/duffle_samudra_kalapana.png?v=1746514141\" alt=\"Duffles\">\n      Duffles\n    </a>\n  </div>\n{% endif %}"
+      }
+    },
+    "custom_liquid_bDi6aT": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "use_container": true,
+        "custom_liquid": "<!-- Section Title -->\n<h2 style=\"text-align: center; font-size: 28px; font-weight: bold; color: #5B3920; margin-bottom: 30px;\">\n  Our Brands\n</h2>\n\n<div id=\"collections-section\">\n  <div class=\"tabs\" style=\"display: flex; justify-content: center; margin-bottom: 20px; gap: 10px;\">\n    <button onclick=\"filterCollections('sunbum')\" style=\"padding: 10px 20px; border-radius: 10px; background-color: #FFF8A3; border: none; cursor: pointer; font-weight: bold; color: #5B3920;\">SUN BUM</button>\n    <button onclick=\"filterCollections('aloha')\" style=\"padding: 10px 20px; border-radius: 10px; background-color: #E8D7FF; border: none; cursor: pointer; font-weight: bold; color: #5B3920;\">ALOHA</button>\n    <button onclick=\"filterCollections('moken')\" style=\"padding: 10px 20px; border-radius: 10px; background-color: #B9E3D4; border: none; cursor: pointer; font-weight: bold; color: #5B3920;\">MOKEN</button>\n  </div>\n\n  <div id=\"collection-grid\" style=\"display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 20px;\">\n\n    <!-- SUNBUM COLLECTIONS -->\n    <div class=\"collection-item sunbum\" style=\"text-align: center;\">\n      <a href=\"https://vanillabox.co/collections/original-sun-care\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0692/0257/5613/files/c15fe866487dfc4b5c0f5ce4a9dca915.png?v=1714649926\" alt=\"Sun Care\" style=\"width: 100%; height: 250px; object-fit: cover; border-radius: 10px;\">\n        <div style=\"background-color: #FFF8A3; padding: 10px; font-weight: bold;\">SUN CARE</div>\n      </a>\n    </div>\n    <div class=\"collection-item sunbum\" style=\"text-align: center;\">\n      <a href=\"https://vanillabox.co/collections/hair-care/\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0692/0257/5613/files/png-05.png?v=1712224283\" alt=\"Hair Care\" style=\"width: 100%; height: 250px; object-fit: cover; border-radius: 10px;\">\n        <div style=\"background-color: #FFF8A3; padding: 10px; font-weight: bold;\">HAIR CARE</div>\n      </a>\n    </div>\n    <div class=\"collection-item sunbum\" style=\"text-align: center;\">\n      <a href=\"https://vanillabox.co/collections/original-lip-balm\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0692/0257/5613/files/Cocobalms_93ccaaa6-b764-4d93-99df-e83ce4d8127d.jpg?v=1712224753\" alt=\"Lip Care\" style=\"width: 100%; height: 250px; object-fit: cover; border-radius: 10px;\">\n        <div style=\"background-color: #FFF8A3; padding: 10px; font-weight: bold;\">LIP CARE</div>\n      </a>\n    </div>\n    <div class=\"collection-item sunbum\" style=\"text-align: center;\">\n      <a href=\"https://vanillabox.co/collections/merch/\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0692/0257/5613/files/UNADJUSTEDNONRAW_thumb_908_02558d35-8a05-46b1-884c-57539646e996.jpg?v=1712223467\" alt=\"Merch\" style=\"width: 100%; height: 250px; object-fit: cover; border-radius: 10px;\">\n        <div style=\"background-color: #FFF8A3; padding: 10px; font-weight: bold;\">MERCH</div>\n      </a>\n    </div>\n  <!-- ALOHA COLLECTIONS -->\n    <div class=\"collection-item aloha\" style=\"text-align: center; display: none;\">\n      <a href=\"https://vanillabox.co/collections/aloha-tote-bags\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0692/0257/5613/files/line_9-03.jpg?v=1745830520\" alt=\"Totes\" style=\"width: 100%; height: 250px; object-fit: cover; border-radius: 10px;\">\n        <div style=\"background-color: #E8D7FF; padding: 10px; font-weight: bold;\">TOTES</div>\n      </a>\n    </div>\n    <div class=\"collection-item aloha\" style=\"text-align: center; display: none;\">\n      <a href=\"https://vanillabox.co/collections/aloha-backpacks\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0692/0257/5613/files/line_9-14.jpg?v=1745830561\" alt=\"Backpacks\" style=\"width: 100%; height: 250px; object-fit: cover; border-radius: 10px;\">\n        <div style=\"background-color: #E8D7FF; padding: 10px; font-weight: bold;\">BACKPACKS</div>\n      </a>\n    </div>\n    <div class=\"collection-item aloha\" style=\"text-align: center; display: none;\">\n      <a href=\"https://vanillabox.co/collections/aloha-crossbody-bags\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0692/0257/5613/files/line_9-06.jpg?v=1745830581\" alt=\"Crossbodies\" style=\"width: 100%; height: 250px; object-fit: cover; border-radius: 10px;\">\n        <div style=\"background-color: #E8D7FF; padding: 10px; font-weight: bold;\">CROSSBODIES</div>\n      </a>\n    </div>\n    <div class=\"collection-item aloha\" style=\"text-align: center; display: none;\">\n      <a href=\"https://vanillabox.co/collections/aloha-weekender-bags\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0692/0257/5613/files/line_9-02.jpg?v=1745830589\" alt=\"Weekenders\" style=\"width: 100%; height: 250px; object-fit: cover; border-radius: 10px;\">\n        <div style=\"background-color: #E8D7FF; padding: 10px; font-weight: bold;\">WEEKENDERS</div>\n      </a>\n    </div>\n    <div class=\"collection-item aloha\" style=\"text-align: center; display: none;\">\n      <a href=\"https://vanillabox.co/collections/aloha-hip-packs\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0692/0257/5613/files/line_9-10.jpg?v=1745830599\" alt=\"Hip Packs\" style=\"width: 100%; height: 250px; object-fit: cover; border-radius: 10px;\">\n        <div style=\"background-color: #E8D7FF; padding: 10px; font-weight: bold;\">HIP PACKS</div>\n      </a>\n    </div>\n    <div class=\"collection-item aloha\" style=\"text-align: center; display: none;\">\n      <a href=\"https://vanillabox.co/collections/aloha-dopp-kits\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0692/0257/5613/files/line_9-13.jpg?v=1745830612\" alt=\"Dopp Kits\" style=\"width: 100%; height: 250px; object-fit: cover; border-radius: 10px;\">\n        <div style=\"background-color: #E8D7FF; padding: 10px; font-weight: bold;\">DOPP KITS</div>\n      </a>\n    </div>\n    <div class=\"collection-item aloha\" style=\"text-align: center; display: none;\">\n      <a href=\"https://vanillabox.co/collections/aloha-duffle-bags\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0692/0257/5613/files/line_9-12.jpg?v=1745830640\" alt=\"Duffle Bags\" style=\"width: 100%; height: 250px; object-fit: cover; border-radius: 10px;\">\n        <div style=\"background-color: #E8D7FF; padding: 10px; font-weight: bold;\">DUFFLE BAGS</div>\n      </a>\n    </div>\n    <div class=\"collection-item aloha\" style=\"text-align: center; display: none;\">\n      <a href=\"https://vanillabox.co/collections/aloha-pouches\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0692/0257/5613/files/line_9-09.jpg?v=1745830650\" alt=\"Pouches\" style=\"width: 100%; height: 250px; object-fit: cover; border-radius: 10px;\">\n        <div style=\"background-color: #E8D7FF; padding: 10px; font-weight: bold;\">POUCHES</div>\n      </a>\n    </div>\n\n    <!-- MOKEN COLLECTIONS -->\n    <div class=\"collection-item moken\" style=\"text-align: center; display: none;\">\n      <a href=\"https://vanillabox.co/collections/fashion-sunglasses-by-moken\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0692/0257/5613/files/MOKEN_SOLAIRES-198_1_c845f911-6489-42dc-bcef-7bd0673e9b2b.jpg?v=1752984288\" alt=\"Fashion\" style=\"width: 100%; height: 250px; object-fit: cover; border-radius: 10px;\">\n        <div style=\"background-color: #B9E3D4; padding: 10px; font-weight: bold;\">FASHION</div>\n      </a>\n    </div>\n    <div class=\"collection-item moken\" style=\"text-align: center; display: none;\">\n      <a href=\"https://vanillabox.co/collections/moken-sports\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0692/0257/5613/files/SNY07229_1_1_1.jpg?v=1752675756\" alt=\"Active\" style=\"width: 100%; height: 250px; object-fit: cover; border-radius: 10px;\">\n        <div style=\"background-color: #B9E3D4; padding: 10px; font-weight: bold;\">ACTIVE</div>\n      </a>\n    </div>\n    <div class=\"collection-item moken\" style=\"text-align: center; display: none;\">\n      <a href=\"https://vanillabox.co/collections/moken-kids\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0692/0257/5613/files/SNY03632_1.jpg?v=1752771023\" alt=\"Kids\" style=\"width: 100%; height: 250px; object-fit: cover; border-radius: 10px;\">\n        <div style=\"background-color: #B9E3D4; padding: 10px; font-weight: bold;\">KIDS</div>\n      </a>\n    </div>\n    <div class=\"collection-item moken\" style=\"text-align: center; display: none;\">\n      <a href=\"https://vanillabox.co/collections/moken-all\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0692/0257/5613/files/MOKEN_SOLAIRES-130_1.jpg?v=1752742836\" alt=\"Shop All\" style=\"width: 100%; height: 250px; object-fit: cover; border-radius: 10px;\">\n        <div style=\"background-color: #B9E3D4; padding: 10px; font-weight: bold;\">SHOP ALL</div>\n      </a>\n    </div>\n\n  </div>\n</div>\n\n<style>\n@media screen and (max-width: 768px) {\n  #collection-grid {\n    grid-template-columns: repeat(2, 1fr) !important;\n  }\n}\n</style>\n\n<script>\nfunction filterCollections(brand) {\n  const items = document.querySelectorAll('.collection-item');\n  items.forEach(item => {\n    item.style.display = item.classList.contains(brand) ? 'block' : 'none';\n  });\n}\n</script>"
+      }
+    },
+    "spacer_7QR6FY": {
+      "type": "spacer",
+      "settings": {
+        "margin_top": 60,
+        "margin_bottom": 35,
+        "margin_top_mobile": 25,
+        "margin_bottom_mobile": 45,
+        "container": "boxed",
+        "show_separator": false,
+        "title": ""
+      }
+    },
+    "carousel_products_PaNeMj": {
+      "type": "carousel-products",
+      "blocks": {
+        "collection_GtU8QE": {
+          "type": "collection",
+          "settings": {
+            "title": "",
+            "collection": "back-to-school"
+          }
+        }
+      },
+      "block_order": [
+        "collection_GtU8QE"
+      ],
+      "disabled": true,
+      "name": "BTS",
+      "settings": {
+        "show_title": true,
+        "container": "boxed",
+        "size_of_columns": "4",
+        "max_count": 6,
+        "autoplay": true,
+        "speed": 5,
+        "infinite": true,
+        "arrows": true,
+        "bullets": true
+      }
+    },
+    "spacer_w6e8k9": {
+      "type": "spacer",
+      "disabled": true,
+      "settings": {
+        "margin_top": 60,
+        "margin_bottom": 35,
+        "margin_top_mobile": 25,
+        "margin_bottom_mobile": 45,
+        "container": "boxed",
+        "show_separator": false,
+        "title": ""
+      }
+    },
+    "spacer_Qcj7t7": {
+      "type": "spacer",
+      "disabled": true,
+      "name": "Spacer",
+      "settings": {
+        "margin_top": 60,
+        "margin_bottom": 0,
+        "margin_top_mobile": 0,
+        "margin_bottom_mobile": 0,
+        "container": "boxed",
+        "show_separator": false,
+        "title": ""
+      }
+    },
+    "home_builder_i79yeA": {
+      "type": "home-builder",
+      "blocks": {
+        "promobox_bJNF3p": {
+          "type": "promobox",
+          "settings": {
+            "url": "",
+            "image_size": 650,
+            "image_mobile_size": 550,
+            "image_position_x": 50,
+            "color_image_mask": "rgba(0,0,0,0)",
+            "image_mask_opacity": 0.7,
+            "text_line_1": "",
+            "text_line_2": "It's Simple",
+            "text_line_3": "אנחנו דואגים לכדור הארץ, לבעלי החיים ולמשפחות שלנו. לכן, אנחנו לא מפסיקים לחדש ולמצוא דרכים חכמות לייצר מוצרים נקיים, בטוחים וידידותיים - לכם, לסביבה ולעולם כולו",
+            "style": "1",
+            "button_1": "",
+            "button_1_url": "",
+            "color_button_type_1": "default",
+            "button_2": "",
+            "button_2_url": "",
+            "color_button_type_2": "default",
+            "list_1": "",
+            "custom_html": "",
+            "video_autoplay": true,
+            "video_controls": false,
+            "youtube_video": "",
+            "youtube_video_mobile": "",
+            "type": "type-1-background-4",
+            "content_position": "center",
+            "content_align": "center",
+            "add_container": false,
+            "content_width": 100,
+            "text_width": 0,
+            "height": "50",
+            "min_height": 0,
+            "size_of_column": "auto",
+            "visible": "mobile",
+            "parallax": "disable",
+            "animation_to": "none",
+            "animation_from": "none",
+            "animation_opacity": "none",
+            "animation_text": "none",
+            "color_text_1": "",
+            "color_text_2": "",
+            "color_text_3": "",
+            "color_text_bg": "#fffbc7",
+            "color_curtain_bg": "",
+            "customization_class": ""
+          }
+        },
+        "promobox_WGTxXb": {
+          "type": "promobox",
+          "settings": {
+            "url": "",
+            "image": "shopify://shop_images/SB_2025_Sun-Campaign_About-Sonny_R3V1A_Mockup.webp",
+            "image_size": 1450,
+            "image_mobile": "shopify://shop_images/Frame_7_2.png",
+            "image_mobile_size": 1900,
+            "image_position_x": 54,
+            "color_image_mask": "rgba(0,0,0,0)",
+            "image_mask_opacity": 0.8,
+            "text_line_1": "",
+            "text_line_2": "TRUST THE BUM",
+            "text_line_3": "מה הכוונה? זה אומר לסמוך עלינו\nאלה שחיים על החוף ומשתמשים במוצרים האלו בימים האינטנסיביים ביותר בשמש. \nתאכלס, כשמייצרים מוצרים כדי להגן על אלו שאוהבים, המוצרים פשוט טובים יותר",
+            "style": "1",
+            "button_1": "SHOP SUN BUM",
+            "button_1_url": "shopify://collections/sunbum-all",
+            "color_button_type_1": "invert",
+            "button_2": "",
+            "button_2_url": "",
+            "color_button_type_2": "default",
+            "list_1": "",
+            "custom_html": "",
+            "video_autoplay": true,
+            "video_controls": false,
+            "youtube_video": "",
+            "youtube_video_mobile": "",
+            "type": "type-1-background-4",
+            "content_position": "center_right",
+            "content_align": "center",
+            "add_container": false,
+            "content_width": 100,
+            "text_width": 480,
+            "height": "auto",
+            "min_height": 450,
+            "size_of_column": "auto",
+            "visible": "desktop_mobile",
+            "parallax": "disable",
+            "animation_to": "none",
+            "animation_from": "none",
+            "animation_opacity": "none",
+            "animation_text": "none",
+            "color_text_1": "",
+            "color_text_2": "",
+            "color_text_3": "",
+            "color_text_bg": "#ffffff",
+            "color_curtain_bg": "rgba(0,0,0,0)",
+            "customization_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "promobox_bJNF3p",
+        "promobox_WGTxXb"
+      ],
+      "name": "SUNBUM",
+      "settings": {
+        "title": "",
+        "container": "fullwidth",
+        "size_of_columns": "1",
+        "size_of_columns_mobile": "1",
+        "margins_for_columns": "none",
+        "align_of_columns": "top_center",
+        "disable_column_paddings": false,
+        "precedence": "",
+        "customization_class": ""
+      }
+    },
+    "home_builder_whxb4U": {
+      "type": "home-builder",
+      "blocks": {
+        "promobox_mKqX9f": {
+          "type": "promobox",
+          "settings": {
+            "url": "",
+            "image_size": 1050,
+            "image_mobile_size": 1250,
+            "image_position_x": 57,
+            "color_image_mask": "rgba(0,0,0,0)",
+            "image_mask_opacity": 0.8,
+            "text_line_1": "",
+            "text_line_2": "ALOHA BAGS",
+            "text_line_3": "Travel light, pack it right and focus on creating lasting memories",
+            "style": "1",
+            "button_1": "",
+            "button_1_url": "",
+            "color_button_type_1": "default",
+            "button_2": "",
+            "button_2_url": "",
+            "color_button_type_2": "default",
+            "list_1": "",
+            "custom_html": "",
+            "video_autoplay": true,
+            "video_controls": false,
+            "youtube_video": "",
+            "youtube_video_mobile": "",
+            "type": "type-1-background-4",
+            "content_position": "center",
+            "content_align": "center",
+            "add_container": false,
+            "content_width": 91,
+            "text_width": 360,
+            "height": "30",
+            "min_height": 0,
+            "size_of_column": "auto",
+            "visible": "mobile",
+            "parallax": "disable",
+            "animation_to": "none",
+            "animation_from": "none",
+            "animation_opacity": "none",
+            "animation_text": "none",
+            "color_text_1": "",
+            "color_text_2": "#493628",
+            "color_text_3": "",
+            "color_text_bg": "#e8d7ff",
+            "color_curtain_bg": "#ffffff",
+            "customization_class": ""
+          }
+        },
+        "promobox_YFd4Qq": {
+          "type": "promobox",
+          "settings": {
+            "url": "shopify://collections/shop-all-aloha",
+            "image": "shopify://shop_images/Frame_5.png",
+            "image_size": 1450,
+            "image_mobile": "shopify://shop_images/2_carousel_3.webp",
+            "image_mobile_size": 1050,
+            "image_position_x": 49,
+            "color_image_mask": "rgba(0,0,0,0)",
+            "image_mask_opacity": 0.7,
+            "text_line_1": "",
+            "text_line_2": "OUR BAGS",
+            "text_line_3": "תיקים העשויים מנייר ממוחזר, מוגנים מפני מים ומשלבים עיצוב אקזוטי לצד פרקטיות המאפשרים תיק מושלם לכל אירוע- טיול, אימון או יציאה",
+            "style": "1",
+            "button_1": "SHOP ALOHA",
+            "button_1_url": "shopify://collections/shop-all-aloha",
+            "color_button_type_1": "clean",
+            "button_2": "",
+            "button_2_url": "",
+            "color_button_type_2": "default",
+            "list_1": "",
+            "custom_html": "",
+            "video_autoplay": true,
+            "video_controls": false,
+            "youtube_video": "",
+            "youtube_video_mobile": "",
+            "type": "type-1-background-4",
+            "content_position": "center_left",
+            "content_align": "center",
+            "add_container": false,
+            "content_width": 100,
+            "text_width": 430,
+            "height": "auto",
+            "min_height": 0,
+            "size_of_column": "auto",
+            "visible": "desktop_mobile",
+            "parallax": "disable",
+            "animation_to": "none",
+            "animation_from": "none",
+            "animation_opacity": "none",
+            "animation_text": "none",
+            "color_text_1": "rgba(0,0,0,0)",
+            "color_text_2": "#493628",
+            "color_text_3": "#493628",
+            "color_text_bg": "rgba(0,0,0,0)",
+            "color_curtain_bg": "#ffffff",
+            "customization_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "promobox_mKqX9f",
+        "promobox_YFd4Qq"
+      ],
+      "name": "ALOHA",
+      "settings": {
+        "title": "",
+        "container": "fullwidth",
+        "size_of_columns": "1",
+        "size_of_columns_mobile": "1",
+        "margins_for_columns": "none",
+        "align_of_columns": "top_center",
+        "disable_column_paddings": false,
+        "precedence": "",
+        "customization_class": ""
+      }
+    },
+    "home_builder_eLDFY6": {
+      "type": "home-builder",
+      "blocks": {
+        "promobox_FNHEGF": {
+          "type": "promobox",
+          "settings": {
+            "url": "",
+            "image_size": 650,
+            "image_mobile_size": 1750,
+            "image_position_x": 100,
+            "color_image_mask": "rgba(0,0,0,0)",
+            "image_mask_opacity": 0.7,
+            "text_line_1": "",
+            "text_line_2": "MEET MOKEN",
+            "text_line_3": "מותג משקפי שמש אורגני צרפתי, המשלב יופי וטבע בהרמוניה מושלמת. \nהמסגרות מיוצרות בטכנולוגיית הזרקה ייחודית, המשתמשת בחומרים טבעיים כמו קליפות אורז, שעם, יוטה ועוד.",
+            "style": "1",
+            "button_1": "",
+            "button_1_url": "",
+            "color_button_type_1": "default",
+            "button_2": "",
+            "button_2_url": "",
+            "color_button_type_2": "default",
+            "list_1": "",
+            "custom_html": "",
+            "video_autoplay": true,
+            "video_controls": false,
+            "youtube_video": "",
+            "youtube_video_mobile": "",
+            "type": "type-1-background-4",
+            "content_position": "center",
+            "content_align": "center",
+            "add_container": false,
+            "content_width": 100,
+            "text_width": 0,
+            "height": "50",
+            "min_height": 0,
+            "size_of_column": "12",
+            "visible": "mobile",
+            "parallax": "disable",
+            "animation_to": "none",
+            "animation_from": "none",
+            "animation_opacity": "none",
+            "animation_text": "none",
+            "color_text_1": "",
+            "color_text_2": "",
+            "color_text_3": "",
+            "color_text_bg": "#b9e3d4",
+            "color_curtain_bg": "",
+            "customization_class": ""
+          }
+        },
+        "promobox_hFz6m6": {
+          "type": "promobox",
+          "settings": {
+            "url": "",
+            "image": "shopify://shop_images/MOKEN_SOLAIRES-439_1.jpg",
+            "image_size": 2450,
+            "image_mobile": "shopify://shop_images/MOKEN_SOLAIRES-130_2.jpg",
+            "image_mobile_size": 1900,
+            "image_position_x": 54,
+            "color_image_mask": "rgba(0,0,0,0)",
+            "image_mask_opacity": 0.8,
+            "text_line_1": "",
+            "text_line_2": "",
+            "text_line_3": "כל דגם מצויד בעדשות UV400, פולארויד ורספונסיביות, המציעות נוחות והגנה אופטימלית במצבי אור משתנים. הקולקציה כוללת דגמים לאופנה, ספורט וילדים, עיצוב מדויק עם השפעה סביבתית חיובית – בדיוק מה שהעולם צריך.",
+            "style": "1",
+            "button_1": "SHOP MOKEN",
+            "button_1_url": "shopify://collections/moken-all",
+            "color_button_type_1": "secondary",
+            "button_2": "",
+            "button_2_url": "",
+            "color_button_type_2": "default",
+            "list_1": "",
+            "custom_html": "",
+            "video_autoplay": true,
+            "video_controls": false,
+            "youtube_video": "",
+            "youtube_video_mobile": "",
+            "type": "type-1-background-4",
+            "content_position": "center_right",
+            "content_align": "center",
+            "add_container": false,
+            "content_width": 100,
+            "text_width": 480,
+            "height": "auto",
+            "min_height": 450,
+            "size_of_column": "auto",
+            "visible": "desktop_mobile",
+            "parallax": "disable",
+            "animation_to": "none",
+            "animation_from": "none",
+            "animation_opacity": "none",
+            "animation_text": "none",
+            "color_text_1": "",
+            "color_text_2": "",
+            "color_text_3": "",
+            "color_text_bg": "#ffffff",
+            "color_curtain_bg": "rgba(0,0,0,0)",
+            "customization_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "promobox_FNHEGF",
+        "promobox_hFz6m6"
+      ],
+      "name": "MOKEN",
+      "settings": {
+        "title": "",
+        "container": "fullwidth",
+        "size_of_columns": "1",
+        "size_of_columns_mobile": "1",
+        "margins_for_columns": "none",
+        "align_of_columns": "top_center",
+        "disable_column_paddings": false,
+        "precedence": "",
+        "customization_class": ""
+      }
+    },
+    "1586283399218": {
+      "type": "spacer",
+      "settings": {
+        "margin_top": 60,
+        "margin_bottom": 50,
+        "margin_top_mobile": 0,
+        "margin_bottom_mobile": 35,
+        "container": "boxed",
+        "show_separator": true,
+        "title": ""
+      }
+    },
+    "1586283433745": {
+      "type": "carousel-brands",
+      "blocks": {
+        "1586283438841": {
+          "type": "brand",
+          "settings": {
+            "image": "shopify://shop_images/Group_8.png",
+            "link": "https://shella-demo.myshopify.com/collections/vendors?q=Calvin%20Klein"
+          }
+        },
+        "1586283440593": {
+          "type": "brand",
+          "settings": {
+            "image": "shopify://shop_images/Group_7_1.png",
+            "link": "https://shella-demo.myshopify.com/collections/vendors?q=Chanel"
+          }
+        },
+        "1586283444209": {
+          "type": "brand",
+          "settings": {
+            "image": "shopify://shop_images/Group_9_1.png",
+            "link": "https://shella-demo.myshopify.com/collections/vendors?q=Giorgio%20Armani"
+          }
+        },
+        "1586283447563": {
+          "type": "brand",
+          "settings": {
+            "image": "shopify://shop_images/Group_6_1.png",
+            "link": "https://shella-demo.myshopify.com/collections/vendors?q=Calvin%20Klein"
+          }
+        },
+        "brand_cmt7it": {
+          "type": "brand",
+          "settings": {
+            "image": "shopify://shop_images/Group_11.png",
+            "link": ""
+          }
+        },
+        "brand_em7K7j": {
+          "type": "brand",
+          "settings": {
+            "image": "shopify://shop_images/Group_13.png",
+            "link": ""
+          }
+        },
+        "1586283451048": {
+          "type": "brand",
+          "settings": {
+            "image": "shopify://shop_images/Group_10.png",
+            "link": "https://shella-demo.myshopify.com/collections/vendors?q=Calvin%20Klein"
+          }
+        },
+        "1586283449137": {
+          "type": "brand",
+          "settings": {
+            "image": "shopify://shop_images/Group_14.png",
+            "link": "https://shella-demo.myshopify.com/collections/vendors?q=Calvin%20Klein"
+          }
+        },
+        "1586283452306": {
+          "type": "brand",
+          "settings": {
+            "image": "shopify://shop_images/Group_12.png",
+            "link": "https://shella-demo.myshopify.com/collections/vendors?q=Calvin%20Klein"
+          }
+        },
+        "brand_PwaBUc": {
+          "type": "brand",
+          "settings": {
+            "image": "shopify://shop_images/Group_19.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1586283438841",
+        "1586283440593",
+        "1586283444209",
+        "1586283447563",
+        "brand_cmt7it",
+        "brand_em7K7j",
+        "1586283451048",
+        "1586283449137",
+        "1586283452306",
+        "brand_PwaBUc"
+      ],
+      "settings": {
+        "title": "Join the Brands That Chose Us",
+        "layout": "grid",
+        "size_of_columns": "4",
+        "image_max_width": 110,
+        "bordered_links": true,
+        "border_radius": "",
+        "autoplay": true,
+        "speed": 5,
+        "infinite": true,
+        "arrows": true,
+        "bullets": false
+      }
+    },
+    "1586284034569": {
+      "type": "spacer",
+      "settings": {
+        "margin_top": 60,
+        "margin_bottom": 0,
+        "margin_top_mobile": 0,
+        "margin_bottom_mobile": 0,
+        "container": "boxed",
+        "show_separator": false,
+        "title": ""
+      }
+    },
+    "home_builder_y6XD8M": {
+      "type": "home-builder",
+      "blocks": {
+        "promobox_krFaYN": {
+          "type": "promobox",
+          "name": "Follow Us",
+          "settings": {
+            "url": "",
+            "image_size": 1450,
+            "image_mobile_size": 550,
+            "image_position_x": 50,
+            "color_image_mask": "#ffffff",
+            "image_mask_opacity": 0.5,
+            "text_line_1": "",
+            "text_line_2": "",
+            "text_line_3": "",
+            "style": "1",
+            "button_1": "Follow Us",
+            "button_1_url": "https://www.instagram.com/vanilla_box_il/",
+            "color_button_type_1": "default",
+            "button_2": "Button #2 text",
+            "button_2_url": "",
+            "color_button_type_2": "default",
+            "list_1": "",
+            "custom_html": "",
+            "video_autoplay": true,
+            "video_controls": false,
+            "youtube_video": "",
+            "youtube_video_mobile": "",
+            "type": "text",
+            "content_position": "center",
+            "content_align": "center",
+            "add_container": false,
+            "content_width": 100,
+            "text_width": 0,
+            "height": "auto",
+            "min_height": 0,
+            "size_of_column": "auto",
+            "visible": "desktop_mobile",
+            "parallax": "disable",
+            "animation_to": "none",
+            "animation_from": "none",
+            "animation_opacity": "none",
+            "animation_text": "none",
+            "color_text_1": "",
+            "color_text_2": "",
+            "color_text_3": "",
+            "color_text_bg": "",
+            "color_curtain_bg": "",
+            "customization_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "promobox_krFaYN"
+      ],
+      "name": "Builder",
+      "settings": {
+        "title": "",
+        "container": "boxed",
+        "size_of_columns": "1",
+        "size_of_columns_mobile": "1",
+        "margins_for_columns": "none",
+        "align_of_columns": "top_center",
+        "disable_column_paddings": false,
+        "precedence": "",
+        "customization_class": ""
+      }
+    },
+    "spacer_P4jexz": {
+      "type": "spacer",
+      "name": "Spacer",
+      "settings": {
+        "margin_top": 60,
+        "margin_bottom": 0,
+        "margin_top_mobile": 0,
+        "margin_bottom_mobile": 0,
+        "container": "boxed",
+        "show_separator": false,
+        "title": ""
+      }
+    },
+    "1749536828a19d5ba7": {
+      "type": "apps",
+      "blocks": {
+        "instafeed_app_block_fhEj8W": {
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "title_size_v2": 0,
+            "alignment": "center",
+            "instafeed_margin_top": 0,
+            "instafeed_margin_bottom": 0,
+            "instafeed_margin_sides": 0,
+            "show_instagram_link": true,
+            "link_alignment": "center",
+            "link_color": "#000000",
+            "background_color": "",
+            "feed_id": "",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_fhEj8W"
+      ],
+      "settings": {
+        "use_container": true
+      }
+    },
+    "subscription_form_XTNFyX": {
+      "type": "subscription-form",
+      "name": "Subscription form",
+      "settings": {
+        "title": "",
+        "paragraph": "הירשמו לניוזלטר ותהיו מעודכנים במבצעים והנחות שוות!",
+        "placeholder": "Enter Your Email Address",
+        "button_text": "SUBSCRIBE!",
+        "style": "1"
+      }
+    }
+  },
+  "order": [
+    "custom_liquid_ReXcAC",
+    "custom_liquid_b3jaHQ",
+    "custom_liquid_HE89Fk",
+    "spacer_X6Ed9c",
+    "carousel_products_mdEB4A",
+    "carousel_products_7wBPf3",
+    "spacer_zV6WaU",
+    "1586279708879",
+    "custom_liquid_FVYjRM",
+    "custom_liquid_bDi6aT",
+    "spacer_7QR6FY",
+    "carousel_products_PaNeMj",
+    "spacer_w6e8k9",
+    "spacer_Qcj7t7",
+    "home_builder_i79yeA",
+    "home_builder_whxb4U",
+    "home_builder_eLDFY6",
+    "1586283399218",
+    "1586283433745",
+    "1586284034569",
+    "home_builder_y6XD8M",
+    "spacer_P4jexz",
+    "1749536828a19d5ba7",
+    "subscription_form_XTNFyX"
+  ]
+}

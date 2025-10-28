@@ -111,9 +111,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .product-collection__title h4 a {
-    font-size: 18px;
-    font-weight: 900;
+    font-size: 16px;
+    font-weight: 400;
     color: rgb(78, 54, 37) !important;
+    font-family:Arial, sans-serif, sans-serif;
 }
 
 .product-collection__price span,
@@ -163,17 +164,26 @@ h1, h2, h3, h4, h5, h6 {
     color: rgb(78, 54, 37) !important; 
     font-weight: 800;
 }
-
+[data-rebuy-component=login] {
+    display: none !important;
+}
+.rebuy-cart__flyout ul:not(.list-unstyled):not([list-unstyled]) li::before
+{
+    content: none !important;
+    display: none !important;
+}
 @media screen and (max-width:1024px) {
     .monkey-icon img {
         height: 40px;
     }
+    
 }
 @media screen and (min-width:1024px){
   .main-hero-banner .promobox__content_inner {
     width: 40% !important;
     bottom: initial !important;
   }
+
 }
 
 @media screen and (max-width:1023px){
