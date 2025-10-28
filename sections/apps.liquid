@@ -1,0 +1,30 @@
+<div{% if section.settings.use_container %} class="container"{% endif %}>
+  {%- for block in section.blocks -%}
+      {% render block %}
+  {%- endfor -%}
+</div>
+
+{% schema %}
+{
+  "name": "Apps",
+  "settings": [
+    {
+        "type": "checkbox",
+        "id": "use_container",
+        "label": "Use container",
+        "default": true
+    }
+  ],
+  "blocks": [
+    {
+      "type": "@app"
+    }
+  ],
+  "presets": [
+    {
+        "name": "Apps",
+        "category": "7) Apps"
+    }
+  ]
+}
+{% endschema %}

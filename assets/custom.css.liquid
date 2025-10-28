@@ -1,0 +1,184 @@
+@font-face {
+    font-family: 'Akkurat';
+    src: url('{{ 'Akkurat.woff2' | asset_url }}') format('woff2'),
+        url('{{ 'Akkurat.woff' | asset_url }}') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Akkurat';
+    src: url('{{ 'Akkurat-Bold.woff2' | asset_url }}') format('woff2'),
+        url('{{ 'Akkurat-Bold.woff' | asset_url }}') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Akkurat';
+    src: url('{{ 'Akkurat-Light.woff2' | asset_url }}') format('woff2'),
+        url('{{ 'Akkurat-Light.woff' | asset_url }}') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Akkurat';
+    src: url('{{ 'Akkurat-BoldItalic.woff2' | asset_url }}') format('woff2'),
+        url('{{ 'Akkurat-BoldItalic.woff' | asset_url }}') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Akkurat';
+    src: url('{{ 'Akkurat-LightItalic.woff2' | asset_url }}') format('woff2'),
+        url('{{ 'Akkurat-LightItalic.woff' | asset_url }}') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Akkurat';
+    src: url('{{ 'Akkurat-Regular.woff2' | asset_url }}') format('woff2'),
+        url('{{ 'Akkurat-Regular.woff' | asset_url }}') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Akkurat';
+    src: url('{{ 'Akkurat-RegularItalic.woff2' | asset_url }}') format('woff2'),
+        url('{{ 'Akkurat-RegularItalic.woff' | asset_url }}') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: rgb(78, 54, 37) !important; 
+}
+
+.carousel__title a{
+    color: rgb(78, 54, 37) !important;  
+}
+
+.product-collection__image .rimage__img{
+  border-radius:25px;
+}
+.product-collection__button-add-to-cart,
+.product-collection__button-add-to-cart .btn{
+    width: -webkit-fill-available;
+}
+.main-hero-banner .promobox__text-2 {
+    font-weight: 900 !important;
+    line-height: 0.9;
+    max-width: 9em;
+}
+.main-hero-banner .promobox__content_inner {
+    text-transform: uppercase;
+}
+.main-hero-banner .promobox__btn-1.btn.btn--invert {
+    min-height: 38px;
+    font-size: .875rem !important;
+    font-weight: 700;
+}
+.main-hero-banner video, .main-hero-banner video img,.main-hero-banner iframe {
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    max-width: initial;
+    object-fit: cover;
+}
+.monkey-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.monkey-icon img {
+    width: auto;
+    display: block;
+    height: 65px;
+}
+
+.product-collection__title h4 a {
+    font-size: 18px;
+    font-weight: 900;
+    color: rgb(78, 54, 37) !important;
+}
+
+.product-collection__price span,
+.product-page-info__price span {
+    color: rgb(78, 54, 37) !important;
+}
+
+.label {
+    background-color: var(--label-in-stock-bg);
+    padding: 2px 10px;
+    line-height: initial;
+    height: initial;
+    font-size: 14px;
+}
+
+.promobox .pointer-events-all p {
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.promobox__content-scale {
+    background: rgb(78, 54, 37) !important; 
+}
+
+.promobox__content-scale::before {
+    background-color: initial; 
+}
+
+.menu:not(.menu--vertical) .menu__panel>.menu__item>a, 
+.menu:not(.menu--vertical) .menu__panel>.menu__item>a:visited, 
+.menu:not(.menu--vertical) .menu__panel>.menu__item>a:active, 
+.menu:not(.menu--vertical) .menu__panel>.menu__item>a:link {
+    color: rgb(78, 54, 37) !important;  
+    font-weight: 800;
+}
+
+.menu__list--styled .menu__item>a, 
+.menu__list--styled .menu__item>a:visited, 
+.menu__list--styled .menu__item>a:active, 
+.menu__list--styled .menu__item>a:link {
+    color: rgb(78, 54, 37) !important;  
+    font-weight: 800;
+}
+
+.header__btn-cart span, 
+.header__btn-currency span {
+    color: rgb(78, 54, 37) !important; 
+    font-weight: 800;
+}
+
+@media screen and (max-width:1024px) {
+    .monkey-icon img {
+        height: 40px;
+    }
+}
+@media screen and (min-width:1024px){
+  .main-hero-banner .promobox__content_inner {
+    width: 40% !important;
+    bottom: initial !important;
+  }
+}
+
+@media screen and (max-width:1023px){
+  .main-hero-banner .promobox__content_inner {
+    width: 70%;
+    bottom: 0px !important;
+  }
+}

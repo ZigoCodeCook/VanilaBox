@@ -1,0 +1,127 @@
+<div data-section-id="{{ section.id }}" data-section-type="search-form"{% render 'layout-get-container-class' custom_class: 'd-block' %}>
+    <div class="search-form py-55 text-center">
+        {%- if section.settings.title != blank -%}
+            <h3 class="search-form__title mb-10">{{ section.settings.title }}</h3>
+        {%- endif -%}
+        {%- if section.settings.paragraph != blank -%}
+            <p class="search-form__paragraph mb-15">{{ section.settings.paragraph }}</p>
+        {%- endif -%}
+        <div class="search-form__form px-10 mx-auto">
+            {% case section.settings.type %}
+            {% when '1' %}
+                <form action="{{ routes.search_url }}" method="get" role="search" class="mb-0">
+                    <label class="position-relative d-flex align-items-center mr-0">
+                        <input type="search"
+                               class="pl-20 pr-40 mb-0"
+                               name="q"
+                               value="{{ search.terms | escape }}"
+                               placeholder="{{ section.settings.placeholder }}">
+                        <input type="hidden" name="options[prefix]" value="last" />
+                        <i class="position-absolute right-0 mr-15">
+                            {% render 'icon-theme-168' %}
+                        </i>
+                    </label>
+                </form>
+            {% when '2' %}
+                <form action="{{ routes.search_url }}" method="get" role="search" class="mb-0">
+                    <div class="d-flex">
+                        <input type="search"
+                               class="mb-0 mr-15"
+                               name="q"
+                               value="{{ search.terms | escape }}"
+                               placeholder="{{ section.settings.placeholder }}">
+                        <input type="hidden" name="options[prefix]" value="last" />
+                        <button type="submit" class="btn btn-invert">{{ section.settings.button_text }}</button>
+                    </div>
+                </form>
+            {% endcase %}
+        </div>
+    </div>
+</div>
+
+
+{% schema %}
+{
+    "name": "t:sections.search_form.name",
+    "settings": [
+        {
+            "type": "select",
+            "id": "container",
+            "label": "t:sections.search_form.settings.container.label",
+            "default": "fullwidth",
+            "options": [
+                {
+                    "value": "fullwidth",
+                    "label": "t:sections.search_form.settings.container.option__1.label"
+                },
+                {
+                    "value": "boxed",
+                    "label": "t:sections.search_form.settings.container.option__2.label"
+                }
+            ]
+        },
+        {
+            "type": "header",
+            "content": "t:sections.search_form.settings.header__1.content"
+        },
+        {
+            "type": "text",
+            "id": "title",
+            "label": "t:sections.search_form.settings.title.label",
+            "default": "SEARCH OUR SHOP"
+        },
+        {
+            "type": "text",
+            "id": "paragraph",
+            "label": "t:sections.search_form.settings.paragraph.label",
+            "default": "We've got tons of great products."
+        },
+        {
+            "type": "select",
+            "id": "type",
+            "label": "t:sections.search_form.settings.type.label",
+            "default": "1",
+            "options": [
+                {
+                    "value": "1",
+                    "label": "t:sections.search_form.settings.type.option__1.label"
+                },
+                {
+                    "value": "2",
+                    "label": "t:sections.search_form.settings.type.option__2.label"
+                }
+            ]
+        },
+        {
+            "type": "text",
+            "id": "placeholder",
+            "label": "t:sections.search_form.settings.placeholder.label",
+            "default": "Search Products..."
+        },
+        {
+            "type": "text",
+            "id": "button_text",
+            "label": "t:sections.search_form.settings.button_text.label",
+            "default": "Search"
+        },
+        {
+            "type": "header",
+            "content": "t:sections.search_form.settings.header__2.content"
+        },
+        {
+            "type": "paragraph",
+            "content": "t:sections.search_form.settings.paragraph__1.content"
+        },
+        {
+            "type": "paragraph",
+            "content": "t:sections.search_form.settings.paragraph__2.content"
+        }
+    ],
+    "presets": [
+        {
+            "name": "Search form",
+            "category": "3) Static content"
+        }
+    ]
+}
+{% endschema %}

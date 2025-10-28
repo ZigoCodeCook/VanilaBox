@@ -1,0 +1,47 @@
+<!-- snippets/product-res-variables.liquid -->
+{%- assign id = mainproduct.id -%}
+{%- assign title = mainproduct.title -%}
+{%- assign description = mainproduct.description -%}
+{%- assign type = mainproduct.type -%}
+{%- assign vendor = mainproduct.vendor -%}
+{%- assign metafields = mainproduct.metafields -%}
+{%- assign current_variant_id = product.id -%}
+{% assign current_variant = product %}
+{%- assign current_variant_metafields = current_variant.metafields -%}
+{%- if url_without_collection -%}
+    {%- assign url = mainproduct.url -%}
+{%- else -%}
+    {%- assign url = mainproduct.url | within: collection -%}
+{%- endif -%}
+{%- assign quantity = current_variant.inventory_quantity -%}
+{%- assign sku = current_variant.sku -%}
+{%- assign barcode = current_variant.barcode -%}
+{%- assign price = current_variant.price -%}
+{%- assign compare_at_price = current_variant.compare_at_price -%}
+{%- assign available = current_variant.available -%}
+{%- if show_first_product_image -%}
+    {%- assign image = mainproduct.images[0] -%}
+    {%- assign hover_image = mainproduct.images[1] -%}
+{%- elsif product.id == product.id and product.image != blank -%}
+    {%- assign image = current_variant.image -%}
+    {%- assign hover_image = current_variant.metafields.custom.variant_hover_image.value -%}
+{%- elsif mainproduct.images[0] -%}
+    {%- assign image = mainproduct.images[0] -%}
+    {%- assign hover_image = mainproduct.images[1] -%}
+{%- elsif mainproduct.media[0] -%}
+    {%- assign image = mainproduct.media[0].preview_image.src -%}
+{%- else -%}
+    {%- assign image = null -%}
+{%- endif -%}
+{%- assign label_hot = current_variant_metafields.labels.hot | default: metafields.labels.hot -%}
+{%- assign label_new = current_variant_metafields.labels.new | default: metafields.labels.new -%}
+{%- assign countdown_date = mainproduct.metafields.shella.countdown -%}
+{%- if countdown_date == blank and mainproduct.metafields.countdown.date != blank -%}
+    {%- assign countdown_date = mainproduct.metafields.countdown.date -%}
+{%- endif -%}
+{%- assign select_current_variant_by_id = null -%}
+{%- if current_variant.inventory_quantity <= 0 and current_variant.inventory_policy == 'continue' -%}
+    {%- assign variant_pre_order = true -%}
+{%- else -%}
+    {%- assign variant_pre_order = false -%}
+{%- endif -%}
