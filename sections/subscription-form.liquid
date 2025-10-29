@@ -72,6 +72,9 @@
             .subscription-form--style-{{ section.settings.style }} p {
                 text-align: center;
             }
+            subscription-form__info{
+                    margin-top: 12px;
+            }
         }
         {% capture button_selector %}.subscription-form--style-{{ section.settings.style }} .subscription-form__form .btn{% endcapture %}
         {% render 'css-style-button' with class: button_selector type: subscription_form_btn_type %}
