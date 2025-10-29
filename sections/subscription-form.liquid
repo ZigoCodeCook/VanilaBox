@@ -2,7 +2,7 @@
     <style>
         :root {
             {% if section.settings.style == '1' %}
-                --subscription-form-style-1-bg: var(--theme-body);
+                --subscription-form-style-1-bg:#e3e0e0;
                 --subscription-form-style-1-bd-top: solid 1px var(--theme5);
                 --subscription-form-style-1-bd-bottom: solid 1px var(--theme5);
                 --subscription-form-style-1-title-c: var(--theme-head-c);
@@ -61,10 +61,16 @@
         }
         .subscription-form--style-{{ section.settings.style }} p {
             color: var(--subscription-form-style-{{ section.settings.style }}-paragraph-c);
+            text-align: end;
         }
         .subscription-form--style-{{ section.settings.style }} [type="email"] {
             background-color: var(--subscription-form-style-{{ section.settings.style }}-input-bg);
             border-top: var(--subscription-form-style-{{ section.settings.style }}-input-bd);
+        }
+        @media screen and (max-width: 1024px) {
+            .subscription-form--style-{{ section.settings.style }} p {
+                text-align: center;
+            }
         }
         {% capture button_selector %}.subscription-form--style-{{ section.settings.style }} .subscription-form__form .btn{% endcapture %}
         {% render 'css-style-button' with class: button_selector type: subscription_form_btn_type %}
@@ -84,18 +90,6 @@
     <div class="subscription-form subscription-form--style-{{ section.settings.style }}">
         <div class="container py-20">
             <div class="row">
-                {%- if section.settings.title != blank or section.settings.paragraph != blank -%}
-                    <div class="col-12 col-lg-6 d-lg-flex flex-lg-column justify-content-lg-center align-items-lg-stretch">
-                        <div class="subscription-form__info text-center text-lg-left">
-                            {%- if section.settings.title != blank -%}
-                                <h5 class="subscription-form__title mb-0">{{ section.settings.title }}</h5>
-                            {%- endif -%}
-                            {%- if section.settings.paragraph != blank -%}
-                                <p class="subscription-form__paragraph mb-0 mt-10 mt-lg-3">{{ section.settings.paragraph }}</p>
-                            {%- endif -%}
-                        </div>
-                    </div>
-                {%- endif -%}
                 <div class="col-12 d-lg-flex flex-lg-column justify-content-lg-center align-items-lg-stretch col-lg-6{% if section.settings.title != blank or section.settings.paragraph != blank %} mt-20 mt-lg-0{% else %} offset-lg-3{% endif %}">
                     <div class="subscription-form__form">
                         <div class="d-flex flex-column">
@@ -129,6 +123,18 @@
                         </div>
                     </div>
                 </div>
+                {%- if section.settings.title != blank or section.settings.paragraph != blank -%}
+                    <div class="col-12 col-lg-6 d-lg-flex flex-lg-column justify-content-lg-center align-items-lg-stretch">
+                        <div class="subscription-form__info text-center text-lg-left">
+                            {%- if section.settings.title != blank -%}
+                                <h5 class="subscription-form__title mb-0">{{ section.settings.title }}</h5>
+                            {%- endif -%}
+                            {%- if section.settings.paragraph != blank -%}
+                                <p class="subscription-form__paragraph mb-0 mt-10 mt-lg-3">{{ section.settings.paragraph }}</p>
+                            {%- endif -%}
+                        </div>
+                    </div>
+                {%- endif -%}
             </div>
         </div>
         {%- if section.settings.show_bottom_separator -%}
