@@ -3568,4 +3568,4 @@
       theme.Cart = new CartController;
   });
 
-  
+  })(jQueryTheme);
