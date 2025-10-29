@@ -515,7 +515,7 @@
     {%- case section.settings.type -%}
     {%- when '1' -%}
         <footer id="footer" class="footer footer--type-{{ section.settings.type }} footer--style-{{ section.settings.style }}{% if template != 'index' %} {{ footer_other_page_margins }}{% endif %}{% if section.settings.enable_fixed %} pt-1{% endif %} text-center text-lg-left js-footer"{{ fixed_attr }}>
-            <div class="footer__border-top d-none d-lg-block"></div>
+            <div class="d-none d-lg-block"></div>
             <div class="footer__content pt-lg-55 pb-lg-50">
                 <div class="container">
                     <div class="row">

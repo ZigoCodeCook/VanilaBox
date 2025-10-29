@@ -2,7 +2,7 @@
     <style>
         :root {
             {% if section.settings.style == '1' %}
-                --subscription-form-style-1-bg:#e3e0e0;
+                --subscription-form-style-1-bg:#fbf2f2;
                 --subscription-form-style-1-bd-top: solid 1px var(--theme5);
                 --subscription-form-style-1-bd-bottom: solid 1px var(--theme5);
                 --subscription-form-style-1-title-c: var(--theme-head-c);
@@ -61,7 +61,8 @@
         }
         .subscription-form--style-{{ section.settings.style }} p {
             color: var(--subscription-form-style-{{ section.settings.style }}-paragraph-c);
-            text-align: end;
+            direction: rtl; 
+            text-align: right
         }
         .subscription-form--style-{{ section.settings.style }} [type="email"] {
             background-color: var(--subscription-form-style-{{ section.settings.style }}-input-bg);
@@ -130,7 +131,7 @@
                                 <h5 class="subscription-form__title mb-0">{{ section.settings.title }}</h5>
                             {%- endif -%}
                             {%- if section.settings.paragraph != blank -%}
-                                <p class="subscription-form__paragraph mb-0 mt-10 mt-lg-3">{{ section.settings.paragraph }}</p>
+                                <p class="subscription-form__paragraph mb-0 mt-0 mt-lg-0">{{ section.settings.paragraph }}</p>
                             {%- endif -%}
                         </div>
                     </div>
