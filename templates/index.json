@@ -11,6 +11,7 @@
   "sections": {
     "custom_liquid_ReXcAC": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "HERO HOLIDAY DELI",
       "settings": {
         "use_container": false,
