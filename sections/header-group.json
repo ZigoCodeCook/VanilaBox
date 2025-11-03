@@ -14,15 +14,15 @@
     "ticker_4n3rMP": {
       "type": "ticker",
       "blocks": {
-        "content_ExUVKV": {
+        "content_FccUDH": {
           "type": "content",
           "settings": {
-            "text": "<p>משלוח חינם מעל קניה של 350₪  </p>"
+            "text": "<p>!נובמבר סייל- 25% הנחה על כל האתר</p>"
           }
         }
       },
       "block_order": [
-        "content_ExUVKV"
+        "content_FccUDH"
       ],
       "name": "Ticker",
       "settings": {
