@@ -1,1 +1,914 @@
-{"sections":{"spacer_JDHcEg":{"type":"spacer","settings":{"margin_top":20,"margin_bottom":0,"margin_top_mobile":0,"margin_bottom_mobile":0,"container":"fullwidth","show_separator":false,"title":""}},"carousel_brands_aYyTHG":{"type":"carousel-brands","blocks":{"brand_hEjemA":{"type":"brand","settings":{"image":"shopify:\/\/shop_images\/VanillaLogo_97b76ef1-3930-4f91-80a5-1a2be98f84c0.png","link":""}}},"block_order":["brand_hEjemA"],"name":"Brand carousel","settings":{"title":"","layout":"slider","size_of_columns":"6","image_max_width":0,"bordered_links":false,"border_radius":"","autoplay":false,"speed":5,"infinite":false,"arrows":false,"bullets":false}},"custom_liquid_PXwDA7":{"type":"custom-liquid","name":"Custom Liquid","settings":{"use_container":true,"custom_liquid":"<div style=\"direction: rtl; text-align: center; line-height: 1.9; font-size: 18px; color: #333;\">\n  <p style=\"margin: 0;\">\n    אנחנו  Vanilla Box 💙\n  <\/p>\n  <p style=\"margin: 10px 0 0 0;\">\n    פלטפורמה למותגי בוטיק מרחבי העולם בתחומי Wellness, Lifestyle ו-Sustainability.\n  <\/p>\n  <p style=\"margin: 10px 0 0 0;\">\n    לכל מותג יש סיפור, השראה ומשמעות ייחודית מאחוריו,\n  <\/p>\n  <p style=\"margin: 10px 0 0 0;\">\n    וביחד, כולם מתחברים ל-BOX אחד מלא סטייל.\n  <\/p>\n<\/div>"}},"spacer_bBFqDg":{"type":"spacer","settings":{"margin_top":50,"margin_bottom":40,"margin_top_mobile":20,"margin_bottom_mobile":20,"container":"fullwidth","show_separator":true,"title":""}},"home_builder_BUXzzN":{"type":"home-builder","name":"Builder","settings":{"title":"<p>MEET OUR BRANDS<\/p>","container":"boxed","size_of_columns":"1","size_of_columns_mobile":"1","margins_for_columns":"none","align_of_columns":"top_center","disable_column_paddings":false,"precedence":"","customization_class":""}},"custom_liquid_zY6hKA":{"type":"custom-liquid","name":"Custom Liquid","settings":{"use_container":true,"custom_liquid":"<!-- Swiper CSS -->\n<link rel=\"stylesheet\" href=\"https:\/\/cdn.jsdelivr.net\/npm\/swiper@10\/swiper-bundle.min.css\" \/>\n\n<!-- Hero Slider -->\n<div class=\"swiper hero-swiper\" style=\"width: 100%; height: 80vh; max-height: 700px; position: relative; overflow: hidden;\">\n  <div class=\"swiper-wrapper\">\n\n    <!-- Slide 1 - SUN BUM -->\n    <div class=\"swiper-slide\">\n      <video autoplay muted loop playsinline style=\"width: 100%; height: 100%; object-fit: cover;\">\n        <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/cc70e62b726b45cc9a4b995f6e1608c6.mp4\" type=\"video\/mp4\">\n      <\/video>\n      <div class=\"hero-caption\" style=\"position: absolute; bottom: 10%; left: 50%; transform: translateX(-50%); text-align: center;\">\n        <div style=\"color: #FFF8A3; font-size: 36px; font-weight: bold; margin-bottom: 10px;\">SUN BUM<\/div>\n        <a href=\"https:\/\/vanillabox.co\/collections\/sunbum-all\" style=\"display: inline-block; padding: 10px 20px; background: #FFF8A3; color: #493628; text-decoration: none; font-size: 14px; font-weight: bold; border-radius: 6px;\">\n          SHOP NOW\n        <\/a>\n      <\/div>\n    <\/div>\n\n    <!-- Slide 2 - ALOHA -->\n    <div class=\"swiper-slide\">\n      <video autoplay muted loop playsinline style=\"width: 100%; height: 100%; object-fit: cover;\">\n        <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f78d3bbbd8b04ead8e3b99ab73435e48.mp4\" type=\"video\/mp4\">\n      <\/video>\n      <div class=\"hero-caption\" style=\"position: absolute; bottom: 10%; left: 50%; transform: translateX(-50%); text-align: center;\">\n        <div style=\"color: #E8D7FF; font-size: 36px; font-weight: bold; margin-bottom: 10px;\">ALOHA<\/div>\n        <a href=\"https:\/\/vanillabox.co\/collections\/shop-all-aloha\" style=\"display: inline-block; padding: 10px 20px; background: #E8D7FF; color: #493628; text-decoration: none; font-size: 14px; font-weight: bold; border-radius: 6px;\">\n          SHOP NOW\n        <\/a>\n      <\/div>\n    <\/div>\n\n    <!-- Slide 3 - MOKEN -->\n    <div class=\"swiper-slide\">\n      <video autoplay muted loop playsinline style=\"width: 100%; height: 100%; object-fit: cover;\">\n        <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/a739e16eaeee443f899920f0573fb464.mp4\" type=\"video\/mp4\">\n      <\/video>\n      <div class=\"hero-caption\" style=\"position: absolute; bottom: 10%; left: 50%; transform: translateX(-50%); text-align: center;\">\n        <div style=\"color: #B9E3D4; font-size: 36px; font-weight: bold; margin-bottom: 10px;\">MOKEN<\/div>\n        <a href=\"https:\/\/vanillabox.co\/collections\/moken-all\" style=\"display: inline-block; padding: 10px 20px; background: #B9E3D4; color: #493628; text-decoration: none; font-size: 14px; font-weight: bold; border-radius: 6px;\">\n          SHOP NOW\n        <\/a>\n      <\/div>\n    <\/div>\n\n  <\/div>\n\n  <!-- Pagination (dots) -->\n  <div class=\"swiper-pagination\"><\/div>\n\n  <!-- Navigation buttons -->\n  <div class=\"swiper-button-next\"><\/div>\n  <div class=\"swiper-button-prev\"><\/div>\n<\/div>\n\n<!-- Swiper JS -->\n<script src=\"https:\/\/cdn.jsdelivr.net\/npm\/swiper@10\/swiper-bundle.min.js\"><\/script>\n\n<!-- Swiper Init -->\n<script>\n  var swiper = new Swiper('.hero-swiper', {\n    loop: true,\n    slidesPerView: 1,\n    pagination: {\n      el: '.swiper-pagination',\n      clickable: true,\n    },\n    navigation: {\n      nextEl: '.swiper-button-next',\n      prevEl: '.swiper-button-prev',\n    },\n    autoplay: {\n      delay: 5000,\n      disableOnInteraction: false,\n    },\n  });\n<\/script>\n\n<!-- Responsive & Custom Styling -->\n<style>\n  @media (max-width: 768px) {\n    .hero-swiper {\n      height: 60vh;\n      max-height: 500px;\n    }\n    .hero-caption div {\n      font-size: 28px;\n    }\n    .hero-caption a {\n      font-size: 12px;\n      padding: 8px 16px;\n    }\n  }\n\n  .swiper-button-next,\n  .swiper-button-prev {\n    color: #ffffff !important;\n    fill: #ffffff !important;\n  }\n<\/style>"}},"spacer_bBGAGy":{"type":"spacer","name":"Spacer","settings":{"margin_top":60,"margin_bottom":0,"margin_top_mobile":0,"margin_bottom_mobile":0,"container":"boxed","show_separator":true,"title":""}},"home_builder_Y44TJY":{"type":"home-builder","blocks":{"promobox_VWqL6e":{"type":"promobox","settings":{"url":"","image":"shopify:\/\/shop_images\/UNADJUSTEDNONRAW_thumb_909.jpg","image_size":2000,"image_mobile":"shopify:\/\/shop_images\/UNADJUSTEDNONRAW_thumb_90e.jpg","image_mobile_size":900,"image_position_x":43,"color_image_mask":"","image_mask_opacity":0.5,"text_line_1":"","text_line_2":"For Those Of Us Who Live & Love In The Sun","text_line_3":"","style":"8","button_1":"SHOP NOW","button_1_url":"shopify:\/\/collections\/sunbum-all","color_button_type_1":"invert","button_2":"JHJHJH","button_2_url":"shopify:\/\/pages\/contact","color_button_type_2":"secondary","list_1":"","custom_html":"","video_autoplay":true,"video_controls":false,"youtube_video":"https:\/\/youtu.be\/UYl39BqOi6g","youtube_video_mobile":"","type":"type-1","content_position":"center","content_align":"center","add_container":false,"content_width":100,"text_width":0,"height":"preset_2","min_height":0,"size_of_column":"auto","visible":"desktop_mobile","parallax":"disable","animation_to":"none","animation_from":"none","animation_opacity":"none","animation_text":"none","color_text_1":"","color_text_2":"#fff8a3","color_text_3":"","color_text_bg":"","color_curtain_bg":"","customization_class":"main-hero-banner"}}},"block_order":["promobox_VWqL6e"],"disabled":true,"settings":{"title":"<p>SUN BUM<\/p>","container":"fullwidth","size_of_columns":"1","size_of_columns_mobile":"1","margins_for_columns":"none","align_of_columns":"top_center","disable_column_paddings":false,"precedence":"","customization_class":""}},"main":{"type":"main-page","disabled":true,"settings":{"show_title":false,"show_content":true}},"carousel_brands_9Jg4H7":{"type":"carousel-brands","blocks":{"brand_xUn9pW":{"type":"brand","settings":{"image":"shopify:\/\/shop_images\/Sun_Bum_Logo_Square.png","link":""}}},"block_order":["brand_xUn9pW"],"name":"Brand carousel","settings":{"title":"","layout":"grid","size_of_columns":"6","image_max_width":0,"bordered_links":true,"border_radius":"","autoplay":true,"speed":5,"infinite":true,"arrows":false,"bullets":false}},"lookbook_Q6q7WC":{"type":"lookbook","blocks":{"image_NACLCx":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/SUN_BUM_4.jpg"}},"image_TTWfRL":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/SUN_BUM_3.jpg"}},"image_9J4qyF":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/SUN_BUM_2_86c83d3f-75af-4a88-8d07-3850c5ae0eab.jpg"}}},"block_order":["image_NACLCx","image_TTWfRL","image_9J4qyF"],"name":"Lookbook","settings":{"show_title":true,"layout":"1","grid":"3","grid_responsive":"4","image_size":500}},"home_builder_JJtaLV":{"type":"home-builder","blocks":{"promobox_hdeeVX":{"type":"promobox","settings":{"url":"","image":"shopify:\/\/shop_images\/22_2.jpg","image_size":1450,"image_mobile":"shopify:\/\/shop_images\/22_2.jpg","image_mobile_size":550,"image_position_x":50,"color_image_mask":"","image_mask_opacity":0.5,"text_line_1":"","text_line_2":"מותג לייפסטייל שנוסד בשנת 2010 בארה\"ב. קטגוריות המוצרים מגוונות וכוללות מוצרי הגנה מהשמש, מוצרי שיזוף, טיפוח לשיער, לפנים ולשפתיים.   כל המוצרים טבעוניים, ללא פרבנים, מבוססי רכיבים טבעיים שנעימים לעור ופועלים בעדינות ובאפקטיביות. המותג נולד מתוך אהבה לכדור הארץ, לגלי הים ולכל היצורים החיים בו, עם מחויבות לייצור נקי, בטוח וידידותי לסביבה. מאחורי המותג עומדים אנשים שחיים את החוף וחשופים לשמש – הם יודעים מה באמת חשוב. בסופו של דבר, כשמייצרים מוצרים כדי להגן על אלו שאוהבים, הם פשוט טובים יותר. \nTrust The Bum®","text_line_3":"","style":"1","button_1":"SHOP SUN BUM","button_1_url":"shopify:\/\/collections\/sunbum-all","color_button_type_1":"invert","button_2":"Button #2 text","button_2_url":"","color_button_type_2":"default","list_1":"","custom_html":"","video_autoplay":true,"video_controls":false,"youtube_video":"","youtube_video_mobile":"","type":"text-3","content_position":"center","content_align":"center","add_container":false,"content_width":100,"text_width":0,"height":"auto","min_height":0,"size_of_column":"auto","visible":"desktop_mobile","parallax":"disable","animation_to":"none","animation_from":"none","animation_opacity":"none","animation_text":"none","color_text_1":"","color_text_2":"","color_text_3":"","color_text_bg":"#fffbc7","color_curtain_bg":"","customization_class":""}},"promobox_kdttNq":{"type":"promobox","disabled":true,"settings":{"url":"","image":"shopify:\/\/shop_images\/22_2.jpg","image_size":1450,"image_mobile":"shopify:\/\/shop_images\/22_2.jpg","image_mobile_size":550,"image_position_x":50,"color_image_mask":"","image_mask_opacity":0.5,"text_line_1":"","text_line_2":"","text_line_3":"","style":"2","button_1":"SHOP SUN BUM","button_1_url":"shopify:\/\/collections\/sunbum-all","color_button_type_1":"invert","button_2":"Button #2 text","button_2_url":"","color_button_type_2":"default","list_1":"","custom_html":"","video_autoplay":true,"video_controls":false,"youtube_video":"","youtube_video_mobile":"","type":"type-2-13","content_position":"center","content_align":"center","add_container":false,"content_width":100,"text_width":0,"height":"auto","min_height":0,"size_of_column":"auto","visible":"desktop_mobile","parallax":"disable","animation_to":"none","animation_from":"none","animation_opacity":"none","animation_text":"none","color_text_1":"","color_text_2":"","color_text_3":"","color_text_bg":"","color_curtain_bg":"","customization_class":""}},"promobox_LgT9TR":{"type":"promobox","disabled":true,"settings":{"url":"","image":"shopify:\/\/shop_images\/22_2.jpg","image_size":1450,"image_mobile":"shopify:\/\/shop_images\/22_2.jpg","image_mobile_size":550,"image_position_x":50,"color_image_mask":"","image_mask_opacity":0.5,"text_line_1":"","text_line_2":"מותג לייפסטייל שנוסד בשנת 2010 בארה\"ב. קטגוריות המוצרים מגוונות וכוללות מוצרי הגנה מהשמש, מוצרי שיזוף, טיפוח לשיער, לפנים ולשפתיים.   כל המוצרים טבעוניים, ללא פרבנים, מבוססי רכיבים טבעיים שנעימים לעור ופועלים בעדינות ובאפקטיביות. המותג נולד מתוך אהבה לכדור הארץ, לגלי הים ולכל היצורים החיים בו, עם מחויבות לייצור נקי, בטוח וידידותי לסביבה. מאחורי המותג עומדים אנשים שחיים את החוף וחשופים לשמש – הם יודעים מה באמת חשוב. בסופו של דבר, כשמייצרים מוצרים כדי להגן על אלו שאוהבים, הם פשוט טובים יותר. \nTrust The Bum®","text_line_3":"","style":"1","button_1":"Shop Sun Bum","button_1_url":"shopify:\/\/collections\/sunbum-all","color_button_type_1":"invert","button_2":"Button #2 text","button_2_url":"","color_button_type_2":"default","list_1":"","custom_html":"","video_autoplay":true,"video_controls":false,"youtube_video":"","youtube_video_mobile":"","type":"type-2-13","content_position":"center","content_align":"center","add_container":false,"content_width":100,"text_width":0,"height":"auto","min_height":0,"size_of_column":"auto","visible":"desktop_mobile","parallax":"disable","animation_to":"none","animation_from":"none","animation_opacity":"none","animation_text":"none","color_text_1":"","color_text_2":"","color_text_3":"","color_text_bg":"","color_curtain_bg":"","customization_class":""}}},"block_order":["promobox_hdeeVX","promobox_kdttNq","promobox_LgT9TR"],"name":"Builder","settings":{"title":"","container":"boxed","size_of_columns":"1","size_of_columns_mobile":"1","margins_for_columns":"none","align_of_columns":"top_center","disable_column_paddings":false,"precedence":"","customization_class":""}},"spacer_reQmYh":{"type":"spacer","name":"Spacer","settings":{"margin_top":60,"margin_bottom":0,"margin_top_mobile":0,"margin_bottom_mobile":0,"container":"boxed","show_separator":true,"title":""}},"carousel_brands_VjQ9yn":{"type":"carousel-brands","blocks":{"brand_47GbnQ":{"type":"brand","settings":{"image":"shopify:\/\/shop_images\/Moken_Logo_540-550.png","link":""}}},"block_order":["brand_47GbnQ"],"name":"Brand carousel","settings":{"title":"","layout":"grid","size_of_columns":"4","image_max_width":0,"bordered_links":true,"border_radius":"","autoplay":true,"speed":5,"infinite":true,"arrows":false,"bullets":false}},"lookbook_7xEt6Y":{"type":"lookbook","blocks":{"image_xkGjkc":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/MOKEN_320d290a-16e9-4906-b65c-8e4e52c50c47.jpg"}},"image_ep3Bii":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/MOKEN_2_dbe69626-df11-4c86-a0f3-16f3abbe23ac.jpg"}},"image_D79UBK":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/MOKEN_3.jpg"}}},"block_order":["image_xkGjkc","image_ep3Bii","image_D79UBK"],"name":"Lookbook","settings":{"show_title":true,"layout":"1","grid":"3","grid_responsive":"4","image_size":500}},"home_builder_dnW6tq":{"type":"home-builder","blocks":{"promobox_eMkPBh":{"type":"promobox","settings":{"url":"","image":"shopify:\/\/shop_images\/banniere_ZENITH.HAWKINSVINTAGE_2_2.jpg","image_size":1450,"image_mobile":"shopify:\/\/shop_images\/banniere_ZENITH.HAWKINSVINTAGE_2_2.jpg","image_mobile_size":550,"image_position_x":50,"color_image_mask":"","image_mask_opacity":0.5,"text_line_1":"","text_line_2":"מותג משקפי שמש אורגני צרפתי, המשלב בין יופי וטבע בהרמוניה מושלמת. המסגרות מיוצרות בטכנולוגיית הזרקה ייחודית, המשתמשת בחומרים טבעיים כמו קליפות אורז, שעם, יוטה ועוד. כל דגם מגיע עם עדשות UV400, פולורואיד ורספונסיביות המציעות נוחות והגנה אופטימלית במצבי אור משתנים. הקולקציה כוללת דגמי אופנה, ספורט וילדים.","text_line_3":"","style":"1","button_1":"Shop Moken","button_1_url":"shopify:\/\/collections\/moken-all","color_button_type_1":"secondary","button_2":"Button #2 text","button_2_url":"","color_button_type_2":"default","list_1":"","custom_html":"","video_autoplay":true,"video_controls":false,"youtube_video":"","youtube_video_mobile":"","type":"text-3","content_position":"center","content_align":"center","add_container":false,"content_width":100,"text_width":0,"height":"auto","min_height":0,"size_of_column":"auto","visible":"desktop_mobile","parallax":"disable","animation_to":"none","animation_from":"none","animation_opacity":"none","animation_text":"none","color_text_1":"","color_text_2":"rgba(0,0,0,0)","color_text_3":"","color_text_bg":"#b9e3d4","color_curtain_bg":"rgba(0,0,0,0)","customization_class":""}},"promobox_F47LEK":{"type":"promobox","disabled":true,"settings":{"url":"","image":"shopify:\/\/shop_images\/banniere_ZENITH.HAWKINSVINTAGE_2_2.jpg","image_size":1450,"image_mobile":"shopify:\/\/shop_images\/banniere_ZENITH.HAWKINSVINTAGE_2_2.jpg","image_mobile_size":550,"image_position_x":50,"color_image_mask":"","image_mask_opacity":0.5,"text_line_1":"","text_line_2":"מותג משקפי שמש אורגני צרפתי, המשלב בין יופי וטבע בהרמוניה מושלמת. המסגרות מיוצרות בטכנולוגיית הזרקה ייחודית, המשתמשת בחומרים טבעיים כמו קליפות אורז, שעם, יוטה ועוד. כל דגם מגיע עם עדשות UV400, פולורואיד ורספונסיביות המציעות נוחות והגנה אופטימלית במצבי אור משתנים. הקולקציה כוללת דגמי אופנה, ספורט וילדים.","text_line_3":"מותג משקפי שמש אורגני צרפתי, המשלב בין יופי וטבע בהרמוניה מושלמת. המסגרות מיוצרות בטכנולוגיית הזרקה ייחודית, המשתמשת בחומרים טבעיים כמו קליפות אורז, שעם, יוטה ועוד. כל דגם מגיע עם עדשות UV400, פולורואיד ורספונסיביות המציעות נוחות והגנה אופטימלית במצבי אור משתנים. הקולקציה כוללת דגמי אופנה, ספורט וילדים.","style":"1","button_1":"Shop Moken","button_1_url":"shopify:\/\/collections\/moken-all","color_button_type_1":"secondary","button_2":"Button #2 text","button_2_url":"","color_button_type_2":"default","list_1":"","custom_html":"","video_autoplay":true,"video_controls":false,"youtube_video":"","youtube_video_mobile":"","type":"type-2-13","content_position":"center","content_align":"center","add_container":false,"content_width":100,"text_width":0,"height":"auto","min_height":0,"size_of_column":"auto","visible":"desktop_mobile","parallax":"disable","animation_to":"none","animation_from":"none","animation_opacity":"none","animation_text":"none","color_text_1":"","color_text_2":"rgba(0,0,0,0)","color_text_3":"","color_text_bg":"#b9e3d4","color_curtain_bg":"rgba(0,0,0,0)","customization_class":""}}},"block_order":["promobox_eMkPBh","promobox_F47LEK"],"name":"Builder","settings":{"title":"","container":"boxed","size_of_columns":"1","size_of_columns_mobile":"1","margins_for_columns":"none","align_of_columns":"top_center","disable_column_paddings":false,"precedence":"","customization_class":""}},"spacer_HgLWff":{"type":"spacer","settings":{"margin_top":60,"margin_bottom":0,"margin_top_mobile":0,"margin_bottom_mobile":0,"container":"boxed","show_separator":true,"title":""}},"carousel_brands_AVmhDU":{"type":"carousel-brands","blocks":{"brand_GiJjPY":{"type":"brand","settings":{"image":"shopify:\/\/shop_images\/Aloha_Logo_540-550.png","link":""}}},"block_order":["brand_GiJjPY"],"name":"Brand carousel","settings":{"title":"","layout":"grid","size_of_columns":"6","image_max_width":0,"bordered_links":true,"border_radius":"","autoplay":true,"speed":5,"infinite":true,"arrows":false,"bullets":false}},"lookbook_V6wTjg":{"type":"lookbook","blocks":{"image_E96NbG":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/ALOHA_dc25cc68-d3b7-47dd-873b-dc54d931d42c.jpg"}},"image_JahGbe":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/ALOHA_2.jpg"}},"image_gVAgRY":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/ALOHA_4.jpg"}}},"block_order":["image_E96NbG","image_JahGbe","image_gVAgRY"],"name":"Lookbook","settings":{"show_title":true,"layout":"1","grid":"3","grid_responsive":"4","image_size":500}},"home_builder_nTptwe":{"type":"home-builder","blocks":{"promobox_jjXxT4":{"type":"promobox","settings":{"url":"","image":"shopify:\/\/shop_images\/15_57634945-1a8f-49a2-93c9-ed9a93b101e9.jpg","image_size":1450,"image_mobile":"shopify:\/\/shop_images\/15_57634945-1a8f-49a2-93c9-ed9a93b101e9.jpg","image_mobile_size":550,"image_position_x":50,"color_image_mask":"","image_mask_opacity":0.5,"text_line_1":"","text_line_2":"מותג תיקים קסום מהוואי, נוסד ומנוהל על ידי שתי נשים צעירות מעוררות השראה. התיקים משלבים בין סטייל אקזוטי לפונקציונליות שמתאימה לכל סיטואציה- מטיול בטבע ועד יציאה עירונית. הם עמידים במים, קלים לנשיאה ומגיעים במגוון גדלים- החל מהתיק הכי קטן לאזניות ועד לתיקי גב, איפור נשיאה ועוד. ההדפסים הצבעוניים נוצרו בהשראת אמנים מקומיים ומוסיפים טאצ' מיוחד לכל לוק. הסביבה היא חלק בלתי נפרד מהמותג והתיקים עשויים מחומרים שניתן למחזור, מתוך מחויבות אמיתית לשמירה על הסביבה.","text_line_3":"","style":"1","button_1":"Shop Aloha","button_1_url":"shopify:\/\/collections\/shop-all-aloha","color_button_type_1":"clean","button_2":"Button #2 text","button_2_url":"","color_button_type_2":"default","list_1":"","custom_html":"","video_autoplay":true,"video_controls":false,"youtube_video":"","youtube_video_mobile":"","type":"text-3","content_position":"center","content_align":"center","add_container":false,"content_width":100,"text_width":0,"height":"auto","min_height":0,"size_of_column":"auto","visible":"desktop_mobile","parallax":"disable","animation_to":"none","animation_from":"none","animation_opacity":"none","animation_text":"none","color_text_1":"","color_text_2":"","color_text_3":"","color_text_bg":"","color_curtain_bg":"","customization_class":""}},"promobox_b3EWMN":{"type":"promobox","disabled":true,"settings":{"url":"","image":"shopify:\/\/shop_images\/15_57634945-1a8f-49a2-93c9-ed9a93b101e9.jpg","image_size":1450,"image_mobile":"shopify:\/\/shop_images\/15_57634945-1a8f-49a2-93c9-ed9a93b101e9.jpg","image_mobile_size":550,"image_position_x":50,"color_image_mask":"","image_mask_opacity":0.5,"text_line_1":"","text_line_2":"מותג תיקים קסום מהוואי, נוסד ומנוהל על ידי שתי נשים צעירות מעוררות השראה. התיקים משלבים בין סטייל אקזוטי לפונקציונליות שמתאימה לכל סיטואציה- מטיול בטבע ועד יציאה עירונית. הם עמידים במים, קלים לנשיאה ומגיעים במגוון גדלים- החל מהתיק הכי קטן לאזניות ועד לתיקי גב, איפור נשיאה ועוד. ההדפסים הצבעוניים נוצרו בהשראת אמנים מקומיים ומוסיפים טאצ' מיוחד לכל לוק. הסביבה היא חלק בלתי נפרד מהמותג והתיקים עשויים מחומרים שניתן למחזור, מתוך מחויבות אמיתית לשמירה על הסביבה.","text_line_3":"","style":"1","button_1":"Shop Aloha","button_1_url":"shopify:\/\/collections\/shop-all-aloha","color_button_type_1":"clean","button_2":"Button #2 text","button_2_url":"","color_button_type_2":"default","list_1":"","custom_html":"","video_autoplay":true,"video_controls":false,"youtube_video":"","youtube_video_mobile":"","type":"type-2-13","content_position":"center","content_align":"center","add_container":false,"content_width":100,"text_width":0,"height":"auto","min_height":0,"size_of_column":"auto","visible":"desktop_mobile","parallax":"disable","animation_to":"none","animation_from":"none","animation_opacity":"none","animation_text":"none","color_text_1":"","color_text_2":"","color_text_3":"","color_text_bg":"","color_curtain_bg":"","customization_class":""}},"promobox_DH89Ah":{"type":"promobox","disabled":true,"settings":{"url":"","image":"shopify:\/\/shop_images\/15_57634945-1a8f-49a2-93c9-ed9a93b101e9.jpg","image_size":1450,"image_mobile":"shopify:\/\/shop_images\/15_57634945-1a8f-49a2-93c9-ed9a93b101e9.jpg","image_mobile_size":550,"image_position_x":50,"color_image_mask":"","image_mask_opacity":0.5,"text_line_1":"","text_line_2":"מותג תיקים קסום מהוואי, נוסד ומנוהל על ידי שתי נשים צעירות מעוררות השראה. התיקים משלבים בין סטייל אקזוטי לפונקציונליות שמתאימה לכל סיטואציה- מטיול בטבע ועד יציאה עירונית. הם עמידים במים, קלים לנשיאה ומגיעים במגוון גדלים- החל מהתיק הכי קטן לאזניות ועד לתיקי גב, איפור נשיאה ועוד. ההדפסים הצבעוניים נוצרו בהשראת אמנים מקומיים ומוסיפים טאצ' מיוחד לכל לוק. הסביבה היא חלק בלתי נפרד מהמותג והתיקים עשויים מחומרים שניתן למחזור, מתוך מחויבות אמיתית לשמירה על הסביבה.","text_line_3":"","style":"1","button_1":"Shop Aloha","button_1_url":"shopify:\/\/collections\/shop-all-aloha","color_button_type_1":"clean","button_2":"Button #2 text","button_2_url":"","color_button_type_2":"default","list_1":"","custom_html":"","video_autoplay":true,"video_controls":false,"youtube_video":"","youtube_video_mobile":"","type":"type-2-13","content_position":"center","content_align":"center","add_container":false,"content_width":100,"text_width":0,"height":"auto","min_height":0,"size_of_column":"auto","visible":"desktop_mobile","parallax":"disable","animation_to":"none","animation_from":"none","animation_opacity":"none","animation_text":"none","color_text_1":"","color_text_2":"","color_text_3":"","color_text_bg":"","color_curtain_bg":"","customization_class":""}}},"block_order":["promobox_jjXxT4","promobox_b3EWMN","promobox_DH89Ah"],"name":"Builder","settings":{"title":"","container":"boxed","size_of_columns":"1","size_of_columns_mobile":"1","margins_for_columns":"none","align_of_columns":"top_center","disable_column_paddings":false,"precedence":"","customization_class":""}},"spacer_BjjdmL":{"type":"spacer","name":"Spacer","settings":{"margin_top":60,"margin_bottom":0,"margin_top_mobile":0,"margin_bottom_mobile":0,"container":"boxed","show_separator":false,"title":""}}},"order":["spacer_JDHcEg","carousel_brands_aYyTHG","custom_liquid_PXwDA7","spacer_bBFqDg","home_builder_BUXzzN","custom_liquid_zY6hKA","spacer_bBGAGy","home_builder_Y44TJY","main","carousel_brands_9Jg4H7","lookbook_Q6q7WC","home_builder_JJtaLV","spacer_reQmYh","carousel_brands_VjQ9yn","lookbook_7xEt6Y","home_builder_dnW6tq","spacer_HgLWff","carousel_brands_AVmhDU","lookbook_V6wTjg","home_builder_nTptwe","spacer_BjjdmL"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "spacer_JDHcEg": {
+      "type": "spacer",
+      "settings": {
+        "margin_top": 20,
+        "margin_bottom": 0,
+        "margin_top_mobile": 0,
+        "margin_bottom_mobile": 0,
+        "container": "fullwidth",
+        "show_separator": false,
+        "title": ""
+      }
+    },
+    "carousel_brands_aYyTHG": {
+      "type": "carousel-brands",
+      "blocks": {
+        "brand_hEjemA": {
+          "type": "brand",
+          "settings": {
+            "image": "shopify://shop_images/VanillaLogo_97b76ef1-3930-4f91-80a5-1a2be98f84c0.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "brand_hEjemA"
+      ],
+      "name": "Brand carousel",
+      "settings": {
+        "title": "",
+        "layout": "slider",
+        "size_of_columns": "6",
+        "image_max_width": 0,
+        "bordered_links": false,
+        "border_radius": "",
+        "autoplay": false,
+        "speed": 5,
+        "infinite": false,
+        "arrows": false,
+        "bullets": false
+      }
+    },
+    "custom_liquid_PXwDA7": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "use_container": true,
+        "custom_liquid": "<div style=\"direction: rtl; text-align: center; line-height: 1.9; font-size: 18px; color: #333;\">\n<p style=\"margin: 0;\">\n    היי לך,\n  </p>\n  <p style=\"margin: 10px 0;\">\n    אנחנו  Vanilla Box 💙\n  </p>\n  <p style=\"margin: 10px 0 0 0;\">\n    פלטפורמה למותגי בוטיק מרחבי העולם בתחומי Wellness, Lifestyle ו-Sustainability.\n  </p>\n  <p style=\"margin: 10px 0 0 0;\">\n    לכל מותג יש סיפור, השראה ומשמעות ייחודית מאחוריו,\n  </p>\n  <p style=\"margin: 10px 0 0 0;\">\n    וביחד, כולם מתחברים ל-BOX אחד מלא סטייל.\n  </p>\n</div>"
+      }
+    },
+    "spacer_bBFqDg": {
+      "type": "spacer",
+      "settings": {
+        "margin_top": 50,
+        "margin_bottom": 40,
+        "margin_top_mobile": 20,
+        "margin_bottom_mobile": 20,
+        "container": "fullwidth",
+        "show_separator": true,
+        "title": ""
+      }
+    },
+    "home_builder_BUXzzN": {
+      "type": "home-builder",
+      "name": "Builder",
+      "settings": {
+        "title": "<p>MEET OUR BRANDS</p>",
+        "container": "boxed",
+        "size_of_columns": "1",
+        "size_of_columns_mobile": "1",
+        "margins_for_columns": "none",
+        "align_of_columns": "top_center",
+        "disable_column_paddings": false,
+        "precedence": "",
+        "customization_class": ""
+      }
+    },
+    "custom_liquid_zY6hKA": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "use_container": true,
+        "custom_liquid": "<!-- Swiper CSS -->\n<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css\" />\n\n<!-- Hero Slider -->\n<div class=\"swiper hero-swiper\" style=\"width: 100%; height: 80vh; max-height: 700px; position: relative; overflow: hidden;\">\n  <div class=\"swiper-wrapper\">\n\n    <!-- Slide 1 - SUN BUM -->\n    <div class=\"swiper-slide\">\n      <video autoplay muted loop playsinline style=\"width: 100%; height: 100%; object-fit: cover;\">\n        <source src=\"https://cdn.shopify.com/videos/c/o/v/cc70e62b726b45cc9a4b995f6e1608c6.mp4\" type=\"video/mp4\">\n      </video>\n      <div class=\"hero-caption\" style=\"position: absolute; bottom: 10%; left: 50%; transform: translateX(-50%); text-align: center;\">\n        <div style=\"color: #FFF8A3; font-size: 36px; font-weight: bold; margin-bottom: 10px;\">SUN BUM</div>\n        <a href=\"https://vanillabox.co/collections/sunbum-all\" style=\"display: inline-block; padding: 10px 20px; background: #FFF8A3; color: #493628; text-decoration: none; font-size: 14px; font-weight: bold; border-radius: 6px;\">\n          SHOP NOW\n        </a>\n      </div>\n    </div>\n\n    <!-- Slide 2 - ALOHA -->\n    <div class=\"swiper-slide\">\n      <video autoplay muted loop playsinline style=\"width: 100%; height: 100%; object-fit: cover;\">\n        <source src=\"https://cdn.shopify.com/videos/c/o/v/f78d3bbbd8b04ead8e3b99ab73435e48.mp4\" type=\"video/mp4\">\n      </video>\n      <div class=\"hero-caption\" style=\"position: absolute; bottom: 10%; left: 50%; transform: translateX(-50%); text-align: center;\">\n        <div style=\"color: #E8D7FF; font-size: 36px; font-weight: bold; margin-bottom: 10px;\">ALOHA</div>\n        <a href=\"https://vanillabox.co/collections/shop-all-aloha\" style=\"display: inline-block; padding: 10px 20px; background: #E8D7FF; color: #493628; text-decoration: none; font-size: 14px; font-weight: bold; border-radius: 6px;\">\n          SHOP NOW\n        </a>\n      </div>\n    </div>\n\n    <!-- Slide 3 - MOKEN -->\n    <div class=\"swiper-slide\">\n      <video autoplay muted loop playsinline style=\"width: 100%; height: 100%; object-fit: cover;\">\n        <source src=\"https://cdn.shopify.com/videos/c/o/v/a739e16eaeee443f899920f0573fb464.mp4\" type=\"video/mp4\">\n      </video>\n      <div class=\"hero-caption\" style=\"position: absolute; bottom: 10%; left: 50%; transform: translateX(-50%); text-align: center;\">\n        <div style=\"color: #B9E3D4; font-size: 36px; font-weight: bold; margin-bottom: 10px;\">MOKEN</div>\n        <a href=\"https://vanillabox.co/collections/moken-all\" style=\"display: inline-block; padding: 10px 20px; background: #B9E3D4; color: #493628; text-decoration: none; font-size: 14px; font-weight: bold; border-radius: 6px;\">\n          SHOP NOW\n        </a>\n      </div>\n    </div>\n\n  </div>\n\n  <!-- Pagination (dots) -->\n  <div class=\"swiper-pagination\"></div>\n\n  <!-- Navigation buttons -->\n  <div class=\"swiper-button-next\"></div>\n  <div class=\"swiper-button-prev\"></div>\n</div>\n\n<!-- Swiper JS -->\n<script src=\"https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js\"></script>\n\n<!-- Swiper Init -->\n<script>\n  var swiper = new Swiper('.hero-swiper', {\n    loop: true,\n    slidesPerView: 1,\n    pagination: {\n      el: '.swiper-pagination',\n      clickable: true,\n    },\n    navigation: {\n      nextEl: '.swiper-button-next',\n      prevEl: '.swiper-button-prev',\n    },\n    autoplay: {\n      delay: 5000,\n      disableOnInteraction: false,\n    },\n  });\n</script>\n\n<!-- Responsive & Custom Styling -->\n<style>\n  @media (max-width: 768px) {\n    .hero-swiper {\n      height: 60vh;\n      max-height: 500px;\n    }\n    .hero-caption div {\n      font-size: 28px;\n    }\n    .hero-caption a {\n      font-size: 12px;\n      padding: 8px 16px;\n    }\n  }\n\n  .swiper-button-next,\n  .swiper-button-prev {\n    color: #ffffff !important;\n    fill: #ffffff !important;\n  }\n</style>"
+      }
+    },
+    "spacer_bBGAGy": {
+      "type": "spacer",
+      "name": "Spacer",
+      "settings": {
+        "margin_top": 60,
+        "margin_bottom": 0,
+        "margin_top_mobile": 0,
+        "margin_bottom_mobile": 0,
+        "container": "boxed",
+        "show_separator": true,
+        "title": ""
+      }
+    },
+    "home_builder_Y44TJY": {
+      "type": "home-builder",
+      "blocks": {
+        "promobox_VWqL6e": {
+          "type": "promobox",
+          "settings": {
+            "url": "",
+            "image": "shopify://shop_images/UNADJUSTEDNONRAW_thumb_909.jpg",
+            "image_size": 2000,
+            "image_mobile": "shopify://shop_images/UNADJUSTEDNONRAW_thumb_90e.jpg",
+            "image_mobile_size": 900,
+            "image_position_x": 43,
+            "color_image_mask": "",
+            "image_mask_opacity": 0.5,
+            "text_line_1": "",
+            "text_line_2": "For Those Of Us Who Live & Love In The Sun",
+            "text_line_3": "",
+            "style": "8",
+            "button_1": "SHOP NOW",
+            "button_1_url": "shopify://collections/sunbum-all",
+            "color_button_type_1": "invert",
+            "button_2": "JHJHJH",
+            "button_2_url": "shopify://pages/contact",
+            "color_button_type_2": "secondary",
+            "list_1": "",
+            "custom_html": "",
+            "video_autoplay": true,
+            "video_controls": false,
+            "youtube_video": "https://youtu.be/UYl39BqOi6g",
+            "youtube_video_mobile": "",
+            "type": "type-1",
+            "content_position": "center",
+            "content_align": "center",
+            "add_container": false,
+            "content_width": 100,
+            "text_width": 0,
+            "height": "preset_2",
+            "min_height": 0,
+            "size_of_column": "auto",
+            "visible": "desktop_mobile",
+            "parallax": "disable",
+            "animation_to": "none",
+            "animation_from": "none",
+            "animation_opacity": "none",
+            "animation_text": "none",
+            "color_text_1": "",
+            "color_text_2": "#fff8a3",
+            "color_text_3": "",
+            "color_text_bg": "",
+            "color_curtain_bg": "",
+            "customization_class": "main-hero-banner"
+          }
+        }
+      },
+      "block_order": [
+        "promobox_VWqL6e"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "<p>SUN BUM</p>",
+        "container": "fullwidth",
+        "size_of_columns": "1",
+        "size_of_columns_mobile": "1",
+        "margins_for_columns": "none",
+        "align_of_columns": "top_center",
+        "disable_column_paddings": false,
+        "precedence": "",
+        "customization_class": ""
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "show_content": true
+      }
+    },
+    "carousel_brands_9Jg4H7": {
+      "type": "carousel-brands",
+      "blocks": {
+        "brand_xUn9pW": {
+          "type": "brand",
+          "settings": {
+            "image": "shopify://shop_images/Sun_Bum_Logo_Square.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "brand_xUn9pW"
+      ],
+      "name": "Brand carousel",
+      "settings": {
+        "title": "",
+        "layout": "grid",
+        "size_of_columns": "6",
+        "image_max_width": 0,
+        "bordered_links": true,
+        "border_radius": "",
+        "autoplay": true,
+        "speed": 5,
+        "infinite": true,
+        "arrows": false,
+        "bullets": false
+      }
+    },
+    "lookbook_Q6q7WC": {
+      "type": "lookbook",
+      "blocks": {
+        "image_NACLCx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/SUN_BUM_4.jpg"
+          }
+        },
+        "image_TTWfRL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/SUN_BUM_3.jpg"
+          }
+        },
+        "image_9J4qyF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/SUN_BUM_2_86c83d3f-75af-4a88-8d07-3850c5ae0eab.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_NACLCx",
+        "image_TTWfRL",
+        "image_9J4qyF"
+      ],
+      "name": "Lookbook",
+      "settings": {
+        "show_title": true,
+        "layout": "1",
+        "grid": "3",
+        "grid_responsive": "4",
+        "image_size": 500
+      }
+    },
+    "home_builder_JJtaLV": {
+      "type": "home-builder",
+      "blocks": {
+        "promobox_hdeeVX": {
+          "type": "promobox",
+          "settings": {
+            "url": "",
+            "image": "shopify://shop_images/22_2.jpg",
+            "image_size": 1450,
+            "image_mobile": "shopify://shop_images/22_2.jpg",
+            "image_mobile_size": 550,
+            "image_position_x": 50,
+            "color_image_mask": "",
+            "image_mask_opacity": 0.5,
+            "text_line_1": "",
+            "text_line_2": "מותג לייפסטייל שנוסד בשנת 2010 בארה\"ב. קטגוריות המוצרים מגוונות וכוללות מוצרי הגנה מהשמש, מוצרי שיזוף, טיפוח לשיער, לפנים ולשפתיים.   כל המוצרים טבעוניים, ללא פרבנים, מבוססי רכיבים טבעיים שנעימים לעור ופועלים בעדינות ובאפקטיביות. המותג נולד מתוך אהבה לכדור הארץ, לגלי הים ולכל היצורים החיים בו, עם מחויבות לייצור נקי, בטוח וידידותי לסביבה. מאחורי המותג עומדים אנשים שחיים את החוף וחשופים לשמש – הם יודעים מה באמת חשוב. בסופו של דבר, כשמייצרים מוצרים כדי להגן על אלו שאוהבים, הם פשוט טובים יותר. \nTrust The Bum®",
+            "text_line_3": "",
+            "style": "1",
+            "button_1": "SHOP SUN BUM",
+            "button_1_url": "shopify://collections/sunbum-all",
+            "color_button_type_1": "invert",
+            "button_2": "Button #2 text",
+            "button_2_url": "",
+            "color_button_type_2": "default",
+            "list_1": "",
+            "custom_html": "",
+            "video_autoplay": true,
+            "video_controls": false,
+            "youtube_video": "",
+            "youtube_video_mobile": "",
+            "type": "text-3",
+            "content_position": "center",
+            "content_align": "center",
+            "add_container": false,
+            "content_width": 100,
+            "text_width": 0,
+            "height": "auto",
+            "min_height": 0,
+            "size_of_column": "auto",
+            "visible": "desktop_mobile",
+            "parallax": "disable",
+            "animation_to": "none",
+            "animation_from": "none",
+            "animation_opacity": "none",
+            "animation_text": "none",
+            "color_text_1": "",
+            "color_text_2": "",
+            "color_text_3": "",
+            "color_text_bg": "#fffbc7",
+            "color_curtain_bg": "",
+            "customization_class": ""
+          }
+        },
+        "promobox_kdttNq": {
+          "type": "promobox",
+          "disabled": true,
+          "settings": {
+            "url": "",
+            "image": "shopify://shop_images/22_2.jpg",
+            "image_size": 1450,
+            "image_mobile": "shopify://shop_images/22_2.jpg",
+            "image_mobile_size": 550,
+            "image_position_x": 50,
+            "color_image_mask": "",
+            "image_mask_opacity": 0.5,
+            "text_line_1": "",
+            "text_line_2": "",
+            "text_line_3": "",
+            "style": "2",
+            "button_1": "SHOP SUN BUM",
+            "button_1_url": "shopify://collections/sunbum-all",
+            "color_button_type_1": "invert",
+            "button_2": "Button #2 text",
+            "button_2_url": "",
+            "color_button_type_2": "default",
+            "list_1": "",
+            "custom_html": "",
+            "video_autoplay": true,
+            "video_controls": false,
+            "youtube_video": "",
+            "youtube_video_mobile": "",
+            "type": "type-2-13",
+            "content_position": "center",
+            "content_align": "center",
+            "add_container": false,
+            "content_width": 100,
+            "text_width": 0,
+            "height": "auto",
+            "min_height": 0,
+            "size_of_column": "auto",
+            "visible": "desktop_mobile",
+            "parallax": "disable",
+            "animation_to": "none",
+            "animation_from": "none",
+            "animation_opacity": "none",
+            "animation_text": "none",
+            "color_text_1": "",
+            "color_text_2": "",
+            "color_text_3": "",
+            "color_text_bg": "",
+            "color_curtain_bg": "",
+            "customization_class": ""
+          }
+        },
+        "promobox_LgT9TR": {
+          "type": "promobox",
+          "disabled": true,
+          "settings": {
+            "url": "",
+            "image": "shopify://shop_images/22_2.jpg",
+            "image_size": 1450,
+            "image_mobile": "shopify://shop_images/22_2.jpg",
+            "image_mobile_size": 550,
+            "image_position_x": 50,
+            "color_image_mask": "",
+            "image_mask_opacity": 0.5,
+            "text_line_1": "",
+            "text_line_2": "מותג לייפסטייל שנוסד בשנת 2010 בארה\"ב. קטגוריות המוצרים מגוונות וכוללות מוצרי הגנה מהשמש, מוצרי שיזוף, טיפוח לשיער, לפנים ולשפתיים.   כל המוצרים טבעוניים, ללא פרבנים, מבוססי רכיבים טבעיים שנעימים לעור ופועלים בעדינות ובאפקטיביות. המותג נולד מתוך אהבה לכדור הארץ, לגלי הים ולכל היצורים החיים בו, עם מחויבות לייצור נקי, בטוח וידידותי לסביבה. מאחורי המותג עומדים אנשים שחיים את החוף וחשופים לשמש – הם יודעים מה באמת חשוב. בסופו של דבר, כשמייצרים מוצרים כדי להגן על אלו שאוהבים, הם פשוט טובים יותר. \nTrust The Bum®",
+            "text_line_3": "",
+            "style": "1",
+            "button_1": "Shop Sun Bum",
+            "button_1_url": "shopify://collections/sunbum-all",
+            "color_button_type_1": "invert",
+            "button_2": "Button #2 text",
+            "button_2_url": "",
+            "color_button_type_2": "default",
+            "list_1": "",
+            "custom_html": "",
+            "video_autoplay": true,
+            "video_controls": false,
+            "youtube_video": "",
+            "youtube_video_mobile": "",
+            "type": "type-2-13",
+            "content_position": "center",
+            "content_align": "center",
+            "add_container": false,
+            "content_width": 100,
+            "text_width": 0,
+            "height": "auto",
+            "min_height": 0,
+            "size_of_column": "auto",
+            "visible": "desktop_mobile",
+            "parallax": "disable",
+            "animation_to": "none",
+            "animation_from": "none",
+            "animation_opacity": "none",
+            "animation_text": "none",
+            "color_text_1": "",
+            "color_text_2": "",
+            "color_text_3": "",
+            "color_text_bg": "",
+            "color_curtain_bg": "",
+            "customization_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "promobox_hdeeVX",
+        "promobox_kdttNq",
+        "promobox_LgT9TR"
+      ],
+      "name": "Builder",
+      "settings": {
+        "title": "",
+        "container": "boxed",
+        "size_of_columns": "1",
+        "size_of_columns_mobile": "1",
+        "margins_for_columns": "none",
+        "align_of_columns": "top_center",
+        "disable_column_paddings": false,
+        "precedence": "",
+        "customization_class": ""
+      }
+    },
+    "spacer_reQmYh": {
+      "type": "spacer",
+      "name": "Spacer",
+      "settings": {
+        "margin_top": 60,
+        "margin_bottom": 0,
+        "margin_top_mobile": 0,
+        "margin_bottom_mobile": 0,
+        "container": "boxed",
+        "show_separator": true,
+        "title": ""
+      }
+    },
+    "carousel_brands_VjQ9yn": {
+      "type": "carousel-brands",
+      "blocks": {
+        "brand_47GbnQ": {
+          "type": "brand",
+          "settings": {
+            "image": "shopify://shop_images/Moken_Logo_540-550.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "brand_47GbnQ"
+      ],
+      "name": "Brand carousel",
+      "settings": {
+        "title": "",
+        "layout": "grid",
+        "size_of_columns": "4",
+        "image_max_width": 0,
+        "bordered_links": true,
+        "border_radius": "",
+        "autoplay": true,
+        "speed": 5,
+        "infinite": true,
+        "arrows": false,
+        "bullets": false
+      }
+    },
+    "lookbook_7xEt6Y": {
+      "type": "lookbook",
+      "blocks": {
+        "image_xkGjkc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MOKEN_320d290a-16e9-4906-b65c-8e4e52c50c47.jpg"
+          }
+        },
+        "image_ep3Bii": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MOKEN_2_dbe69626-df11-4c86-a0f3-16f3abbe23ac.jpg"
+          }
+        },
+        "image_D79UBK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MOKEN_3.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_xkGjkc",
+        "image_ep3Bii",
+        "image_D79UBK"
+      ],
+      "name": "Lookbook",
+      "settings": {
+        "show_title": true,
+        "layout": "1",
+        "grid": "3",
+        "grid_responsive": "4",
+        "image_size": 500
+      }
+    },
+    "home_builder_dnW6tq": {
+      "type": "home-builder",
+      "blocks": {
+        "promobox_eMkPBh": {
+          "type": "promobox",
+          "settings": {
+            "url": "",
+            "image": "shopify://shop_images/banniere_ZENITH.HAWKINSVINTAGE_2_2.jpg",
+            "image_size": 1450,
+            "image_mobile": "shopify://shop_images/banniere_ZENITH.HAWKINSVINTAGE_2_2.jpg",
+            "image_mobile_size": 550,
+            "image_position_x": 50,
+            "color_image_mask": "",
+            "image_mask_opacity": 0.5,
+            "text_line_1": "",
+            "text_line_2": "מותג משקפי שמש אורגני צרפתי, המשלב בין יופי וטבע בהרמוניה מושלמת. המסגרות מיוצרות בטכנולוגיית הזרקה ייחודית, המשתמשת בחומרים טבעיים כמו קליפות אורז, שעם, יוטה ועוד. כל דגם מגיע עם עדשות UV400, פולורואיד ורספונסיביות המציעות נוחות והגנה אופטימלית במצבי אור משתנים. הקולקציה כוללת דגמי אופנה, ספורט וילדים.",
+            "text_line_3": "",
+            "style": "1",
+            "button_1": "Shop Moken",
+            "button_1_url": "shopify://collections/moken-all",
+            "color_button_type_1": "secondary",
+            "button_2": "Button #2 text",
+            "button_2_url": "",
+            "color_button_type_2": "default",
+            "list_1": "",
+            "custom_html": "",
+            "video_autoplay": true,
+            "video_controls": false,
+            "youtube_video": "",
+            "youtube_video_mobile": "",
+            "type": "text-3",
+            "content_position": "center",
+            "content_align": "center",
+            "add_container": false,
+            "content_width": 100,
+            "text_width": 0,
+            "height": "auto",
+            "min_height": 0,
+            "size_of_column": "auto",
+            "visible": "desktop_mobile",
+            "parallax": "disable",
+            "animation_to": "none",
+            "animation_from": "none",
+            "animation_opacity": "none",
+            "animation_text": "none",
+            "color_text_1": "",
+            "color_text_2": "rgba(0,0,0,0)",
+            "color_text_3": "",
+            "color_text_bg": "#b9e3d4",
+            "color_curtain_bg": "rgba(0,0,0,0)",
+            "customization_class": ""
+          }
+        },
+        "promobox_F47LEK": {
+          "type": "promobox",
+          "disabled": true,
+          "settings": {
+            "url": "",
+            "image": "shopify://shop_images/banniere_ZENITH.HAWKINSVINTAGE_2_2.jpg",
+            "image_size": 1450,
+            "image_mobile": "shopify://shop_images/banniere_ZENITH.HAWKINSVINTAGE_2_2.jpg",
+            "image_mobile_size": 550,
+            "image_position_x": 50,
+            "color_image_mask": "",
+            "image_mask_opacity": 0.5,
+            "text_line_1": "",
+            "text_line_2": "מותג משקפי שמש אורגני צרפתי, המשלב בין יופי וטבע בהרמוניה מושלמת. המסגרות מיוצרות בטכנולוגיית הזרקה ייחודית, המשתמשת בחומרים טבעיים כמו קליפות אורז, שעם, יוטה ועוד. כל דגם מגיע עם עדשות UV400, פולורואיד ורספונסיביות המציעות נוחות והגנה אופטימלית במצבי אור משתנים. הקולקציה כוללת דגמי אופנה, ספורט וילדים.",
+            "text_line_3": "מותג משקפי שמש אורגני צרפתי, המשלב בין יופי וטבע בהרמוניה מושלמת. המסגרות מיוצרות בטכנולוגיית הזרקה ייחודית, המשתמשת בחומרים טבעיים כמו קליפות אורז, שעם, יוטה ועוד. כל דגם מגיע עם עדשות UV400, פולורואיד ורספונסיביות המציעות נוחות והגנה אופטימלית במצבי אור משתנים. הקולקציה כוללת דגמי אופנה, ספורט וילדים.",
+            "style": "1",
+            "button_1": "Shop Moken",
+            "button_1_url": "shopify://collections/moken-all",
+            "color_button_type_1": "secondary",
+            "button_2": "Button #2 text",
+            "button_2_url": "",
+            "color_button_type_2": "default",
+            "list_1": "",
+            "custom_html": "",
+            "video_autoplay": true,
+            "video_controls": false,
+            "youtube_video": "",
+            "youtube_video_mobile": "",
+            "type": "type-2-13",
+            "content_position": "center",
+            "content_align": "center",
+            "add_container": false,
+            "content_width": 100,
+            "text_width": 0,
+            "height": "auto",
+            "min_height": 0,
+            "size_of_column": "auto",
+            "visible": "desktop_mobile",
+            "parallax": "disable",
+            "animation_to": "none",
+            "animation_from": "none",
+            "animation_opacity": "none",
+            "animation_text": "none",
+            "color_text_1": "",
+            "color_text_2": "rgba(0,0,0,0)",
+            "color_text_3": "",
+            "color_text_bg": "#b9e3d4",
+            "color_curtain_bg": "rgba(0,0,0,0)",
+            "customization_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "promobox_eMkPBh",
+        "promobox_F47LEK"
+      ],
+      "name": "Builder",
+      "settings": {
+        "title": "",
+        "container": "boxed",
+        "size_of_columns": "1",
+        "size_of_columns_mobile": "1",
+        "margins_for_columns": "none",
+        "align_of_columns": "top_center",
+        "disable_column_paddings": false,
+        "precedence": "",
+        "customization_class": ""
+      }
+    },
+    "spacer_HgLWff": {
+      "type": "spacer",
+      "settings": {
+        "margin_top": 60,
+        "margin_bottom": 0,
+        "margin_top_mobile": 0,
+        "margin_bottom_mobile": 0,
+        "container": "boxed",
+        "show_separator": true,
+        "title": ""
+      }
+    },
+    "carousel_brands_AVmhDU": {
+      "type": "carousel-brands",
+      "blocks": {
+        "brand_GiJjPY": {
+          "type": "brand",
+          "settings": {
+            "image": "shopify://shop_images/Aloha_Logo_540-550.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "brand_GiJjPY"
+      ],
+      "name": "Brand carousel",
+      "settings": {
+        "title": "",
+        "layout": "grid",
+        "size_of_columns": "6",
+        "image_max_width": 0,
+        "bordered_links": true,
+        "border_radius": "",
+        "autoplay": true,
+        "speed": 5,
+        "infinite": true,
+        "arrows": false,
+        "bullets": false
+      }
+    },
+    "lookbook_V6wTjg": {
+      "type": "lookbook",
+      "blocks": {
+        "image_E96NbG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ALOHA_dc25cc68-d3b7-47dd-873b-dc54d931d42c.jpg"
+          }
+        },
+        "image_JahGbe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ALOHA_2.jpg"
+          }
+        },
+        "image_gVAgRY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ALOHA_4.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_E96NbG",
+        "image_JahGbe",
+        "image_gVAgRY"
+      ],
+      "name": "Lookbook",
+      "settings": {
+        "show_title": true,
+        "layout": "1",
+        "grid": "3",
+        "grid_responsive": "4",
+        "image_size": 500
+      }
+    },
+    "home_builder_nTptwe": {
+      "type": "home-builder",
+      "blocks": {
+        "promobox_jjXxT4": {
+          "type": "promobox",
+          "settings": {
+            "url": "",
+            "image": "shopify://shop_images/15_57634945-1a8f-49a2-93c9-ed9a93b101e9.jpg",
+            "image_size": 1450,
+            "image_mobile": "shopify://shop_images/15_57634945-1a8f-49a2-93c9-ed9a93b101e9.jpg",
+            "image_mobile_size": 550,
+            "image_position_x": 50,
+            "color_image_mask": "",
+            "image_mask_opacity": 0.5,
+            "text_line_1": "",
+            "text_line_2": "מותג תיקים קסום מהוואי, נוסד ומנוהל על ידי שתי נשים צעירות מעוררות השראה. התיקים משלבים בין סטייל אקזוטי לפונקציונליות שמתאימה לכל סיטואציה- מטיול בטבע ועד יציאה עירונית. הם עמידים במים, קלים לנשיאה ומגיעים במגוון גדלים- החל מהתיק הכי קטן לאזניות ועד לתיקי גב, איפור נשיאה ועוד. ההדפסים הצבעוניים נוצרו בהשראת אמנים מקומיים ומוסיפים טאצ' מיוחד לכל לוק. הסביבה היא חלק בלתי נפרד מהמותג והתיקים עשויים מחומרים שניתן למחזור, מתוך מחויבות אמיתית לשמירה על הסביבה.",
+            "text_line_3": "",
+            "style": "1",
+            "button_1": "Shop Aloha",
+            "button_1_url": "shopify://collections/shop-all-aloha",
+            "color_button_type_1": "clean",
+            "button_2": "Button #2 text",
+            "button_2_url": "",
+            "color_button_type_2": "default",
+            "list_1": "",
+            "custom_html": "",
+            "video_autoplay": true,
+            "video_controls": false,
+            "youtube_video": "",
+            "youtube_video_mobile": "",
+            "type": "text-3",
+            "content_position": "center",
+            "content_align": "center",
+            "add_container": false,
+            "content_width": 100,
+            "text_width": 0,
+            "height": "auto",
+            "min_height": 0,
+            "size_of_column": "auto",
+            "visible": "desktop_mobile",
+            "parallax": "disable",
+            "animation_to": "none",
+            "animation_from": "none",
+            "animation_opacity": "none",
+            "animation_text": "none",
+            "color_text_1": "",
+            "color_text_2": "",
+            "color_text_3": "",
+            "color_text_bg": "",
+            "color_curtain_bg": "",
+            "customization_class": ""
+          }
+        },
+        "promobox_b3EWMN": {
+          "type": "promobox",
+          "disabled": true,
+          "settings": {
+            "url": "",
+            "image": "shopify://shop_images/15_57634945-1a8f-49a2-93c9-ed9a93b101e9.jpg",
+            "image_size": 1450,
+            "image_mobile": "shopify://shop_images/15_57634945-1a8f-49a2-93c9-ed9a93b101e9.jpg",
+            "image_mobile_size": 550,
+            "image_position_x": 50,
+            "color_image_mask": "",
+            "image_mask_opacity": 0.5,
+            "text_line_1": "",
+            "text_line_2": "מותג תיקים קסום מהוואי, נוסד ומנוהל על ידי שתי נשים צעירות מעוררות השראה. התיקים משלבים בין סטייל אקזוטי לפונקציונליות שמתאימה לכל סיטואציה- מטיול בטבע ועד יציאה עירונית. הם עמידים במים, קלים לנשיאה ומגיעים במגוון גדלים- החל מהתיק הכי קטן לאזניות ועד לתיקי גב, איפור נשיאה ועוד. ההדפסים הצבעוניים נוצרו בהשראת אמנים מקומיים ומוסיפים טאצ' מיוחד לכל לוק. הסביבה היא חלק בלתי נפרד מהמותג והתיקים עשויים מחומרים שניתן למחזור, מתוך מחויבות אמיתית לשמירה על הסביבה.",
+            "text_line_3": "",
+            "style": "1",
+            "button_1": "Shop Aloha",
+            "button_1_url": "shopify://collections/shop-all-aloha",
+            "color_button_type_1": "clean",
+            "button_2": "Button #2 text",
+            "button_2_url": "",
+            "color_button_type_2": "default",
+            "list_1": "",
+            "custom_html": "",
+            "video_autoplay": true,
+            "video_controls": false,
+            "youtube_video": "",
+            "youtube_video_mobile": "",
+            "type": "type-2-13",
+            "content_position": "center",
+            "content_align": "center",
+            "add_container": false,
+            "content_width": 100,
+            "text_width": 0,
+            "height": "auto",
+            "min_height": 0,
+            "size_of_column": "auto",
+            "visible": "desktop_mobile",
+            "parallax": "disable",
+            "animation_to": "none",
+            "animation_from": "none",
+            "animation_opacity": "none",
+            "animation_text": "none",
+            "color_text_1": "",
+            "color_text_2": "",
+            "color_text_3": "",
+            "color_text_bg": "",
+            "color_curtain_bg": "",
+            "customization_class": ""
+          }
+        },
+        "promobox_DH89Ah": {
+          "type": "promobox",
+          "disabled": true,
+          "settings": {
+            "url": "",
+            "image": "shopify://shop_images/15_57634945-1a8f-49a2-93c9-ed9a93b101e9.jpg",
+            "image_size": 1450,
+            "image_mobile": "shopify://shop_images/15_57634945-1a8f-49a2-93c9-ed9a93b101e9.jpg",
+            "image_mobile_size": 550,
+            "image_position_x": 50,
+            "color_image_mask": "",
+            "image_mask_opacity": 0.5,
+            "text_line_1": "",
+            "text_line_2": "מותג תיקים קסום מהוואי, נוסד ומנוהל על ידי שתי נשים צעירות מעוררות השראה. התיקים משלבים בין סטייל אקזוטי לפונקציונליות שמתאימה לכל סיטואציה- מטיול בטבע ועד יציאה עירונית. הם עמידים במים, קלים לנשיאה ומגיעים במגוון גדלים- החל מהתיק הכי קטן לאזניות ועד לתיקי גב, איפור נשיאה ועוד. ההדפסים הצבעוניים נוצרו בהשראת אמנים מקומיים ומוסיפים טאצ' מיוחד לכל לוק. הסביבה היא חלק בלתי נפרד מהמותג והתיקים עשויים מחומרים שניתן למחזור, מתוך מחויבות אמיתית לשמירה על הסביבה.",
+            "text_line_3": "",
+            "style": "1",
+            "button_1": "Shop Aloha",
+            "button_1_url": "shopify://collections/shop-all-aloha",
+            "color_button_type_1": "clean",
+            "button_2": "Button #2 text",
+            "button_2_url": "",
+            "color_button_type_2": "default",
+            "list_1": "",
+            "custom_html": "",
+            "video_autoplay": true,
+            "video_controls": false,
+            "youtube_video": "",
+            "youtube_video_mobile": "",
+            "type": "type-2-13",
+            "content_position": "center",
+            "content_align": "center",
+            "add_container": false,
+            "content_width": 100,
+            "text_width": 0,
+            "height": "auto",
+            "min_height": 0,
+            "size_of_column": "auto",
+            "visible": "desktop_mobile",
+            "parallax": "disable",
+            "animation_to": "none",
+            "animation_from": "none",
+            "animation_opacity": "none",
+            "animation_text": "none",
+            "color_text_1": "",
+            "color_text_2": "",
+            "color_text_3": "",
+            "color_text_bg": "",
+            "color_curtain_bg": "",
+            "customization_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "promobox_jjXxT4",
+        "promobox_b3EWMN",
+        "promobox_DH89Ah"
+      ],
+      "name": "Builder",
+      "settings": {
+        "title": "",
+        "container": "boxed",
+        "size_of_columns": "1",
+        "size_of_columns_mobile": "1",
+        "margins_for_columns": "none",
+        "align_of_columns": "top_center",
+        "disable_column_paddings": false,
+        "precedence": "",
+        "customization_class": ""
+      }
+    },
+    "spacer_BjjdmL": {
+      "type": "spacer",
+      "name": "Spacer",
+      "settings": {
+        "margin_top": 60,
+        "margin_bottom": 0,
+        "margin_top_mobile": 0,
+        "margin_bottom_mobile": 0,
+        "container": "boxed",
+        "show_separator": false,
+        "title": ""
+      }
+    }
+  },
+  "order": [
+    "spacer_JDHcEg",
+    "carousel_brands_aYyTHG",
+    "custom_liquid_PXwDA7",
+    "spacer_bBFqDg",
+    "home_builder_BUXzzN",
+    "custom_liquid_zY6hKA",
+    "spacer_bBGAGy",
+    "home_builder_Y44TJY",
+    "main",
+    "carousel_brands_9Jg4H7",
+    "lookbook_Q6q7WC",
+    "home_builder_JJtaLV",
+    "spacer_reQmYh",
+    "carousel_brands_VjQ9yn",
+    "lookbook_7xEt6Y",
+    "home_builder_dnW6tq",
+    "spacer_HgLWff",
+    "carousel_brands_AVmhDU",
+    "lookbook_V6wTjg",
+    "home_builder_nTptwe",
+    "spacer_BjjdmL"
+  ]
+}
