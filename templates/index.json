@@ -20,7 +20,6 @@
     },
     "custom_liquid_GzpHKe": {
       "type": "custom-liquid",
-      "disabled": true,
       "name": "HERO- SHOPPING IL",
       "settings": {
         "use_container": true,
@@ -38,6 +37,7 @@
     },
     "custom_liquid_HE89Fk": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "HERO- BLACK FRIDAY",
       "settings": {
         "use_container": true,
