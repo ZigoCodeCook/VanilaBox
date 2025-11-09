@@ -11,7 +11,6 @@
   "sections": {
     "custom_liquid_ReXcAC": {
       "type": "custom-liquid",
-      "disabled": true,
       "name": "HERO- NOVEMBER",
       "settings": {
         "use_container": true,
@@ -20,6 +19,7 @@
     },
     "custom_liquid_GzpHKe": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "HERO- SHOPPING IL",
       "settings": {
         "use_container": true,
