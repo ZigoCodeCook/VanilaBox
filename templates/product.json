@@ -30,11 +30,6 @@
           "disabled": true,
           "settings": {}
         },
-        "a5bd3c3b-9ef1-4cde-a923-54a7efc01c14": {
-          "type": "details",
-          "disabled": true,
-          "settings": {}
-        },
         "description_RB4x4r": {
           "type": "description",
           "name": "Description - Inside",
@@ -46,21 +41,6 @@
         },
         "d5e4b255-784c-4754-9cbe-eddd84c93af2": {
           "type": "price",
-          "settings": {}
-        },
-        "5a6109f3-d35a-4f38-8da0-143bf0234539": {
-          "type": "countdown",
-          "disabled": true,
-          "settings": {}
-        },
-        "b85ba278-399a-4ad1-859d-7823852521f0": {
-          "type": "stock_countdown",
-          "disabled": true,
-          "settings": {}
-        },
-        "3c0386b9-ffa8-4bf2-8e13-0b90634f90ad": {
-          "type": "visitors",
-          "disabled": true,
           "settings": {}
         },
         "f7689ce9-d953-4a78-b2ca-74088d888a7f": {
@@ -157,7 +137,6 @@
         },
         "fe7b0507-5483-4956-ab0f-ea3a90f57b1f": {
           "type": "social_share_buttons",
-          "disabled": true,
           "settings": {}
         },
         "b0febcf2-a38c-4ae7-a929-10af2ad0e5f4": {
@@ -183,12 +162,8 @@
         "5675053d-3467-4746-963e-4514477aad42",
         "tab_custom_xYQCn6",
         "d250ceb2-23c9-4926-be00-8fcb455e62e9",
-        "a5bd3c3b-9ef1-4cde-a923-54a7efc01c14",
         "description_RB4x4r",
         "d5e4b255-784c-4754-9cbe-eddd84c93af2",
-        "5a6109f3-d35a-4f38-8da0-143bf0234539",
-        "b85ba278-399a-4ad1-859d-7823852521f0",
-        "3c0386b9-ffa8-4bf2-8e13-0b90634f90ad",
         "f7689ce9-d953-4a78-b2ca-74088d888a7f",
         "dcb960c0-aac1-469d-a4fd-e416a4a6ed4f",
         "2293f673-2bca-4a7b-a16c-accf31a2783b",
