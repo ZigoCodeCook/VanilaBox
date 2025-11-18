@@ -117,16 +117,22 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
-.product-collection__price span,
+/*.product-collection__price span,
 .product-page-info__price span {
     color: rgb(78,54, 37) !important;
+}*/
+
+/* צבע למחיר המקורי (מחוק) */
+.product-collection__price .price--compare-at span,
+.product-page-info__price .price--compare-at span {
+    color: rgb(78, 54, 37) !important;
 }
 
-/* צבע למחיר החדש (price–sale) */
-.product-collection__price .price--sale > span:last-child::before {
+/* צבע למחיר אחרי הנחה */
+.product-collection__price .price--sale span:last-child,
+.product-page-info__price .price--sale span:last-child {
     color: red !important;
 }
-
 
 
 .label {
