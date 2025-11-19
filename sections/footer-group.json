@@ -1,1 +1,127 @@
-{"name":"Footer","type":"footer","sections":{"footer":{"type":"footer","blocks":{"menu_idCVmX":{"type":"menu","settings":{"title":"","show_title_on_desktop":true,"menu":"footer","size":6,"rows_limit":0}},"1586284608625":{"type":"subscription","disabled":true,"settings":{"title":"Newsletter subscription","paragraph":"Sign up for Vanilla Box updates to receive information about new arrivals, future events and specials.","placeholder":"Enter Your Email Address","button_text":"SUBSCRIBE!"}},"1586284525260":{"type":"menu","disabled":true,"settings":{"title":"","show_title_on_desktop":true,"menu":"","size":0,"rows_limit":0}},"1586284527889":{"type":"menu","disabled":true,"settings":{"title":"","show_title_on_desktop":true,"menu":"","size":0,"rows_limit":0}},"1586284530934":{"type":"menu","disabled":true,"settings":{"title":"","show_title_on_desktop":true,"menu":"","size":0,"rows_limit":0}},"1586284576772":{"type":"custom_html","disabled":true,"settings":{"title":"Here to help","show_title_on_desktop":true,"page_content":""}},"1586284588048":{"type":"social_media","settings":{"title":"Follow us","show_facebook":true,"show_twitter":false,"show_instagram":true,"show_pinterest":false,"show_youtube":false,"show_behance":false,"show_skype":false}},"footer-0":{"type":"copyright","settings":{"page_content":"include-footer-copyright-3"}},"1586284627913":{"type":"payments","settings":{}}},"block_order":["menu_idCVmX","1586284608625","1586284525260","1586284527889","1586284530934","1586284576772","1586284588048","footer-0","1586284627913"],"settings":{"type":"1","style":"1","show_logo":true,"show_button_back_to_top":true,"enable_fixed":true,"enable_follow_on_shop":true}}},"order":["footer"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "name": "Footer",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "menu_idCVmX": {
+          "type": "menu",
+          "settings": {
+            "title": "",
+            "show_title_on_desktop": true,
+            "menu": "footer",
+            "size": 6,
+            "rows_limit": 0
+          }
+        },
+        "1586284608625": {
+          "type": "subscription",
+          "disabled": true,
+          "settings": {
+            "title": "Newsletter subscription",
+            "paragraph": "Sign up for Vanilla Box updates to receive information about new arrivals, future events and specials.",
+            "placeholder": "Enter Your Email Address",
+            "button_text": "SUBSCRIBE!"
+          }
+        },
+        "1586284525260": {
+          "type": "menu",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "show_title_on_desktop": true,
+            "menu": "",
+            "size": 0,
+            "rows_limit": 0
+          }
+        },
+        "1586284527889": {
+          "type": "menu",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "show_title_on_desktop": true,
+            "menu": "",
+            "size": 0,
+            "rows_limit": 0
+          }
+        },
+        "1586284530934": {
+          "type": "menu",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "show_title_on_desktop": true,
+            "menu": "",
+            "size": 0,
+            "rows_limit": 0
+          }
+        },
+        "1586284576772": {
+          "type": "custom_html",
+          "disabled": true,
+          "settings": {
+            "title": "Here to help",
+            "show_title_on_desktop": true,
+            "page_content": ""
+          }
+        },
+        "1586284588048": {
+          "type": "social_media",
+          "settings": {
+            "title": "Follow us",
+            "show_facebook": true,
+            "show_twitter": false,
+            "show_instagram": true,
+            "show_pinterest": false,
+            "show_youtube": false,
+            "show_behance": false,
+            "show_skype": false
+          }
+        },
+        "footer-0": {
+          "type": "copyright",
+          "settings": {
+            "page_content": "include-footer-copyright-3"
+          }
+        },
+        "1586284627913": {
+          "type": "payments",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "menu_idCVmX",
+        "1586284608625",
+        "1586284525260",
+        "1586284527889",
+        "1586284530934",
+        "1586284576772",
+        "1586284588048",
+        "footer-0",
+        "1586284627913"
+      ],
+      "settings": {
+        "type": "1",
+        "style": "2",
+        "show_logo": true,
+        "show_button_back_to_top": true,
+        "enable_fixed": true,
+        "enable_follow_on_shop": true
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}
