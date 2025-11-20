@@ -2689,7 +2689,7 @@
       }
     },
     "related_product_carousel": {
-      "name": "You may also like",
+      "name": "Related Products Carousel",
       "settings": {
         "show_section": {
           "label": "Show related products"
