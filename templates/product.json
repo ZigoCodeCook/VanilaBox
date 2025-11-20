@@ -30,18 +30,18 @@
           "disabled": true,
           "settings": {}
         },
+        "d5e4b255-784c-4754-9cbe-eddd84c93af2": {
+          "type": "price",
+          "settings": {}
+        },
         "description_RB4x4r": {
           "type": "description",
           "name": "Description - Inside",
           "disabled": true,
           "settings": {
-            "title": "",
+            "title": "תיאור מוצר",
             "content": ""
           }
-        },
-        "d5e4b255-784c-4754-9cbe-eddd84c93af2": {
-          "type": "price",
-          "settings": {}
         },
         "f7689ce9-d953-4a78-b2ca-74088d888a7f": {
           "type": "border",
@@ -162,8 +162,8 @@
         "5675053d-3467-4746-963e-4514477aad42",
         "tab_custom_xYQCn6",
         "d250ceb2-23c9-4926-be00-8fcb455e62e9",
-        "description_RB4x4r",
         "d5e4b255-784c-4754-9cbe-eddd84c93af2",
+        "description_RB4x4r",
         "f7689ce9-d953-4a78-b2ca-74088d888a7f",
         "dcb960c0-aac1-469d-a4fd-e416a4a6ed4f",
         "2293f673-2bca-4a7b-a16c-accf31a2783b",
@@ -183,11 +183,11 @@
       ],
       "settings": {
         "gallery_size": "6",
-        "sidebar": "off",
+        "sidebar": "left",
         "enable_sticky_sidebar": true,
         "show_tabs": true,
         "show_tab_description": true,
-        "show_tab_reviews": true,
+        "show_tab_reviews": false,
         "scrolling_to_opened_tab": false,
         "tabs_type": "tabs"
       }
