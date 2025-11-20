@@ -21,41 +21,12 @@
         "title": ""
       }
     },
-    "carousel_brands_aYyTHG": {
-      "type": "carousel-brands",
-      "blocks": {
-        "brand_hEjemA": {
-          "type": "brand",
-          "settings": {
-            "image": "shopify://shop_images/VanillaLogo_97b76ef1-3930-4f91-80a5-1a2be98f84c0.png",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "brand_hEjemA"
-      ],
-      "name": "Brand carousel",
-      "settings": {
-        "title": "",
-        "layout": "slider",
-        "size_of_columns": "6",
-        "image_max_width": 0,
-        "bordered_links": false,
-        "border_radius": "",
-        "autoplay": false,
-        "speed": 5,
-        "infinite": false,
-        "arrows": false,
-        "bullets": false
-      }
-    },
     "custom_liquid_PXwDA7": {
       "type": "custom-liquid",
       "name": "Custom Liquid",
       "settings": {
         "use_container": true,
-        "custom_liquid": "<div style=\"direction: rtl; text-align: center; line-height: 1.9; font-size: 18px; color: #333;\">\n<p style=\"margin: 0;\">\n    היי לך,\n  </p>\n  <p style=\"margin: 10px 0;\">\n    אנחנו  Vanilla Box 💙\n  </p>\n  <p style=\"margin: 10px 0 0 0;\">\n    פלטפורמה למותגי בוטיק מרחבי העולם בתחומי Wellness, Lifestyle ו-Sustainability.\n  </p>\n  <p style=\"margin: 10px 0 0 0;\">\n    לכל מותג יש סיפור, השראה ומשמעות ייחודית מאחוריו,\n  </p>\n  <p style=\"margin: 10px 0 0 0;\">\n    וביחד, כולם מתחברים ל-BOX אחד מלא סטייל.\n  </p>\n</div>"
+        "custom_liquid": "<div style=\"direction: rtl; text-align: center; line-height: 1.9; font-size: 18px; color: #333;\">\n<p style=\"margin: 0;\">\n    היי לך,\n  </p>\n  <p style=\"margin: 10px 0;\">\n    אנחנו  Vanilla Box 💙\n  </p>\n  <p style=\"margin: 10px 0 0 0;\">\n    פלטפורמה למותגי בוטיק מרחבי העולם בתחומי Wellness, Lifestyle ו-Sustainability.\n  </p>\n  <p style=\"margin: 10px 0 0 0;\">\n    לכל מותג יש סיפור, השראה ומשמעות ייחודית מאחוריו\n  </p>\n  <p style=\"margin: 10px 0 0 0;\">\n    וביחד, כולם מתחברים ל-BOX אחד מלא סטייל.\n  </p>\n</div>"
       }
     },
     "spacer_bBFqDg": {
@@ -890,7 +861,6 @@
   },
   "order": [
     "spacer_JDHcEg",
-    "carousel_brands_aYyTHG",
     "custom_liquid_PXwDA7",
     "spacer_bBFqDg",
     "home_builder_BUXzzN",
