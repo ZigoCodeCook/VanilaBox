@@ -13,6 +13,17 @@
   {% capture get_content_for_header %}{{ content_for_header }}{% endcapture %}
   {% include 'head' %}
   {% render 'rapid-search-settings' %}
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Vanilla Box",
+  "url": "https://vanillabox.co",
+  "logo": "https://cdn.shopify.com/s/files/1/0692/0257/5613/files/VanillaLogo_97b76ef1-3930-4f91-80a5-1a2be98f84c0.png?v=1760263286"
+}
+</script>
+
 </head>
 
 <body{% render 'layout-get-body-attributes' %}>
