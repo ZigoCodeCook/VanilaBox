@@ -5201,13 +5201,13 @@ h1.btn-link, h1.btn-link:visited, h1.btn-link:active, h1.btn-link:link, .h1.btn-
 }
 
 .social-share__item--reddit {
-  color: #FF5722;
+  color: #25D366 ;
 }
 .social-share__item--reddit .icon {
-  fill: #FF5722;
+  fill: #25D366 ;
 }
 .social-share__item--reddit .social-share__item_bg {
-  background-color: #FF5722;
+  background-color: #25D366 ;
 }
 
 .breadcrumbs a, .breadcrumbs a:visited, .breadcrumbs a:active, .breadcrumbs a:link {
