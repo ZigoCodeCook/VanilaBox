@@ -169,7 +169,7 @@
     "product_info_show_availability": false,
     "product_info_show_type": false,
     "product_info_show_vendor": true,
-    "product_info_show_sale_details": true,
+    "product_info_show_sale_details": false,
     "product_info_show_taxes": false,
     "product_info_show_stock_countdown_range": true,
     "product_stock_countdown_min": 10,
