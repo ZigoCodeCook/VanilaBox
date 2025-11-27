@@ -1373,11 +1373,6 @@
         "disabled": false,
         "settings": {}
       },
-      "3692814938571911332": {
-        "type": "shopify://apps/powr-countdown-timer/blocks/app-embed/00b744f9-6fcc-4186-ac8e-e071c324aa34",
-        "disabled": true,
-        "settings": {}
-      },
       "3467820132106963551": {
         "type": "shopify://apps//blocks/fixed-banner/a346092c-d67f-48c1-86ae-a3eaa9d68ce4",
         "disabled": true,
@@ -1404,6 +1399,11 @@
       },
       "14826766009936288847": {
         "type": "shopify://apps/discounty/blocks/sdk/d65eb522-0d94-499f-9831-d4b3301f5340",
+        "disabled": false,
+        "settings": {}
+      },
+      "3692814938571911332": {
+        "type": "shopify://apps/powr-countdown-timer/blocks/app-embed/00b744f9-6fcc-4186-ac8e-e071c324aa34",
         "disabled": false,
         "settings": {}
       }
