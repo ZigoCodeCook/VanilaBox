@@ -441,6 +441,7 @@
         "promobox_bJNF3p",
         "promobox_WGTxXb"
       ],
+      "disabled": true,
       "name": "SUNBUM",
       "settings": {
         "title": "",
@@ -560,6 +561,7 @@
         "promobox_mKqX9f",
         "promobox_YFd4Qq"
       ],
+      "disabled": true,
       "name": "ALOHA",
       "settings": {
         "title": "",
@@ -679,6 +681,7 @@
         "promobox_FNHEGF",
         "promobox_hFz6m6"
       ],
+      "disabled": true,
       "name": "MOKEN",
       "settings": {
         "title": "",
