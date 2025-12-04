@@ -701,7 +701,7 @@
     "1586283433745": {
       "type": "carousel-brands",
       "blocks": {
-        "1586283438841": {
+        "brand_jEmBTJ": {
           "type": "brand",
           "settings": {
             "image": "shopify://shop_images/Group_8.png",
@@ -773,7 +773,7 @@
         }
       },
       "block_order": [
-        "1586283438841",
+        "brand_jEmBTJ",
         "1586283440593",
         "1586283444209",
         "1586283447563",
