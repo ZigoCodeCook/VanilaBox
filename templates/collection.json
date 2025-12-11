@@ -1485,6 +1485,7 @@
             "title": "PROMOBOX",
             "default_state": "without_title",
             "url": "shopify://products/copy-of-cotton-blend-field-jacket",
+            "image": "shopify://shop_images/1_85ddfdf0-2a60-401c-a735-254ace56a867.jpg",
             "image_size": 900,
             "color_image_mask": "",
             "image_mask_opacity": 0.5,
