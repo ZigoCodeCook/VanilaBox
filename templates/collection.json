@@ -1561,7 +1561,8 @@
           "type": "promobox",
           "settings": {
             "url": "shopify://collections/accessories",
-            "image_size": 1450,
+            "image": "shopify://shop_images/1_85ddfdf0-2a60-401c-a735-254ace56a867.jpg",
+            "image_size": 2100,
             "image_mobile_size": 550,
             "image_position_x": 50,
             "color_image_mask": "",
