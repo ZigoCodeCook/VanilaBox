@@ -1368,11 +1368,6 @@
         "disabled": false,
         "settings": {}
       },
-      "12657775114333427046": {
-        "type": "shopify://apps/essential-countdown-timer/blocks/app_embed/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
-        "disabled": false,
-        "settings": {}
-      },
       "3467820132106963551": {
         "type": "shopify://apps//blocks/fixed-banner/a346092c-d67f-48c1-86ae-a3eaa9d68ce4",
         "disabled": true,
@@ -1405,6 +1400,11 @@
       "3692814938571911332": {
         "type": "shopify://apps/powr-countdown-timer/blocks/app-embed/00b744f9-6fcc-4186-ac8e-e071c324aa34",
         "disabled": true,
+        "settings": {}
+      },
+      "7539343560218715217": {
+        "type": "shopify://apps/lucky-orange-heatmaps-replay/blocks/lucky_orange_tracking/019b2899-e426-7dbd-b9e7-ff9f0bb0d0f3",
+        "disabled": false,
         "settings": {}
       }
     }
